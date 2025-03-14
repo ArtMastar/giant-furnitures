@@ -43,11 +43,15 @@ nav ul li a {
 
 /* Hero Section */
 .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 50px;
-    background: var(--secondary-color);
-    color: var(--text-color);
-    border-radius: var(--border-radius);
+    height: 100vh;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    position: relative;
+    color: var(--primary-color);
 }
 
 .hero button {
@@ -105,8 +109,22 @@ nav ul li a {
 footer {
     background: var(--primary-color);
     color: var(--text-color);
-    text-align: center;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer-left {
+    flex: 1;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.footer-right {
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
 }
 
 .whatsapp {
