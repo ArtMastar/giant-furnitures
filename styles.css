@@ -15,6 +15,11 @@ body {
     padding: 0;
 }
 
+a{
+    text-decoration:none;
+    color: var(--text-color);
+}
+
 /* Header Styles */
 header {
     background-color: var(--primary-color);
@@ -53,8 +58,8 @@ nav ul li a {
 #category-select {
     padding: 8px;
     font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: none;
+    border-radius: var(--border-radius);
 }
 
 
@@ -203,6 +208,7 @@ footer {
 .footer-right {
     flex: 1;
     text-align: right;
+    font-size: 10px;
     padding-right: 20px;
 }
 
@@ -261,6 +267,7 @@ footer {
     }
 
     footer {
+        padding: 10px;
         flex-direction: column;
         text-align: center;
     }
