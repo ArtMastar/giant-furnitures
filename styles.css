@@ -1,9 +1,9 @@
 /* Define CSS Variables for Reusability */
 :root {
-    --primary-color: #2C3E50;
-    --secondary-color: #E74C3C;
+    --primary-color: #693d04;
+    --secondary-color: #b96b05;
     --text-color: #FFFFFF;
-    --bg-color: #F5F5F5;
+    --bg-color: #613604;
     --border-radius: 10px;
     --font-family: 'Arial', sans-serif;
 }
@@ -49,9 +49,9 @@ nav ul li a {
     align-items: center;
     text-align: center;
     height: 100vh;
-    background: url('hero-bg.jpg') no-repeat center center/cover;
+    background: linear-gradient(135deg, #fca400, #da7401, #8a4207, #a05e02);
     position: relative;
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .hero button {
@@ -72,11 +72,12 @@ nav ul li a {
 }
 
 .product {
-    background: var(--text-color);
+    background: var(--primary-color);
     padding: 20px;
     text-align: center;
+    color: var(--text-color);
     border-radius: var(--border-radius);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--secondary-color) 0px 0px 10px;
 }
 
 .product img {
