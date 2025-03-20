@@ -11,10 +11,19 @@
     <!-- Header Section -->
     <header>
         <div class="logo">GIANT FURNITURES</div>
+        <div class="category-filter">
+            <select id="category-select">
+                <option value="all">All Categories</option>
+                <option value="chairs">Chairs</option>
+                <option value="tables">Tables</option>
+                <option value="sofas">Sofas</option>
+                <option value="beds">Beds</option>
+                <option value="storage">Storage</option>
+            </select>
+        </div>
         <nav>
-            <button class="nav-toggle"><i class="fas fa-bars"></i></button>
+            <button class="nav-toggle">MENU</i></button>
             <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
                 <li class="dropdown">
                     <a href="#">Products</a>
                     <div class="dropdown-content">
@@ -26,17 +35,19 @@
                         </ul>
                     </div>
                 </li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     
     <!-- Hero Section -->
     <section class="hero">
-        <h1>GIANT FURNITURES ONLINE STORE</h1>
-        <p>Best Prices for Premium Quality</p>
-        <button>Shop Now</button>
+        <h1><b>GIANT FURNITURES ONLINE STORE</b></h1>
+        <p>Discover elegance and comfort with our premium imported furniture  
+            of stylish, durable, and affordable pieces to transform your space. For
+              furnishing your home, office, or commercial space, our expertly crafted 
+              designs ensure sophistication and functionality in every detail. 
+              Explore our collection and elevate your living experience today</p>
+        <button class="cta">Shop Now</button>
     </section>
     
     <!-- Product Grid Section -->
@@ -47,10 +58,10 @@
             <p>Ksh. 12,000</p>
             <div class="quantity-control">
                 <button class="decrease">-</button>
-                <input type="number" value="1" min="1">
+                <input type="number" value="1" min="1" class="quantity">
                 <button class="increase">+</button>
             </div>
-            <button>Add to Cart</button>
+            <button class="atc">Add to Cart</button>
         </div>
         <div class="product">
             <img src="office-chair A05.jpg" alt="Furniture Item">
@@ -58,10 +69,10 @@
             <p>Ksh. 7,500</p>
             <div class="quantity-control">
                 <button class="decrease">-</button>
-                <input type="number" value="1" min="1">
+                <input type="number" value="1" min="1" class="quantity">
                 <button class="increase">+</button>
             </div>
-            <button>Add to Cart</button>
+            <button class="atc">Add to Cart</button>
         </div>
         <div class="product">
             <img src="nesting-1.jpg" alt="Furniture Item">
@@ -69,10 +80,10 @@
             <p>Ksh. 3,300</p>
             <div class="quantity-control">
                 <button class="decrease">-</button>
-                <input type="number" value="1" min="1">
+                <input type="number" value="1" min="1" class="quantity">
                 <button class="increase">+</button>
             </div>
-            <button>Add to Cart</button>
+            <button class="atc">Add to Cart</button>
         </div>
         <div class="product">
             <img src="nesting-2.jpg" alt="Furniture Item">
@@ -80,10 +91,10 @@
             <p>Ksh. 6,720</p>
             <div class="quantity-control">
                 <button class="decrease">-</button>
-                <input type="number" value="1" min="1">
+                <input type="number" value="1" min="1" class="quantity">
                 <button class="increase">+</button>
             </div>
-            <button>Add to Cart</button>
+            <button class="atc">Add to Cart</button>
         </div>
     </section>
     

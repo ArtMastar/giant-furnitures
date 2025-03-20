@@ -26,7 +26,7 @@ header {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -43,7 +43,20 @@ nav ul li a {
 
 .nav-toggle {
     display: none;
+
 }
+
+.category-filter {
+    margin-left: 20px;
+}
+
+#category-select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 
 /* Hero Section */
 .hero {
@@ -53,7 +66,8 @@ nav ul li a {
     align-items: center;
     text-align: center;
     height: 100vh;
-    background: linear-gradient(135deg, #fca400, #da7401, #8a4207, #a05e02);
+    background:linear-gradient(rgba(48, 29, 1, 0.616), rgba(214, 123, 3, 0.5)), 
+    url('hero-bg.jpg') no-repeat center center/cover;
     position: relative;
     color: var(--text-color);
 }
@@ -66,6 +80,13 @@ nav ul li a {
     border-radius: var(--border-radius);
     cursor: pointer;
 }
+
+.cta{
+    padding:20px;
+    font-size:large;
+}
+
+
 
 /* Product Grid */
 .product-grid {
@@ -95,6 +116,32 @@ nav ul li a {
     padding: 8px 15px;
     border: none;
     border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+.quantity, .increase, .decrease {
+    height: 30px;
+    border-radius: var(--border-radius);
+    padding: 5px;
+    border:none;
+    text-align: center;
+    width: 40px;
+}
+
+.quantity{
+    height: 19px;
+    
+}
+
+.atc{
+    background: var(--secondary-color);
+    color: var(--text-color);
+    padding: 8px 20px;
+    margin:5px;
+    width:140px;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size:16px;
     cursor: pointer;
 }
 
@@ -171,8 +218,28 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     header {
-        flex-direction: column;
-        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-toggle {
+        display: block;
+        width: fit-content;
+        padding: 1px 2px;
+        border: none;
+        background: none;
+        font-size: 14px;
+        cursor: pointer;
+        color: var(--text-color);
+    }
+
+    .nav-toggle.active {
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
     }
 
     nav ul {
@@ -182,6 +249,10 @@ footer {
     .hero {
         height: 80vh;
         padding: 10px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
     }
 
     .product-grid {
