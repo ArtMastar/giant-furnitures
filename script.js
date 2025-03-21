@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function () {
             const quantity = quantityInput.value;
 
             console.log(`Added to cart: ${productName} | ${price} | Quantity: ${quantity}`);
-            alert(`${productName} added to cart!`);
         });
     });
 });
@@ -54,7 +53,7 @@ function updateCartDisplay() {
         total += item.price * item.quantity;
         let li = document.createElement("li");
         li.innerHTML = `${item.name} (x${item.quantity}) - Ksh. ${item.price * item.quantity} 
-                        <button onclick="removeFromCart(${index})">❌</button>`;
+                        <button onclick="removeFromCart(${index})">remove</button>`;
         cartList.appendChild(li);
     });
 
