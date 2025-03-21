@@ -237,11 +237,11 @@ nav ul li a {
 }
 
 .whatsapp-btn {
-    background-color: #25d366;
-    color: white;
+    background-color: var(--text-color);
+    color: #25d366;
     padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
+    border: 1px solid #25d366;
+    border-radius: var(--border-radius);
     font-size: 14px;
     cursor: pointer;
     display: block;
@@ -252,6 +252,9 @@ nav ul li a {
 
 .whatsapp-btn:hover {
     background-color: #1ebe57;
+    color:var(--text-color);
+    font-weight: bold;
+    border:none;
 }
 
 
