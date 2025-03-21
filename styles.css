@@ -188,6 +188,29 @@ nav ul li a {
     display: block;
 }
 
+.cart {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    width: 250px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    display: none; /* Initially hidden */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
 
 /* Footer */
 footer {

@@ -41,3 +41,58 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+let cartItems = [];
+
+function updateCartDisplay() {
+    const cartList = document.getElementById("cart-items");
+    const cartTotal = document.getElementById("cart-total");
+    cartList.innerHTML = ""; // Clear current list
+    let total = 0;
+
+    cartItems.forEach((item, index) => {
+        total += item.price * item.quantity;
+        let li = document.createElement("li");
+        li.innerHTML = `${item.name} (x${item.quantity}) - Ksh. ${item.price * item.quantity} 
+                        <button onclick="removeFromCart(${index})">❌</button>`;
+        cartList.appendChild(li);
+    });
+
+    cartTotal.textContent = `Total: Ksh. ${total}`;
+}
+
+function addToCart(name, price) {
+    let existingItem = cartItems.find(item => item.name === name);
+    if (existingItem) {
+        existingItem.quantity++;
+    } else {
+        cartItems.push({ name, price, quantity: 1 });
+    }
+    updateCartDisplay();
+}
+
+function removeFromCart(index) {
+    cartItems.splice(index, 1);
+    updateCartDisplay();
+}
+
+function clearCart() {
+    cartItems = [];
+    updateCartDisplay();
+}
+
+// Toggle cart visibility
+function toggleCart() {
+    const cart = document.getElementById("cart");
+    cart.style.display = cart.style.display === "block" ? "none" : "block";
+}
+
+// Attach event listeners to "Add to Cart" buttons
+document.querySelectorAll(".atc").forEach((button, index) => {
+    button.addEventListener("click", () => {
+        let product = button.parentElement;
+        let name = product.querySelector("h2").textContent;
+        let price = parseInt(product.querySelector("p").textContent.replace("Ksh. ", ""));
+        addToCart(name, price);
+    });
+});
