@@ -53,7 +53,7 @@ function updateCartDisplay() {
         total += item.price * item.quantity;
         let li = document.createElement("li");
         li.innerHTML = `${item.name} (x${item.quantity}) - Ksh. ${item.price * item.quantity} 
-                        <button onclick="removeFromCart(${index})">remove</button>`;
+                        <button class="cart-cta" onclick="removeFromCart(${index})">remove</button>`;
         cartList.appendChild(li);
     });
 
@@ -95,3 +95,24 @@ document.querySelectorAll(".atc").forEach((button, index) => {
         addToCart(name, price);
     });
 });
+
+function sendOrder() {
+    if (cartItems.length === 0) {
+        alert("Your cart is empty. Add items before placing an order.");
+        return;
+    }
+
+    let phoneNumber = "254745485817"; // Replace with your WhatsApp number (without '+' sign)
+    let message = "Hello, I would like to place an order:\n\n";
+    
+    cartItems.forEach(item => {
+        message += `- ${item.name} (x${item.quantity}) - Ksh. ${item.price * item.quantity}\n`;
+    });
+
+    let totalAmount = cartItems.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+    message += `\nTotal Amount: Ksh. ${totalAmount}`;
+
+    let whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    
+    window.open(whatsappUrl, "_blank");
+}
