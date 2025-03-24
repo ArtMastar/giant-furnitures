@@ -82,14 +82,12 @@ function updateCartDisplay() {
     cartTotal.textContent = `Total: Ksh. ${total}`;
 }
 
-function addToCart(name, price, inputElement) {
-    let quantity = parseInt(inputElement.value);
-
+function addToCart(name, price) {
     let existingItem = cartItems.find(item => item.name === name);
     if (existingItem) {
         existingItem.quantity++;
     } else {
-        cartItems.push({ name, price, quantity });
+        cartItems.push({ name, price, quantity: 1 });
     }
     updateCartDisplay();
 }

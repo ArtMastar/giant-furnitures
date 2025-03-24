@@ -5,6 +5,10 @@
     --text-color: #FFFFFF;
     --bg-color: #613604;
     --border-radius: 10px;
+    --inner-border-radius: 5px;
+    --outer-border-radius: 15px;
+    --text-padding: 10px;
+    --container-margin: 10px;
     --font-family: 'Arial', sans-serif;
 }
 
@@ -106,13 +110,14 @@ nav ul li a {
     padding: 20px;
     text-align: center;
     color: var(--text-color);
-    border-radius: var(--border-radius);
+    border-radius: var(--outer-border-radius);
     box-shadow: var(--secondary-color) 0px 0px 10px;
 }
 
 .product img {
     width: 100%;
-    border-radius: var(--border-radius);
+    border-radius: var(--inner-border-radius);
+    margin: var(--container-margin)
 }
 
 .product button {
