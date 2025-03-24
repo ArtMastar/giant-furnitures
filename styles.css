@@ -282,13 +282,21 @@ footer {
 }
 
 .whatsapp {
-    background: #25D366;
+    background: var(--text-color);
     color: var(--text-color);
     padding: 10px 20px;
-    border: none;
+    border: 1px rgb(7, 172, 7);
     border-radius: var(--border-radius);
     cursor: pointer;
 }
+
+.whatsapp:hover{
+    background:rgb(7, 172, 7);
+    color: var(--text-color);
+    font-style:bold;
+}
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
