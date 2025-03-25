@@ -56,14 +56,19 @@ nav ul li a {
 }
 
 .category-filter {
-    margin-left: 20px;
+    margin: var(--container-margin);
 }
 
 #category-select {
+    width: 100%;
     padding: 8px;
     font-size: 14px;
     border: none;
     border-radius: var(--border-radius);
+    background-color: var(--primary-color);
+    box-shadow: var(--secondary-color) 0px 0px 10px;
+    color: var(--text-color);
+    cursor: pointer;
 }
 
 
@@ -107,7 +112,6 @@ nav ul li a {
 
 .product {
     background: var(--primary-color);
-    padding: 20px;
     text-align: center;
     color: var(--text-color);
     border-radius: var(--outer-border-radius);
@@ -115,8 +119,8 @@ nav ul li a {
 }
 
 .product img {
-    width: 100%;
-    border-radius: var(--inner-border-radius);
+    width: 90%;
+    border-radius: var(--outer-border-radius);
     margin: var(--container-margin)
 }
 

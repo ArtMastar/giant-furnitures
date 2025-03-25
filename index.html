@@ -11,16 +11,6 @@
     <!-- Header Section -->
     <header>
         <div class="logo">GIANT FURNITURES</div>
-        <div class="category-filter">
-            <select id="category-select">
-                <option value="all">All Categories</option>
-                <option value="chairs">Chairs</option>
-                <option value="tables">Tables</option>
-                <option value="sofas">Sofas</option>
-                <option value="beds">Beds</option>
-                <option value="storage">Storage</option>
-            </select>
-        </div>
         <nav>
             <button class="nav-toggle">MENU</i></button>
             <ul class="nav-menu">
@@ -50,8 +40,18 @@
         <button class="cta"><a href="#products-section">Shop Now</a></button>
     </section>
     
-    <!-- Product Grid Section -->
-    <section class="product-grid" id="products-section">
+    <section class="category" id="products-section">
+        <div class="category-filter">
+            <select id="category-select">
+                <option value="all">All Categories</option>
+                <option value="chairs">Chairs</option>
+                <option value="tables">Tables</option>
+                <option value="sofas">Sofas</option>
+                <option value="beds">Beds</option>
+                <option value="storage">Storage</option>
+            </select>
+        </div>  
+     <section class="product-grid" >
         <div class="product">
             <img src="office-chair 909B.jpg" alt="Furniture Item">
             <h2>Office Chair 909B</h2>
@@ -96,7 +96,10 @@
             </div>
             <button class="atc">Add to Cart</button>
         </div>
+    </section>   
     </section>
+    <!-- Product Grid Section -->
+    
     
     <!-- Floating Cart Icon -->
     <div class="cart-icon" onclick="toggleCart()">🛒</div>
