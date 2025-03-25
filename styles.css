@@ -95,10 +95,66 @@ nav ul li a {
     cursor: pointer;
 }
 
-.cta{
-    padding:20px;
-    font-size:large;
+.cta {
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(255, 126, 95, 0.5);
+    position: relative;
+    overflow: hidden;
 }
+
+/* Hover Effect */
+.cta:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 126, 95, 0.8);
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(255, 126, 95, 0.5);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 30px rgba(255, 126, 95, 0.9);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(255, 126, 95, 0.5);
+    }
+}
+
+.cta::after {
+    content: "";
+    position: absolute;
+    width: 300%;
+    height: 300%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 10%, transparent 10%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.cta:active::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+/* Apply Pulse Animation */
+.cta {
+    animation: pulse 2s infinite;
+}
+
 
 
 
