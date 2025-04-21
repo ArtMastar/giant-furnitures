@@ -95,6 +95,23 @@ nav ul li a {
     cursor: pointer;
 }
 
+#hero-intro{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-ads{
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    background-color: var(--bg-color);
+    border-radius: var(--border-radius);
+    color: var(--text-color);
+}
+
 .cta {
     background: linear-gradient(45deg, #ff7e5f, #feb47b);
     color: white;
