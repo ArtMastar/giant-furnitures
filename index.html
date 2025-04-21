@@ -11,17 +11,6 @@
     <!-- Header Section -->
     <header>
         <div class="logo">GIANT FURNITURES</div>
-        <div class="category-filter">
-            <select id="category-select">
-                <option value="all">All Categories</option>
-                <option value="chairs">Chairs</option>
-                <option value="tables">Tables</option>
-                <option value="sofas">Sofas</option>
-                <option value="beds">Beds</option>
-                <option value="storage">Storage</option>
-            </select>
-        </div>
-        <!--<div class="admin"><a href="admin-login.html">login</a></div>-->
         <nav>
             <button class="nav-toggle">MENU</i></button>
             <ul class="nav-menu">
@@ -47,12 +36,24 @@
             of stylish, durable, and affordable pieces to transform your space. For
               furnishing your home, office, or commercial space, our expertly crafted 
               designs ensure sophistication and functionality in every detail. 
-              Explore our collection and elevate your living experience today</p>
-        <button class="cta">Shop Now</button>
+              Explore our collection and elevate your living experience today
+        </p>
+        <p class="order-count">Orders placed: <span id="orderCount">0</span></p>
+        <button class="cta"><a href="#products-section">Shop Now</a></button>
     </section>
     
-    <!-- Product Grid Section -->
-    <section class="product-grid">
+    <section class="category" id="products-section">
+        <div class="category-filter">
+            <select id="category-select">
+                <option value="all">All Categories</option>
+                <option value="chairs">Chairs</option>
+                <option value="tables">Tables</option>
+                <option value="sofas">Sofas</option>
+                <option value="beds">Beds</option>
+                <option value="storage">Storage</option>
+            </select>
+        </div>  
+     <section class="product-grid" >
         <div class="product">
             <img src="office-chair 909B.jpg" alt="Furniture Item">
             <h2>Office Chair 909B</h2>
@@ -97,7 +98,9 @@
             </div>
             <button class="atc">Add to Cart</button>
         </div>
+    </section>   
     </section>
+    <!-- Product Grid Section -->
     
     <!-- Floating Cart Icon -->
     <div class="cart-icon" onclick="toggleCart()">🛒</div>
@@ -120,7 +123,6 @@
             <p>Designed by <a href="orooart.site">OrooArt</a> Designs</p>
         </div>
     </footer>
-    <script src="products.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

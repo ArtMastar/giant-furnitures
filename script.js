@@ -46,8 +46,30 @@ let cartItems = [];
 function updateCartDisplay() {
     const cartList = document.getElementById("cart-items");
     const cartTotal = document.getElementById("cart-total");
+    const cart = document.querySelector(".cart-items");
+    const cartIcon = document.querySelector(".cart-icon");
+    const addToCartButtons = document.querySelectorAll(".atc");
     cartList.innerHTML = ""; // Clear current list
     let total = 0;
+    const floatingEffect = document.createElement("div");
+            floatingEffect.classList.add("floating-effect");
+            floatingEffect.textContent = "Added!";
+            document.body.appendChild(floatingEffect);
+
+            const buttonRect = event.target.getBoundingClientRect();
+            floatingEffect.style.left = `${buttonRect.left + window.scrollX}px`;
+            floatingEffect.style.top = `${buttonRect.top + window.scrollY}px`;
+
+            // Animate towards cart
+            setTimeout(() => {
+                floatingEffect.style.transform = `translate(${cartIcon.offsetLeft - buttonRect.left}px, ${cartIcon.offsetTop - buttonRect.top}px) scale(0.3)`;
+                floatingEffect.style.opacity = "0";
+            }, 50);
+
+            // Remove after animation
+            setTimeout(() => {
+                floatingEffect.remove();
+            }, 800);
 
     cartItems.forEach((item, index) => {
         total += item.price * item.quantity;
@@ -106,13 +128,30 @@ function sendOrder() {
     let message = "Hello, I would like to place an order:\n\n";
     
     cartItems.forEach(item => {
-        message += `- ${item.name} (x${item.quantity}) - Ksh. ${item.price * item.quantity}\n`;
+        message += `- ${item.name}   (x${item.quantity})   - Ksh. ${item.price * item.quantity}\n`;
     });
 
     let totalAmount = cartItems.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-    message += `\nTotal Amount: Ksh. ${totalAmount}`;
+    message += `\n*Total Amount: Ksh. ${totalAmount}*`;
 
     let whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     
     window.open(whatsappUrl, "_blank");
 }
+
+// Function to update order count
+function updateOrderCount() {
+    let orderCount = localStorage.getItem("orderCount") || 0;
+    orderCount++;
+    localStorage.setItem("orderCount", orderCount);
+    document.getElementById("orderCount").textContent = orderCount;
+}
+
+// Call this function when "Place Order on WhatsApp" is clicked
+document.getElementById("placeOrderBtn").addEventListener("click", updateOrderCount);
+
+// Display stored order count on page load
+document.addEventListener("DOMContentLoaded", function () {
+    let orderCount = localStorage.getItem("orderCount") || 0;
+    document.getElementById("orderCount").textContent = orderCount;
+});
