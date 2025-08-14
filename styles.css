@@ -554,7 +554,7 @@ input {
     }
 
     .product-grid {
-        grid-template-columns: 2fr;
+        grid-template-columns: 3fr;
         padding: 15px;
     }
 
