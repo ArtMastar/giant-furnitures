@@ -189,6 +189,7 @@ nav ul li a {
     color: var(--text-color);
     border-radius: var(--outer-border-radius);
     box-shadow: var(--secondary-color) 0px 0px 10px;
+    padding: var(--text-padding);
 }
 
 .product img {
