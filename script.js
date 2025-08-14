@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         decreaseBtn.addEventListener("click", function () {
             let currentQuantity = parseInt(quantityInput.value);
-            if (currentQuantity > 1) {
+            if (currentQuantity > 1) { 
                 quantityInput.value = currentQuantity - 1;
             }
         });
