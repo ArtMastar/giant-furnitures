@@ -82,17 +82,25 @@ function updateCartDisplay() {
     cartTotal.textContent = `Total: Ksh. ${total}`;
 }
 
-function addToCart(name, price, inputId) {
-    let quantity = parseInt(document.getElementById(inputId).value) || 1;
-
+function addToCart(name, price) {
+    // 1. Check if the product already exists in cartItems
     let existingItem = cartItems.find(item => item.name === name);
+
     if (existingItem) {
-        existingItem.quantity += quantity;
+        // 2. If it exists, increase its quantity by 1
+        existingItem.quantity++;
     } else {
-        cartItems.push({ name, price, quantity: quantity });
+        // 3. If it does not exist, push a new object with:
+        //    - name (string)
+        //    - price (number)
+        //    - quantity (default 1)
+        cartItems.push({ name, price, quantity: 1 });
     }
+
+    // 4. After adding/updating, refresh the cart display
     updateCartDisplay();
 }
+
 
 function removeFromCart(index) {
     cartItems.splice(index, 1);
