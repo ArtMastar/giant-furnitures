@@ -67,7 +67,8 @@ nav ul li a {
 }
 
 .category-filter {
-    margin: var(--container-margin);
+    margin: 0 auto;
+    text-align: center;
 }
 
 #category-select {
@@ -77,7 +78,7 @@ nav ul li a {
     font-size: 14px;
     border: blue 1px solid;
     border-radius: 25px;
-    background-color: none;
+    background-color: var(--text-color);
     color: blue;
     cursor: pointer;
     align-text: center;
