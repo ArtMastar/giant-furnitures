@@ -582,11 +582,14 @@ input {
     .hero {
         height: 80vh;
         padding: 5px;
-        width: 70%;
     }
 
     .hero h1 {
         font-size: 34px;
+        width: 70%;
+    }
+
+    .hero-intro{
         width: 70%;
     }
 
