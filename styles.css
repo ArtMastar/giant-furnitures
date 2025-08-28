@@ -77,40 +77,37 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     text-align: center;
     height: 100vh;
-    background:linear-gradient(rgba(48, 29, 1, 0.616), rgba(214, 123, 3, 0.5)), 
+    background: linear-gradient(to top left, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0)), 
     url('hero-bg.jpg') no-repeat center center/cover;
     position: relative;
     color: var(--text-color);
 }
 
-.hero::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to top left, rgba(0, 0, 255, 0.4), rgba(0, 0, 255, 0));
-    pointer-events: none; /* so clicks pass through */
 
 .hero button {
-    background: var(--primary-color);
     color: var(--text-color);
     padding: 10px 20px;
-    border: none;
+    border: solid 1px var(--text-color);
     border-radius: var(--border-radius);
     cursor: pointer;
 }
 
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
 #hero-intro{
-    height: 40vh;
+    height: 60vh;
+    width: 35%;
+    margin: 20px;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
 }
 
 #hero-ads{
@@ -123,23 +120,23 @@ nav ul li a {
 }
 
 .cta {
-    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    background: none;
     color: white;
     padding: 15px 30px;
-    font-size: 18px;
+    font-size: 18pt;
     font-weight: bold;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-    box-shadow: 0 0 10px rgba(255, 126, 95, 0.5);
     position: relative;
-    overflow: hidden;
 }
 
 /* Hover Effect */
 .cta:hover {
     transform: scale(1.05);
+    border: solid 1px var(--text-color);
+    background-color: rgb(41, 41, 219);
 }
 
 /* Pulse Animation
@@ -165,7 +162,6 @@ nav ul li a {
     position: absolute;
     width: 300%;
     height: 300%;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 10%, transparent 10%);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
