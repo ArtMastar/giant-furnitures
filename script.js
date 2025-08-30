@@ -165,3 +165,37 @@ document.addEventListener("DOMContentLoaded", function () {
     let orderCount = localStorage.getItem("orderCount") || 0;
     document.getElementById("orderCount").textContent = orderCount;
 });
+
+// Example product data (you can link to your real data or extract from image names)
+const products = [
+  { name: "Office Chair", description: "Ergonomic chair for long working hours.", price: "$120", image: "chair.jpg" },
+  { name: "Office Desk", description: "Spacious wooden desk.", price: "$250", image: "desk.jpg" }
+];
+
+// Attach event listeners to product elements
+document.querySelectorAll(".product").forEach((productEl, index) => {
+  productEl.addEventListener("click", () => {
+    let product = products[index]; // get product details
+    
+    // Fill modal content
+    document.getElementById("modalImage").src = product.image;
+    document.getElementById("modalName").textContent = product.name;
+    document.getElementById("modalDescription").textContent = product.description;
+    document.getElementById("modalPrice").textContent = product.price;
+    
+    // Show modal
+    document.getElementById("productModal").style.display = "flex";
+  });
+});
+
+// Close modal when "x" clicked
+document.querySelector(".close").addEventListener("click", () => {
+  document.getElementById("productModal").style.display = "none";
+});
+
+// Close when clicking outside modal box
+window.addEventListener("click", (e) => {
+  if (e.target.id === "productModal") {
+    document.getElementById("productModal").style.display = "none";
+  }
+});
