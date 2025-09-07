@@ -1,0 +1,50 @@
+[
+  {
+    "name": "",
+    "price": 26500,
+    "description": "",
+    "image": "products/1-12.jpg"
+  },
+  {
+    "name": "",
+    "price": 28000,
+    "description": "",
+    "image": "/products/1-13.jpg"
+  },
+  {
+    "name": "Four Drawer Cabinet",
+    "price": 23500,
+    "description": "",
+    "image": "/products/6-4d.jpg"
+  },
+  {
+    "name": "",
+    "price": 27500,
+    "description": "",
+    "image": "/products/103.jpg"
+  },{
+    "name": "",
+    "price": 28000,
+    "description": "",
+    "image": "/products/618.jpg"
+  },
+  {
+    "name": "Three Drawer Cabinet",
+    "price": 18500,
+    "description": "",
+    "image": "/products/6-3D.jpg"
+  },
+  {
+    "name": "Executive Visitor Chair",
+    "price": 13000,
+    "description": "",
+    "image": "/products/851.jpg"
+  },
+  {
+    "name": "",
+    "price": 28000,
+    "description": "",
+    "image": "/products/909C.jpg"
+  },
+
+]
