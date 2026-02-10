@@ -1,3 +1,30 @@
+const products = [
+    {
+        id: 1,
+        name: "Office Chair C35",
+        price: 12000,
+        image: "/products/C35.jpg"
+    },
+    {
+        id: 2,
+        name: "Office Chair A05",
+        price: 7500,
+        image: "/products/A05.jpg"
+    },
+    {
+        id: 3,
+        name: "Nesting Table Small",
+        price: 3300,
+        image: "/products/nesting-1.jpg"
+    },
+    {
+        id: 4,
+        name: "Nesting Table Large",
+        price: 6720,
+        image: "/products/nesting-2.jpg"
+    }
+];
+
 document.getElementById("category-select").addEventListener("change", function() {
     let category = this.value;
     let products = document.querySelectorAll(".product");
@@ -199,3 +226,32 @@ window.addEventListener("click", (e) => {
     document.getElementById("productModal").style.display = "none";
   }
 });
+
+function renderProducts() {
+    const grid = document.getElementById("productGrid");
+    grid.innerHTML = "";
+
+    products.forEach(product => {
+        const card = document.createElement("div");
+        card.className = "product";
+
+        card.innerHTML = `
+            <img src="${product.image}" alt="${product.name}">
+            <h2>${product.name}</h2>
+            <p>Ksh. ${product.price}</p>
+
+            <div class="quantity-control">
+                <button class="decrease">-</button>
+                <input type="number" value="1" min="1" class="quantity">
+                <button class="increase">+</button>
+            </div>
+
+            <button class="atc">Add to Cart</button>
+        `;
+
+        grid.appendChild(card);
+    });
+
+    attachProductEvents();
+}
+
