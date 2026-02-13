@@ -30,6 +30,7 @@ header {
     background-color: var(--text-color);
     color: rgb(2, 2, 82);
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
