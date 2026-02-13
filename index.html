@@ -65,13 +65,22 @@
     <!-- Product Quick View Modal -->
 <div id="productModal" class="modal">
   <div class="modal-content">
+
     <span class="close">&times;</span>
-    <img id="modalImage" src="" alt="Product Image">
-    <h2 id="modalName"></h2>
-    <p id="modalDescription"></p>
-    <p id="modalPrice"></p>
+
+    <div class="modal-image-section">
+        <img id="modalMainImage" src="" alt="">
+        <div id="modalThumbnails"></div>
+    </div>
+
+    <div class="modal-info">
+        <h2 id="modalName"></h2>
+        <p id="modalPrice"></p>
+    </div>
+
   </div>
 </div>
+
     <!-- End of Quickview modal-->     
     <!-- Floating Cart Icon -->
     <div class="cart-icon" onclick="toggleCart()">🛒</div>

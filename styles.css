@@ -298,6 +298,63 @@ nav ul li a {
     cursor: pointer;
 }
 
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(6px);
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+    animation: fadeIn 0.3s ease;
+}
+
+.modal-image-section {
+    text-align: center;
+}
+
+#modalMainImage {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+#modalThumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#modalThumbnails img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 8px;
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+#modalThumbnails img:hover {
+    opacity: 1;
+}
+
+.close {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
 /* Floating Cart Icon */
 .cart-icon {
     position: fixed;

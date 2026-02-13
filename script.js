@@ -77,7 +77,12 @@ const products = [
         id: 12,
         name: "4212/14",
         price: 3300,
-        image: "/products/4212-4214.jpg",
+        images: [
+            "/products/4212-4214.jpg",
+            "/products/4212-4214-FRONT.jpg",
+            "/products/C35-1.jpg"
+        ],
+
         category: "desks"
     },
     {
@@ -131,7 +136,7 @@ function renderProducts(filteredProducts = products) {
         card.className = `product ${product.category}`;
 
         card.innerHTML = `
-            <img src="${product.image}" alt="${product.name}">
+            <img src="${product.images ? product.images[0] : product.image}" alt="${product.name}">
             <h2>${product.name}</h2>
             <p>Ksh. ${product.price}</p>
 
@@ -143,6 +148,18 @@ function renderProducts(filteredProducts = products) {
 
             <button class="atc">Add to Cart</button>
         `;
+
+        card.addEventListener("click", (e) => {
+
+    if (
+        !e.target.classList.contains("atc") &&
+        !e.target.classList.contains("increase") &&
+        !e.target.classList.contains("decrease") &&
+        !e.target.classList.contains("quantity")
+    ) {
+        openModal(product);
+    }
+});
 
         grid.appendChild(card);
     });
@@ -303,6 +320,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .addEventListener("input", function () {
             searchProducts(this.value);
         });
+
 });
 
 const cartIcon = document.querySelector(".cart-icon");
@@ -377,3 +395,43 @@ function searchProducts(keyword) {
 
     renderProducts(filtered);
 }
+
+const modal = document.getElementById("productModal");
+const modalMainImage = document.getElementById("modalMainImage");
+const modalThumbnails = document.getElementById("modalThumbnails");
+const modalName = document.getElementById("modalName");
+const modalPrice = document.getElementById("modalPrice");
+const closeModal = document.querySelector(".close");
+
+function openModal(product) {
+
+    modal.style.display = "flex";
+
+    modalName.textContent = product.name;
+    modalPrice.textContent = `Ksh. ${product.price}`;
+
+    const imagesArray = product.images ? product.images : [product.image];
+
+    modalMainImage.src = imagesArray[0];
+
+    modalThumbnails.innerHTML = "";
+
+    imagesArray.forEach(img => {
+        const thumb = document.createElement("img");
+        thumb.src = img;
+
+        thumb.addEventListener("click", () => {
+            modalMainImage.src = img;
+        });
+
+        modalThumbnails.appendChild(thumb);
+    });
+}
+
+closeModal.onclick = () => modal.style.display = "none";
+
+window.onclick = (e) => {
+    if (e.target === modal) {
+        modal.style.display = "none";
+    }
+};
