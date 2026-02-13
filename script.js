@@ -8,7 +8,7 @@ const products = [
         name: "Office Chair",
         price: 12000,
         image: "/products/C35.jpg",
-        category: "storage"
+        category: "chairs"
     },
     {
         id: 2,
@@ -25,36 +25,29 @@ const products = [
         category: "tables"
     },
     {
-        id: 4,
-        name: "--",
-        price: 3300,
-        image: "/products/103.jpg",
-        category: "tables"
-    },
-    {
         id: 5,
-        name: "--",
+        name: "Cabinet",
         price: 3300,
         image: "/products/1-13.jpg",
         category: "cabinets"
     },
     {
         id: 6,
-        name: "--",
+        name: "Cabinet",
         price: 3300,
         image: "/products/6-3D.jpg",
         category: "cabinets"
     },
     {
         id: 7,
-        name: "--",
+        name: "Cabinet",
         price: 3300,
         image: "/products/6-4D.jpg",
         category: "cabinets"
     },
     {
         id: 8,
-        name: "--",
+        name: "Office table",
         price: 3300,
         image: "/products/103-BROWN.jpg",
         category: "tables"
@@ -64,7 +57,7 @@ const products = [
         name: "851",
         price: 3300,
         image: "/products/851.jpg",
-        category: "tables"
+        category: "chairs"
     },
     {
         id: 10,
@@ -82,44 +75,37 @@ const products = [
     },
     {
         id: 12,
-        name: "--",
+        name: "4212/14",
         price: 3300,
-        image: "/products/103.jpg",
-        category: "tables"
+        image: "/products/4212-4214.jpg",
+        category: "desks"
     },
     {
         id: 13,
-        name: "--",
+        name: "9316/18",
         price: 3300,
-        image: "/products/103.jpg",
-        category: "tables"
+        image: "/products/9318-9316.jpg",
+        category: "desks"
     },
     {
         id: 14,
         name: "--",
         price: 3300,
-        image: "/products/103.jpg",
-        category: "tables"
+        image: "/products/FS4005.jpg",
+        category: "chairs"
     },
     {
         id: 15,
-        name: "--",
+        name: "FS5003",
         price: 3300,
-        image: "/products/103.jpg",
-        category: "tables"
+        image: "/products/FS5003.jpg",
+        category: "chairs"
     },
     {
         id: 16,
-        name: "--",
+        name: "Q03-1",
         price: 3300,
-        image: "/products/103.jpg",
-        category: "tables"
-    },
-    {
-        id: 17,
-        name: "--",
-        price: 3300,
-        image: "/products/103.jpg",
+        image: "/products/Q03-1.jpg",
         category: "tables"
     },
     {
