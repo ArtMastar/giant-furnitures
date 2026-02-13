@@ -99,6 +99,19 @@ nav ul li a {
     outline: none;
 }
 
+.search-container input {
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+    outline: none;
+    width: 200px;
+    transition: 0.3s ease;
+}
+
+.search-container input:focus {
+    width: 240px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
 
 /* Hero Section */
 .hero {

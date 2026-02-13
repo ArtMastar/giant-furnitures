@@ -311,6 +311,12 @@ document.addEventListener("DOMContentLoaded", function () {
         .addEventListener("change", function () {
             filterProducts(this.value);
         });
+
+    document
+        .getElementById("search-input")
+        .addEventListener("input", function () {
+            searchProducts(this.value);
+        });
 });
 
 const cartIcon = document.querySelector(".cart-icon");
@@ -376,3 +382,12 @@ document.addEventListener("touchend", () => {
     isDragging = false;
 });
 
+function searchProducts(keyword) {
+    keyword = keyword.toLowerCase();
+
+    const filtered = products.filter(product =>
+        product.name.toLowerCase().includes(keyword)
+    );
+
+    renderProducts(filtered);
+}
