@@ -299,6 +299,7 @@ nav ul li a {
     border-radius: 50%;
     cursor: grab;
     user-select: none;
+    touch-action: none;
 
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 

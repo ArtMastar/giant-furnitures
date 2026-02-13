@@ -316,14 +316,17 @@ document.addEventListener("DOMContentLoaded", function () {
 const cartIcon = document.querySelector(".cart-icon");
 
 let isDragging = false;
-let offsetX, offsetY;
+let offsetX = 0;
+let offsetY = 0;
+
+/* ======================
+   DESKTOP (MOUSE)
+====================== */
 
 cartIcon.addEventListener("mousedown", (e) => {
     isDragging = true;
-
     offsetX = e.clientX - cartIcon.getBoundingClientRect().left;
     offsetY = e.clientY - cartIcon.getBoundingClientRect().top;
-
     cartIcon.style.transition = "none";
 });
 
@@ -338,8 +341,38 @@ document.addEventListener("mousemove", (e) => {
 });
 
 document.addEventListener("mouseup", () => {
-    if (isDragging) {
-        isDragging = false;
-        cartIcon.style.transition = "transform 0.2s ease";
-    }
+    isDragging = false;
 });
+
+
+/* ======================
+   MOBILE (TOUCH)
+====================== */
+
+cartIcon.addEventListener("touchstart", (e) => {
+    isDragging = true;
+
+    const touch = e.touches[0];
+
+    offsetX = touch.clientX - cartIcon.getBoundingClientRect().left;
+    offsetY = touch.clientY - cartIcon.getBoundingClientRect().top;
+
+    cartIcon.style.transition = "none";
+});
+
+document.addEventListener("touchmove", (e) => {
+    if (!isDragging) return;
+
+    const touch = e.touches[0];
+
+    cartIcon.style.left = `${touch.clientX - offsetX}px`;
+    cartIcon.style.top = `${touch.clientY - offsetY}px`;
+
+    cartIcon.style.right = "auto";
+    cartIcon.style.bottom = "auto";
+});
+
+document.addEventListener("touchend", () => {
+    isDragging = false;
+});
+
