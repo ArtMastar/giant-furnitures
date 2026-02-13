@@ -28,21 +28,26 @@ a{
 
 /* Header Styles */
 header {
-    background-color: var(--text-color);
     color: rgb(2, 2, 82);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
+
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
+
+    background: rgba(255, 255, 255, 0.65); /* THIS enables blur */
     backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px); /* Safari support */
+
     box-shadow: 0 2px 15px rgba(0,0,0,0.05);
 }
+
 
 .nav-container {
     display: flex;
