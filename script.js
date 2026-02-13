@@ -312,3 +312,34 @@ document.addEventListener("DOMContentLoaded", function () {
             filterProducts(this.value);
         });
 });
+
+const cartIcon = document.querySelector(".cart-icon");
+
+let isDragging = false;
+let offsetX, offsetY;
+
+cartIcon.addEventListener("mousedown", (e) => {
+    isDragging = true;
+
+    offsetX = e.clientX - cartIcon.getBoundingClientRect().left;
+    offsetY = e.clientY - cartIcon.getBoundingClientRect().top;
+
+    cartIcon.style.transition = "none";
+});
+
+document.addEventListener("mousemove", (e) => {
+    if (!isDragging) return;
+
+    cartIcon.style.left = `${e.clientX - offsetX}px`;
+    cartIcon.style.top = `${e.clientY - offsetY}px`;
+
+    cartIcon.style.right = "auto";
+    cartIcon.style.bottom = "auto";
+});
+
+document.addEventListener("mouseup", () => {
+    if (isDragging) {
+        isDragging = false;
+        cartIcon.style.transition = "transform 0.2s ease";
+    }
+});

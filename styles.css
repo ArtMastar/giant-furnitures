@@ -288,14 +288,33 @@ nav ul li a {
 /* Floating Cart Icon */
 .cart-icon {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: var(--secondary-color);
-    color: var(--text-color);
-    padding: 15px;
+    bottom: 30px;
+    right: 30px;
+    font-size: 26px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    padding: 12px 15px;
     border-radius: 50%;
-    cursor: pointer;
+    cursor: grab;
+    user-select: none;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+.cart-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.cart-icon:active {
+    cursor: grabbing;
+    transform: scale(0.95);
+}
+
 
 .dropdown-content {
     display: none;
