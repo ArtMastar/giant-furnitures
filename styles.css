@@ -35,6 +35,12 @@ header {
     padding: 15px 30px;
 }
 
+.nav-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
 .logo {
     height: 40px;
     font-size: 20px;
