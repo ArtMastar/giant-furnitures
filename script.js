@@ -8,14 +8,14 @@ const products = [
         name: "Office Chair",
         price: 12000,
         image: "/products/C35.jpg",
-        category: "chairs"
+        category: "storage"
     },
     {
         id: 2,
         name: "Cabinet",
         price: 7500,
         image: "/products/1-12.jpg",
-        category: "cabinets"
+        category: "storage"
     },
     {
         id: 3,
