@@ -18,6 +18,7 @@ body {
     background-color: var(--text-color);
     margin: 0;
     padding: 0;
+    padding-top: 80px; 
 }
 
 a{
@@ -34,11 +35,18 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
 }
 
-.nav-container{
+.nav-container {
     display: flex;
-    flex-direction:column;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -73,23 +81,17 @@ nav ul li a {
 
 }
 
-.category-filter {
-    margin: 0 auto;
-    text-align: center;
+.category-filter select {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    background: #f4f4f4;
+    font-size: 14px;
+    cursor: pointer;
 }
 
-#category-select {
-    width: 80%;
-    padding: 10px;
-    margin:10px;
-    font-size: 14px;
-    border: blue 1px solid;
-    border-radius: 25px;
-    background-color: var(--text-color);
-    color: blue;
-    cursor: pointer;
-    align-text: center;
-    align-self: center
+.category-filter select:focus {
+    outline: none;
 }
 
 
