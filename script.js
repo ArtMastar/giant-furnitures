@@ -5,30 +5,128 @@
 const products = [
     {
         id: 1,
-        name: "Office Chair C35",
+        name: "Office Chair",
         price: 12000,
         image: "/products/C35.jpg",
         category: "chairs"
     },
     {
         id: 2,
-        name: "Office Chair A05",
+        name: "Cabinet",
         price: 7500,
         image: "/products/1-12.jpg",
         category: "cabinets"
     },
     {
         id: 3,
-        name: "Nesting Table Small",
+        name: "Office table",
         price: 3300,
         image: "/products/103.jpg",
         category: "tables"
     },
     {
         id: 4,
-        name: "Nesting Table Large",
+        name: "--",
+        price: 3300,
+        image: "/products/103.jpg",
+        category: "tables"
+    },
+    {
+        id: 5,
+        name: "--",
+        price: 3300,
+        image: "/products/1-13.jpg",
+        category: "cabinets"
+    },
+    {
+        id: 6,
+        name: "--",
+        price: 3300,
+        image: "/products/6-3D.jpg",
+        category: "cabinets"
+    },
+    {
+        id: 7,
+        name: "--",
+        price: 3300,
+        image: "/products/6-4D.jpg",
+        category: "cabinets"
+    },
+    {
+        id: 8,
+        name: "--",
+        price: 3300,
+        image: "/products/103-BROWN.jpg",
+        category: "tables"
+    },
+    {
+        id: 9,
+        name: "851",
+        price: 3300,
+        image: "/products/851.jpg",
+        category: "tables"
+    },
+    {
+        id: 10,
+        name: "1205",
+        price: 3300,
+        image: "/products/1205.jpg",
+        category: "tables"
+    },
+    {
+        id: 11,
+        name: "3016/18",
+        price: 3300,
+        image: "/products/3016-3018.jpg",
+        category: "tables"
+    },
+    {
+        id: 12,
+        name: "--",
+        price: 3300,
+        image: "/products/103.jpg",
+        category: "tables"
+    },
+    {
+        id: 13,
+        name: "--",
+        price: 3300,
+        image: "/products/103.jpg",
+        category: "tables"
+    },
+    {
+        id: 14,
+        name: "--",
+        price: 3300,
+        image: "/products/103.jpg",
+        category: "tables"
+    },
+    {
+        id: 15,
+        name: "--",
+        price: 3300,
+        image: "/products/103.jpg",
+        category: "tables"
+    },
+    {
+        id: 16,
+        name: "--",
+        price: 3300,
+        image: "/products/103.jpg",
+        category: "tables"
+    },
+    {
+        id: 17,
+        name: "--",
+        price: 3300,
+        image: "/products/103.jpg",
+        category: "tables"
+    },
+    {
+        id: 18,
+        name: "Executive Table",
         price: 6720,
-        image: "/products/nesting-2.jpg",
+        image: "/products/QJ803-1.jpg",
         category: "tables"
     }
 ];
