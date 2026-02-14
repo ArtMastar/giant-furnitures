@@ -313,8 +313,8 @@ nav ul li a {
     background: white;
     padding: 20px;
     border-radius: 15px;
-    width: 90%;
-    max-width: 350px;
+    width: 70%;
+    max-width: 70vw;
     animation: fadeIn 0.3s ease;
 }
 
