@@ -33,7 +33,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: 1.5px 3px;
 
     position: fixed;
     top: 0;
