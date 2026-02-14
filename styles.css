@@ -104,12 +104,12 @@ nav ul li a {
     border-radius: 20px;
     border: 1px solid rgba(0,0,0,0.1);
     outline: none;
-    width: 200px;
-    transition: 0.3s ease;
+    width: 20vw;
+    transition: 0.7s ease;
 }
 
 .search-container input:focus {
-    width: 240px;
+    width: 45vw;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
