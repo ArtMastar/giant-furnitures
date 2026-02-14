@@ -96,7 +96,7 @@ const products = [
     },
     {
         id: 14,
-        name: "--",
+        name: "FS4005",
         price: 3300,
         images: [
             "/products/FS4005.jpg",
