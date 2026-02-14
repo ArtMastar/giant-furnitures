@@ -49,7 +49,10 @@ const products = [
         id: 8,
         name: "Office table",
         price: 3300,
-        image: "/products/103-BROWN.jpg",
+        images: [
+            "/products/103.jpg",
+            "/products/103-BROWN.jpg"
+        ],
         category: "tables"
     },
     {
@@ -79,8 +82,7 @@ const products = [
         price: 3300,
         images: [
             "/products/4212-4214.jpg",
-            "/products/4212-4214-FRONT.jpg",
-            "/products/C35-1.jpg"
+            "/products/4212-4214-FRONT.jpg"
         ],
 
         category: "desks"
@@ -96,7 +98,10 @@ const products = [
         id: 14,
         name: "--",
         price: 3300,
-        image: "/products/FS4005.jpg",
+        images: [
+            "/products/FS4005.jpg",
+            "/products/FS4005-1.jpg"
+        ],
         category: "chairs"
     },
     {
