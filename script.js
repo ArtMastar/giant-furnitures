@@ -6,7 +6,7 @@ const products = [
     {
         id: 1,
         name: "Office Chair",
-        price: 12000,
+        price: 16600,
         image: "/products/C35.jpg",
         category: "chairs"
     },
@@ -97,7 +97,7 @@ const products = [
     {
         id: 14,
         name: "FS4005",
-        price: 3300,
+        price: 8500,
         images: [
             "/products/FS4005.jpg",
             "/products/FS4005-1.jpg"
@@ -107,7 +107,7 @@ const products = [
     {
         id: 15,
         name: "FS5003",
-        price: 3300,
+        price: 11500,
         image: "/products/FS5003.jpg",
         category: "chairs"
     },
