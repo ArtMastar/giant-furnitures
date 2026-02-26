@@ -7,28 +7,28 @@ const products = [
         id: 1,
         name: "NovaView Glass Display Cabinet",
         price: 00,
-        image: "/products/1-08.jpg",
+        image: "/products/1-08.jpeg",
         category: "storage"
     },
     {
         id: 2,
         name: "PrimeGuard Steel Storage Cabinet",
         price: 00,
-        image: "/products/1-09.jpg",
+        image: "/products/1-09.jpeg",
         category: "storage"
     },
     {
         id: 3,
         name: "EliteArchive Glass Door Cabinet",
         price: 3300,
-        image: "/products/1-10.jpg",
+        image: "/products/1-10.jpeg",
         category: "storage"
     },
     {
         id: 4,
         name: "ClearLine Office Display Cabinet",
         price: 00,
-        image: "/products/1-11.jpg",
+        image: "/products/1-11.jpeg",
         category: "storage"
     },
     {
@@ -42,7 +42,7 @@ const products = [
         id: 6,
         name: "CornerPro Utility Cabinet",
         price: 00,
-        image: "/products/1-12.jpg",
+        image: "/products/1-12.jpeg",
         category: "storage"
     },
     {
@@ -149,7 +149,7 @@ const products = [
         id: 20,
         name: "SecureMax Tall Storage Cabinet",
         price: 9,
-        image: "/products/1-15.jpg",
+        image: "/products/1-15.jpeg",
         category: "storage"
     },
     {
