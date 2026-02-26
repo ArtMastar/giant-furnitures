@@ -25,6 +25,13 @@ const products = [
         category: "tables"
     },
     {
+        id: 4,
+        name: "",
+        price: ,
+        image: "",
+        category: ""
+    },
+    {
         id: 5,
         name: "Cabinet",
         price: 3300,
@@ -113,6 +120,13 @@ const products = [
     },
     {
         id: 16,
+        name: "Q03-1",
+        price: 3300,
+        image: "/products/Q03-1.jpg",
+        category: "tables"
+    },
+    {
+        id: 17,
         name: "Q03-1",
         price: 3300,
         image: "/products/Q03-1.jpg",
