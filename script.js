@@ -5,57 +5,57 @@
 const products = [
     {
         id: 1,
-        name: "Office Chair",
-        price: 16600,
-        image: "/products/C35.jpg",
-        category: "chairs"
+        name: "NovaView Glass Display Cabinet",
+        price: 00,
+        image: "/products/1-08.jpg",
+        category: "storage"
     },
     {
         id: 2,
-        name: "Cabinet",
-        price: 7500,
-        image: "/products/1-12.jpg",
+        name: "PrimeGuard Steel Storage Cabinet",
+        price: 00,
+        image: "/products/1-09.jpg",
         category: "storage"
     },
     {
         id: 3,
-        name: "Office table",
+        name: "EliteArchive Glass Door Cabinet",
         price: 3300,
-        image: "/products/103.jpg",
-        category: "tables"
+        image: "/products/1-10.jpg",
+        category: "storage"
     },
     {
         id: 4,
-        name: "",
-        price: ,
-        image: "",
-        category: ""
+        name: "ClearLine Office Display Cabinet",
+        price: 00,
+        image: "/products/1-11.jpg",
+        category: "storage"
     },
     {
         id: 5,
-        name: "Cabinet",
-        price: 3300,
+        name: "ExecutiveHub Multi-Storage Cabinet",
+        price: 00,
         image: "/products/1-13.jpg",
-        category: "cabinets"
+        category: "storage"
     },
     {
         id: 6,
-        name: "Cabinet",
-        price: 3300,
-        image: "/products/6-3D.jpg",
-        category: "cabinets"
+        name: "CornerPro Utility Cabinet",
+        price: 00,
+        image: "/products/1-12.jpg",
+        category: "storage"
     },
     {
         id: 7,
-        name: "Cabinet",
-        price: 3300,
+        name: "SafeFile 4-Drawer Cabinet",
+        price: 00,
         image: "/products/6-4D.jpg",
-        category: "cabinets"
+        category: "storage"
     },
     {
         id: 8,
-        name: "Office table",
-        price: 3300,
+        name: "Prestige Executive Desk",
+        price: 22200,
         images: [
             "/products/103.jpg",
             "/products/103-BROWN.jpg"
@@ -64,47 +64,46 @@ const products = [
     },
     {
         id: 9,
-        name: "851",
-        price: 3300,
+        name: "ComfortLine Visitor Chair",
+        price: 10800,
         image: "/products/851.jpg",
         category: "chairs"
     },
     {
         id: 10,
-        name: "1205",
-        price: 3300,
+        name: "UrbanEdge Office Desk",
+        price: 16000,
         image: "/products/1205.jpg",
         category: "tables"
     },
     {
         id: 11,
-        name: "3016/18",
-        price: 3300,
+        name: "Axis Executive Desk",
+        price: 41800,
         image: "/products/3016-3018.jpg",
         category: "tables"
     },
     {
         id: 12,
-        name: "4212/14",
-        price: 3300,
+        name: "PowerPro Office Workstation",
+        price: 22000,
         images: [
             "/products/4212-4214.jpg",
             "/products/4212-4214-FRONT.jpg"
         ],
-
         category: "desks"
     },
     {
         id: 13,
-        name: "9316/18",
-        price: 3300,
+        name: "Summit L-Shape Executive Desk",
+        price: 41800,
         image: "/products/9318-9316.jpg",
         category: "desks"
     },
     {
         id: 14,
-        name: "FS4005",
-        price: 8500,
+        name: "FlexMesh Executive Chair",
+        price: 7800,
         images: [
             "/products/FS4005.jpg",
             "/products/FS4005-1.jpg"
@@ -113,30 +112,107 @@ const products = [
     },
     {
         id: 15,
-        name: "FS5003",
+        name: "SpineSupport Ergonomic Chair",
         price: 11500,
         image: "/products/FS5003.jpg",
         category: "chairs"
     },
     {
         id: 16,
-        name: "Q03-1",
-        price: 3300,
-        image: "/products/Q03-1.jpg",
+        name: "ClassicPro Office Desk",
+        price: 19900,
+        image: "/products/J012-14.jpg",
         category: "tables"
     },
     {
         id: 17,
-        name: "Q03-1",
-        price: 3300,
-        image: "/products/Q03-1.jpg",
+        name: "AeroFlex Executive Chair",
+        price: 22800,
+        image: "/products/J098A.jpg",
         category: "tables"
     },
     {
         id: 18,
-        name: "Executive Table",
-        price: 6720,
-        image: "/products/QJ803-1.jpg",
+        name: "VisitorPro Arm Chair",
+        price: 9400,
+        image: "/products/J166-1C.jpg",
+        category: "tables"
+    },
+    {
+        id: 19,
+        name: "SafeFile 3-Drawer Cabinet",
+        price: 9400,
+        image: "/products/6-3D.jpg",
+        category: "storage"
+    },
+    {
+        id: 20,
+        name: "SecureMax Tall Storage Cabinet",
+        price: 9,
+        image: "/products/1-15.jpg",
+        category: "storage"
+    },
+    {
+        id: 21,
+        name: "TitanSteel Double Door Cabinet",
+        price: 9,
+        image: "/products/6-3D.jpg",
+        category: "storage"
+    },
+    {
+        id: 22,
+        name: "UltraComfort Executive Chair",
+        price: 16600,
+        image: "/products/C35.jpg",
+        category: "chairs"
+    },
+    {
+        id: 23,
+        name: "FlexGuest Mesh Chair",
+        price: 7400,
+        image: "/products/FS4019.jpg",
+        category: "chairs"
+    },
+    {
+        id: 24,
+        name: "AeroMesh Cantilever Chair",
+        price: 8700,
+        image: "/products/1902.jpg",
+        category: "tables"
+    },
+    {
+        id: 25,
+        name: "ErgoMax Pro Chair",
+        price: 18000,
+        image: "/products/FS840A.jpg",
+        category: "tables"
+    },
+    {
+        id: 26,
+        name: "Zenith Ergonomic Chair",
+        price: 13600,
+        image: "/products/YS-277.jpg",
+        category: "tables"
+    },
+    {
+        id: 20,
+        name: "SafeFile 3-Drawer Cabinet",
+        price: 9400,
+        image: "/products/6-3D.jpg",
+        category: "tables"
+    },
+    {
+        id: 20,
+        name: "SafeFile 3-Drawer Cabinet",
+        price: 9400,
+        image: "/products/6-3D.jpg",
+        category: "tables"
+    },
+    {
+        id: 20,
+        name: "SafeFile 3-Drawer Cabinet",
+        price: 9400,
+        image: "/products/6-3D.jpg",
         category: "tables"
     }
 ];
