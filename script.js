@@ -170,28 +170,28 @@ const products = [
         id: 23,
         name: "FlexGuest Mesh Chair",
         price: 7400,
-        image: "/products/FS4019.jpg",
+        image: "/products/FS4019.jpeg",
         category: "chairs"
     },
     {
         id: 24,
         name: "AeroMesh Cantilever Chair",
         price: 8700,
-        image: "/products/1902.jpg",
+        image: "/products/1902.jpeg",
         category: "tables"
     },
     {
         id: 25,
         name: "ErgoMax Pro Chair",
         price: 18000,
-        image: "/products/FS840A.jpg",
+        image: "/products/FS840A.jpeg",
         category: "tables"
     },
     {
         id: 26,
         name: "Zenith Ergonomic Chair",
         price: 13600,
-        image: "/products/YS-277.jpg",
+        image: "/products/YS-277.jpeg",
         category: "tables"
     },
     {
