@@ -121,21 +121,21 @@ const products = [
         id: 16,
         name: "ClassicPro Office Desk",
         price: 19900,
-        image: "/products/J012-14.jpg",
+        image: "/products/J012-14.jpeg",
         category: "tables"
     },
     {
         id: 17,
         name: "AeroFlex Executive Chair",
         price: 22800,
-        image: "/products/J098A.jpg",
+        image: "/products/J098A.jpeg",
         category: "tables"
     },
     {
         id: 18,
         name: "VisitorPro Arm Chair",
         price: 9400,
-        image: "/products/J166-1C.jpg",
+        image: "/products/J166-1C.jpeg",
         category: "tables"
     },
     {
