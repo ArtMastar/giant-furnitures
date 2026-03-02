@@ -121,7 +121,7 @@ const products = [
         id: 16,
         name: "ClassicPro Office Desk",
         price: 19900,
-        image: "/products/J012-14.jpeg",
+        image: "/products/J012-14B.jpeg",
         category: "tables"
     },
     {
