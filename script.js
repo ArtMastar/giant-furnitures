@@ -6,51 +6,58 @@ const products = [
     {
         id: 1,
         name: "NovaView Glass Display Cabinet",
-        price: 00,
+        price: 10,
         image: "/products/1-08.jpeg",
-        category: "storage"
+        category: "storage",
+        keywords: ["glass","cabinet","display","storage","office","shelves","files","books","lockable","modern","furniture","archive","documents","cupboard","organizer","corporate","interior","workspace","professional","secure"]
     },
     {
         id: 2,
         name: "PrimeGuard Steel Storage Cabinet",
-        price: 00,
+        price: 10,
         image: "/products/1-09.jpeg",
-        category: "storage"
+        category: "storage",
+        keywords: ["metal","steel","cabinet","storage","locker","lockable","office","industrial","secure","documents","files","heavy","durable","organization","commercial","cupboard","archive","safety","furniture","institutional"]
     },
     {
         id: 3,
         name: "EliteArchive Glass Door Cabinet",
         price: 3300,
         image: "/products/1-10.jpeg",
-        category: "storage"
+        category: "storage",
+        keywords: ["glass","cabinet","office","archive","display","storage","files","documents","modern","lockable","corporate","shelves","books","cupboard","interior","workspace","professional","secure","furniture","minimalist"]
     },
     {
         id: 4,
         name: "ClearLine Office Display Cabinet",
-        price: 00,
+        price: 10,
         image: "/products/1-11.jpeg",
-        category: "storage"
+        category: "storage",
+        keywords: ["cabinet","office","storage","books","files","display","glass","modern","shelves","workspace","organization","professional","cupboard","corporate","archive","interior","minimal","secure","furniture","clean"]
     },
     {
         id: 5,
         name: "ExecutiveHub Multi-Storage Cabinet",
-        price: 00,
+        price: 10,
         image: "/products/1-13.jpg",
-        category: "storage"
+        category: "storage",
+        keywords: ["executive","cabinet","storage","office","files","books","lockable","corporate","modern","organization","cupboard","archive","professional","furniture","interior","workspace","secure","efficient","design","functional"]
     },
     {
         id: 6,
         name: "CornerPro Utility Cabinet",
-        price: 00,
+        price: 10,
         image: "/products/1-12.jpeg",
-        category: "storage"
+        category: "storage",
+        keywords: ["corner","cabinet","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
     },
     {
         id: 7,
         name: "SafeFile 4-Drawer Cabinet",
-        price: 00,
+        price: 10,
         image: "/products/6-4D.jpg",
-        category: "storage"
+        category: "storage",
+        keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
     },
     {
         id: 8,
@@ -60,28 +67,32 @@ const products = [
             "/products/103.jpg",
             "/products/103-BROWN.jpg"
         ],
-        category: "tables"
+        category: "tables",
+        keywords: ["executive","desk","brown","wooden","office","luxury","manager","corporate","professional","workspace","table","premium","leadership","furniture","durable","surface","drawers","classic","design","interior"]
     },
     {
         id: 9,
         name: "ComfortLine Visitor Chair",
         price: 10800,
         image: "/products/851.jpg",
-        category: "chairs"
+        category: "chairs",
+        keywords: ["visitor","chair","office","guest","reception","meeting","comfortable","corporate","seating","professional","modern","conference","durable","workspace","furniture","support","design","interior","waiting","armrest"]
     },
     {
         id: 10,
         name: "UrbanEdge Office Desk",
         price: 16000,
         image: "/products/1205.jpg",
-        category: "tables"
+        category: "tables",
+        keywords: ["desk","office","modern","workspace","executive","table","corporate","professional","surface","durable","furniture","minimal","design","wooden","manager","workstation","interior","functional","premium","sleek"]
     },
     {
         id: 11,
         name: "Axis Executive Desk",
         price: 41800,
         image: "/products/3016-3018.jpg",
-        category: "tables"
+        category: "tables",
+        keywords: ["executive","desk","office","workstation","manager","corporate","professional","table","luxury","workspace","furniture","modern","surface","durable","premium","design","leadership","interior","wooden","sleek"]
     },
     {
         id: 12,
@@ -91,14 +102,16 @@ const products = [
             "/products/4212-4214.jpg",
             "/products/4212-4214-FRONT.jpg"
         ],
-        category: "desks"
+        category: "desks",
+        keywords: ["workstation","desk","office","corporate","computer","workspace","storage","drawers","professional","modern","furniture","surface","manager","executive","durable","functional","design","interior","organization","table"]
     },
     {
         id: 13,
         name: "Summit L-Shape Executive Desk",
         price: 41800,
         image: "/products/9318-9316.jpg",
-        category: "desks"
+        category: "desks",
+        keywords: ["lshape","desk","executive","corner","office","workstation","manager","corporate","professional","workspace","modern","furniture","surface","premium","design","functional","interior","wooden","sleek","efficient"]
     },
     {
         id: 14,
@@ -108,35 +121,40 @@ const products = [
             "/products/FS4005.jpg",
             "/products/FS4005-1.jpg"
         ],
-        category: "chairs"
+        category: "chairs",
+        keywords: ["mesh","executive","chair","office","ergonomic","adjustable","support","comfortable","corporate","swivel","highback","professional","workspace","furniture","modern","durable","posture","armrest","premium","design"]
     },
     {
         id: 15,
         name: "SpineSupport Ergonomic Chair",
         price: 11500,
         image: "/products/FS5003.jpg",
-        category: "chairs"
+        category: "chairs",
+        keywords: ["ergonomic","chair","office","highback","headrest","adjustable","support","posture","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","executive","armrest","premium","design"]
     },
     {
         id: 16,
         name: "ClassicPro Office Desk",
         price: 19900,
         image: "/products/J012-14B.jpeg",
-        category: "tables"
+        category: "tables",
+        keywords: ["desk","office","wooden","drawers","workspace","executive","manager","corporate","professional","table","surface","furniture","classic","design","durable","modern","interior","functional","organization","sleek"]
     },
     {
         id: 17,
         name: "AeroFlex Executive Chair",
         price: 22800,
         image: "/products/J098A.jpeg",
-        category: "tables"
+        category: "tables",
+        keywords: ["executive","chair","office","ergonomic","adjustable","mesh","support","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","posture","armrest","premium","design","productivity"]
     },
     {
         id: 18,
         name: "VisitorPro Arm Chair",
         price: 9400,
         image: "/products/J166-1C.jpeg",
-        category: "tables"
+        category: "tables",
+        keywords: ["visitor","chair","office","guest","reception","meeting","armrest","corporate","professional","seating","modern","conference","durable","workspace","furniture","support","design","interior","waiting","comfortable"]
     },
     {
         id: 19,
@@ -150,7 +168,8 @@ const products = [
         name: "SecureMax Tall Storage Cabinet",
         price: 9,
         image: "/products/1-15.jpeg",
-        category: "storage"
+        category: "storage",
+        keywords: ["tall","cabinet","storage","office","locker","lockable","files","documents","archive","secure","corporate","furniture","cupboard","professional","organization","modern","workspace","durable","industrial","safety"]
     },
     {
         id: 21,
@@ -164,56 +183,72 @@ const products = [
         name: "UltraComfort Executive Chair",
         price: 16600,
         image: "/products/C35.jpg",
-        category: "chairs"
+        category: "chairs",
+        keywords: ["executive","chair","office","highback","ergonomic","comfortable","manager","corporate","seating","professional","support","adjustable","luxury","furniture","workspace","durable","armrest","swivel","premium","design"]
     },
     {
         id: 23,
         name: "FlexGuest Mesh Chair",
         price: 7400,
         image: "/products/FS4019.jpeg",
-        category: "chairs"
+        category: "chairs",
+        keywords: ["mesh","chair","visitor","guest","office","conference","reception","seating","breathable","modern","corporate","professional","support","durable","workspace","design","armrest","meeting","furniture","comfortable"]
     },
     {
         id: 24,
         name: "AeroMesh Cantilever Chair",
         price: 8700,
         image: "/products/1902.jpeg",
-        category: "tables"
+        category: "tables",
+        keywords: ["mesh","chair","visitor","cantilever","office","conference","guest","breathable","seating","modern","corporate","professional","support","durable","meeting","workspace","design","armrest","reception","furniture"]
     },
     {
         id: 25,
         name: "ErgoMax Pro Chair",
         price: 18000,
         image: "/products/FS840A.jpeg",
-        category: "tables"
+        category: "tables",
+        keywords: ["ergonomic","chair","office","adjustable","mesh","support","comfortable","corporate","professional","swivel","highback","workspace","furniture","modern","durable","posture","design","executive","armrest","productivity"]
     },
     {
         id: 26,
         name: "Zenith Ergonomic Chair",
         price: 13600,
         image: "/products/YS-277.jpeg",
-        category: "tables"
+        category: "tables",
+        keywords: ["ergonomic","chair","office","adjustable","support","posture","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","mesh","armrest","executive","design","productivity","highback"]
     },
     {
-        id: 20,
-        name: "SafeFile 3-Drawer Cabinet",
+        id: 27,
+        name: "TitanSteel Double Door Cabinet",
         price: 9400,
-        image: "/products/6-3D.jpg",
-        category: "tables"
+        image: "/products/1-27.jpg",
+        category: "storage",
+        keywords: ["steel","cabinet","metal","storage","office","industrial","secure","locker","documents","files","heavy","durable","archive","lockable","corporate","organization","cupboard","commercial","safety","professional"]
     },
     {
-        id: 20,
-        name: "SafeFile 3-Drawer Cabinet",
+        id: 28,
+        name: "WorkLite Study Desk",
         price: 9400,
-        image: "/products/6-3D.jpg",
-        category: "tables"
+        image: "/products/12.jpeg",
+        category: "tables",
+        keywords: ["desk","office","study","table","workspace","modern","compact","minimal","workstation","homeoffice","furniture","professional","surface","durable","corporate","interior","design","functional","wooden","sleek"]
     },
     {
-        id: 20,
-        name: "SafeFile 3-Drawer Cabinet",
-        price: 9400,
-        image: "/products/6-3D.jpg",
-        category: "tables"
+        id: 29,
+        name: "CompactPro Office Desk",
+        price: 10,
+        image: "/products/101.jpeg",
+        category: "tables",
+        keywords: ["desk","office","workstation","table","drawers","storage","workspace","modern","corporate","professional","furniture","wooden","surface","organization","durable","executive","minimal","design","functional","interior"]
+    },
+    {
+        id: 30,
+        name: "RegalFront Executive Desk",
+        price: 10,
+        image: "/products/5514-12.jpeg",
+        category: "tables",
+        keywords: ["executive","desk","luxury","office","premium","manager","corporate","professional","workspace","table","wooden","leadership","modern","surface","furniture","design","interior","durable","sleek","authority"]
     }
 ];
 
