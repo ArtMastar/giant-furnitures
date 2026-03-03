@@ -86,10 +86,10 @@ nav ul li a {
 
 .filter {
     position: sticky;
-    top: 70px; /* same as header height */
+    top: 50px; /* same as header height */
     z-index: 999;
 
-    height: 70px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
