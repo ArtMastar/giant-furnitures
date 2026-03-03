@@ -530,3 +530,13 @@ window.onclick = (e) => {
         modal.style.display = "none";
     }
 };
+
+const filter = document.querySelector(".filter");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 100) {
+        filter.style.boxShadow = "0 5px 20px rgba(0,0,0,0.08)";
+    } else {
+        filter.style.boxShadow = "none";
+    }
+});
