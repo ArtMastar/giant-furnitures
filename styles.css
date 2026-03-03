@@ -107,16 +107,25 @@ nav ul li a {
 }
 
 .category-filter select {
-    padding: 8px 12px;
-    border-radius: 6px;
-    border: none;
-    background: #f4f4f4;
-    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
     cursor: pointer;
+    font-size: 14px;
+
+    transition: all 0.3s ease;
+}
+
+.category-filter select:hover {
+    border-color: #0000ff;
+    box-shadow: 0 5px 15px rgba(0,0,255,0.15);
+    transform: translateY(-2px);
 }
 
 .category-filter select:focus {
     outline: none;
+    border-color: #0000ff;
+    box-shadow: 0 5px 20px rgba(0,0,255,0.25);
 }
 
 .search-container input {
