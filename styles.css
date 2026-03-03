@@ -128,6 +128,15 @@ nav ul li a {
     box-shadow: 0 5px 20px rgba(0,0,255,0.25);
 }
 
+.category-filter select {
+    appearance: none;
+    background: white;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='%230000ff' d='M5 7l5 5 5-5H5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 14px;
+}
+
 .search-container input {
     padding: 8px 14px;
     border-radius: 20px;
