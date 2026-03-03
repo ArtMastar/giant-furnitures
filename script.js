@@ -637,3 +637,43 @@ window.addEventListener("scroll", () => {
         filter.style.boxShadow = "none";
     }
 });
+
+const categoryButtons = document.querySelectorAll(".category-icons button");
+
+categoryButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+
+        // Remove active from all
+        categoryButtons.forEach(b => b.classList.remove("active"));
+
+        // Add active to clicked
+        btn.classList.add("active");
+
+        const category = btn.dataset.category;
+
+        if (category === "all") {
+            renderProducts(products);
+        } else {
+            const filtered = products.filter(p => p.category === category);
+            renderProducts(filtered);
+        }
+    });
+});
+
+const categoryIcons = document.getElementById("categoryIcons");
+const leftBtn = document.querySelector(".scroll-btn.left");
+const rightBtn = document.querySelector(".scroll-btn.right");
+
+leftBtn.addEventListener("click", () => {
+    categoryIcons.scrollBy({
+        left: -200,
+        behavior: "smooth"
+    });
+});
+
+rightBtn.addEventListener("click", () => {
+    categoryIcons.scrollBy({
+        left: 200,
+        behavior: "smooth"
+    });
+});

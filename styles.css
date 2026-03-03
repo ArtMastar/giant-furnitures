@@ -205,30 +205,42 @@ nav ul li a {
     color: var(--text-color);
 }
 
+.category-wrapper {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 80px;
+    z-index: 900;
+    backdrop-filter: blur(10px);
+    padding: 10px 0;
+}
+
 .category-icons {
     display: flex;
     gap: 15px;
-    overflow-x: auto;
-    padding: 15px;
-    backdrop-filter: blur(8px);
-    position: sticky;
-    top: 80px; /* adjust to your header height */
-    z-index: 900;
+    overflow-x: hidden; /* hide scrollbar */
+    scroll-behavior: smooth;
+    padding: 10px;
+    flex: 1;
 }
 
 .category-icons button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    min-width: 80px;
+    min-width: 90px;
     padding: 10px;
     border: none;
     border-radius: 12px;
-    background: rgba(255,255,255,0.6);
+    background: rgba(255,255,255,0.7);
     cursor: pointer;
     transition: 0.3s ease;
-    font-size: 14px;
+}
+
+.category-icons button img {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 5px;
 }
 
 .category-icons button:hover {
@@ -236,6 +248,21 @@ nav ul li a {
 }
 
 .category-icons button.active {
+    background: rgb(2, 2, 82);
+    color: white;
+}
+
+.scroll-btn {
+    background: rgba(255,255,255,0.8);
+    border: none;
+    font-size: 22px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.scroll-btn:hover {
     background: rgb(2, 2, 82);
     color: white;
 }
