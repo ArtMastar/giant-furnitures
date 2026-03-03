@@ -95,6 +95,7 @@ nav ul li a {
     justify-content: center;
 
     background: white;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .category-filter {
@@ -290,12 +291,12 @@ nav ul li a {
 }
 
 .product h2 {
-    font-size: 21px;
+    font-size: 16px;
     margin: 2px 0;
 }
 
 .product p {
-    font-size: 16px;
+    font-size: 11px;
     margin: 2px 0;
 }
 
