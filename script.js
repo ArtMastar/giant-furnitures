@@ -387,8 +387,8 @@ function toggleCart() {
 
 
 /* ==============================
-   4️⃣ CATEGORY FILTER
-============================== */
+   4️⃣ CATEGORY FILTER AND SEARCH
+================================= */
 
 function filterProducts(category) {
     if (category === "all") {
@@ -401,6 +401,78 @@ function filterProducts(category) {
     }
 }
 
+function levenshtein(a, b) {
+    const matrix = [];
+
+    for (let i = 0; i <= b.length; i++) {
+        matrix[i] = [i];
+    }
+
+    for (let j = 0; j <= a.length; j++) {
+        matrix[0][j] = j;
+    }
+
+    for (let i = 1; i <= b.length; i++) {
+        for (let j = 1; j <= a.length; j++) {
+            if (b.charAt(i - 1) === a.charAt(j - 1)) {
+                matrix[i][j] = matrix[i - 1][j - 1];
+            } else {
+                matrix[i][j] = Math.min(
+                    matrix[i - 1][j - 1] + 1,
+                    matrix[i][j - 1] + 1,
+                    matrix[i - 1][j] + 1
+                );
+            }
+        }
+    }
+
+    return matrix[b.length][a.length];
+}
+
+function searchProducts(keyword) {
+    keyword = keyword.toLowerCase().trim();
+
+    const results = products.map(product => {
+
+        let score = 0;
+
+        const name = product.name.toLowerCase();
+        const category = product.category.toLowerCase();
+        const keywords = product.keywords || [];
+
+        // 1️⃣ Exact name match (highest priority)
+        if (name.includes(keyword)) score += 50;
+
+        // 2️⃣ Category match
+        if (category.includes(keyword)) score += 30;
+
+        // 3️⃣ Keyword array match
+        keywords.forEach(k => {
+            if (k.toLowerCase().includes(keyword)) score += 40;
+
+            // Fuzzy matching
+            if (levenshtein(k.toLowerCase(), keyword) <= 2) {
+                score += 25;
+            }
+        });
+
+        // 4️⃣ Partial word matching
+        const words = name.split(" ");
+        words.forEach(word => {
+            if (word.startsWith(keyword)) score += 20;
+        });
+
+        return { product, score };
+    });
+
+    // Remove weak matches
+    const filtered = results
+        .filter(item => item.score > 10)
+        .sort((a, b) => b.score - a.score)
+        .map(item => item.product);
+
+    renderProducts(filtered);
+}
 
 /* ==============================
    5️⃣ WHATSAPP ORDER
@@ -515,16 +587,6 @@ document.addEventListener("touchmove", (e) => {
 document.addEventListener("touchend", () => {
     isDragging = false;
 });
-
-function searchProducts(keyword) {
-    keyword = keyword.toLowerCase();
-
-    const filtered = products.filter(product =>
-        product.name.toLowerCase().includes(keyword)
-    );
-
-    renderProducts(filtered);
-}
 
 const modal = document.getElementById("productModal");
 const modalMainImage = document.getElementById("modalMainImage");
