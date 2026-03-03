@@ -95,7 +95,6 @@ nav ul li a {
     justify-content: center;
 
     background: white;
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .category-filter {
