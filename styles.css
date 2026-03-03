@@ -205,6 +205,41 @@ nav ul li a {
     color: var(--text-color);
 }
 
+.category-icons {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 15px;
+    backdrop-filter: blur(8px);
+    position: sticky;
+    top: 80px; /* adjust to your header height */
+    z-index: 900;
+}
+
+.category-icons button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 80px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.6);
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 14px;
+}
+
+.category-icons button:hover {
+    transform: translateY(-4px);
+}
+
+.category-icons button.active {
+    background: rgb(2, 2, 82);
+    color: white;
+}
+
 .cta {
     background: none;
     color: white;
