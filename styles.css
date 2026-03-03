@@ -117,8 +117,8 @@ nav ul li a {
 }
 
 .category-filter select:hover {
-    border-color: rgb(100, 100, 102);
-    box-shadow: 0 5px 15px rgba(0,0,255,0.15);
+    border-color: none;
+    box-shadow: 0 5px 15px rgba(89, 89, 90, 0.582);
     transform: translateY(-2px);
 }
 
