@@ -222,11 +222,11 @@ nav ul li a {
 
 .category-icons {
     display: flex;
-    gap: 15px;
+    gap: 5px;
     overflow-x: auto;
     scroll-behavior: smooth;
     padding: 10px 15px;
-    width: 70%;
+    width: 50%;
     /* Hide scrollbar */
     scrollbar-width: none;
     -ms-overflow-style: none;
