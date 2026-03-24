@@ -208,20 +208,24 @@ nav ul li a {
 .category-wrapper {
     display: flex;
     align-items: center;
-    position: sticky;
     top: 80px;
-    z-index: 900;
-    backdrop-filter: blur(10px);
     padding: 10px 0;
 }
 
 .category-icons {
     display: flex;
     gap: 15px;
-    overflow-x: hidden; /* hide scrollbar */
+    overflow-x: auto;   /* still scrollable */
     scroll-behavior: smooth;
-    padding: 10px;
-    flex: 1;
+    padding: 10px 15px;
+
+    /* 🔥 Hide scrollbar (ALL browsers) */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+}
+
+.category-icons::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
 }
 
 .category-icons button {
@@ -235,6 +239,7 @@ nav ul li a {
     background: rgba(255,255,255,0.7);
     cursor: pointer;
     transition: 0.3s ease;
+    flex-shrink: 0; /* prevents shrinking */
 }
 
 .category-icons button img {
@@ -250,6 +255,31 @@ nav ul li a {
 .category-icons button.active {
     background: rgb(2, 2, 82);
     color: white;
+}
+
+.category-wrapper {
+    position: relative;
+}
+
+.category-wrapper::before,
+.category-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.category-wrapper::before {
+    left: 0;
+    background: linear-gradient(to right, white, transparent);
+}
+
+.category-wrapper::after {
+    right: 0;
+    background: linear-gradient(to left, white, transparent);
 }
 
 .scroll-btn {
