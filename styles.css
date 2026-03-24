@@ -226,7 +226,7 @@ nav ul li a {
     overflow-x: auto;
     scroll-behavior: smooth;
     padding: 10px 15px;
-
+    width: 70%;
     /* Hide scrollbar */
     scrollbar-width: none;
     -ms-overflow-style: none;
