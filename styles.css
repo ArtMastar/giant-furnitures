@@ -208,24 +208,32 @@ nav ul li a {
 .category-wrapper {
     display: flex;
     align-items: center;
-    top: 80px;
     padding: 10px 0;
+
+    position: relative;   /* no sticky */
+    top: auto;
+
+    background: transparent; /* remove white/blur feel */
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+
+    box-shadow: none; /* ensure no shadow */
 }
 
 .category-icons {
     display: flex;
     gap: 15px;
-    overflow-x: auto;   /* still scrollable */
+    overflow-x: auto;
     scroll-behavior: smooth;
     padding: 10px 15px;
 
-    /* 🔥 Hide scrollbar (ALL browsers) */
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE/Edge */
+    /* Hide scrollbar */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 .category-icons::-webkit-scrollbar {
-    display: none; /* Chrome, Safari */
+    display: none;
 }
 
 .category-icons button {
