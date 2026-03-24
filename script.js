@@ -15,7 +15,7 @@ const products = [
         id: 2,
         name: "PrimeGuard Steel Storage Cabinet",
         price: 10,
-        image: "/products/1-09.jpeg",
+        image: "/products/1-09.jpg",
         category: "storage",
         keywords: ["metal","steel","cabinet","storage","locker","lockable","office","industrial","secure","documents","files","heavy","durable","organization","commercial","cupboard","archive","safety","furniture","institutional"]
     },
@@ -23,7 +23,7 @@ const products = [
         id: 3,
         name: "EliteArchive Glass Door Cabinet",
         price: 3300,
-        image: "/products/1-10.jpeg",
+        image: "/products/1-10.jpg",
         category: "storage",
         keywords: ["glass","cabinet","office","archive","display","storage","files","documents","modern","lockable","corporate","shelves","books","cupboard","interior","workspace","professional","secure","furniture","minimalist"]
     },
@@ -47,7 +47,7 @@ const products = [
         id: 6,
         name: "CornerPro Utility Cabinet",
         price: 10,
-        image: "/products/1-12.jpeg",
+        image: "/products/1-12.jpg",
         category: "storage",
         keywords: ["corner","cabinet","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
     },
@@ -99,8 +99,8 @@ const products = [
         name: "PowerPro Office Workstation",
         price: 22000,
         images: [
-            "/products/4212-4214.jpg",
-            "/products/4212-4214-FRONT.jpg"
+            "/products/4212-4214-FRONT.jpg",
+            "/products/4212-4214.jpg"
         ],
         category: "desks",
         keywords: ["workstation","desk","office","corporate","computer","workspace","storage","drawers","professional","modern","furniture","surface","manager","executive","durable","functional","design","interior","organization","table"]
@@ -167,7 +167,10 @@ const products = [
         id: 20,
         name: "SecureMax Tall Storage Cabinet",
         price: 9,
-        image: "/products/1-15.jpeg",
+        images: [
+            "/products/1-15.jpg",
+            "/products/1-15.jpeg"
+        ],
         category: "storage",
         keywords: ["tall","cabinet","storage","office","locker","lockable","files","documents","archive","secure","corporate","furniture","cupboard","professional","organization","modern","workspace","durable","industrial","safety"]
     },
@@ -206,7 +209,7 @@ const products = [
         id: 25,
         name: "ErgoMax Pro Chair",
         price: 18000,
-        image: "/products/FS840A.jpeg",
+        image: "/products/FS840A.jpg",
         category: "tables",
         keywords: ["ergonomic","chair","office","adjustable","mesh","support","comfortable","corporate","professional","swivel","highback","workspace","furniture","modern","durable","posture","design","executive","armrest","productivity"]
     },
@@ -222,7 +225,7 @@ const products = [
         id: 27,
         name: "TitanSteel Double Door Cabinet",
         price: 9400,
-        image: "/products/1-27.jpg",
+        image: "/products/1-27.jpeg",
         category: "storage",
         keywords: ["steel","cabinet","metal","storage","office","industrial","secure","locker","documents","files","heavy","durable","archive","lockable","corporate","organization","cupboard","commercial","safety","professional"]
     },
@@ -230,7 +233,7 @@ const products = [
         id: 28,
         name: "WorkLite Study Desk",
         price: 9400,
-        image: "/products/12.jpeg",
+        image: "/products/12.jpg",
         category: "tables",
         keywords: ["desk","office","study","table","workspace","modern","compact","minimal","workstation","homeoffice","furniture","professional","surface","durable","corporate","interior","design","functional","wooden","sleek"]
     },
@@ -238,7 +241,10 @@ const products = [
         id: 29,
         name: "CompactPro Office Desk",
         price: 10,
-        image: "/products/101.jpeg",
+        images: [
+            "/products/101.jpg",
+            "/products/101.jpeg"
+        ],
         category: "tables",
         keywords: ["desk","office","workstation","table","drawers","storage","workspace","modern","corporate","professional","furniture","wooden","surface","organization","durable","executive","minimal","design","functional","interior"]
     },
