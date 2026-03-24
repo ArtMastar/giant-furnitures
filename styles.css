@@ -207,6 +207,7 @@ nav ul li a {
 
 .category-wrapper {
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 10px 0;
 
@@ -222,12 +223,16 @@ nav ul li a {
 
 .category-icons {
     display: flex;
-    gap: 5px;
+    gap: 15px;
+
     overflow-x: auto;
     scroll-behavior: smooth;
+
     padding: 10px 15px;
-    width: 50%;
-    /* Hide scrollbar */
+
+    max-width: 90%; /* 🔥 prevents full stretch */
+    justify-content: center; /* centers items when not overflowing */
+
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
