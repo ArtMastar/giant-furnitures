@@ -236,35 +236,6 @@ nav ul li a {
     display: none;
 }
 
-.category-icons button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 90px;
-    padding: 10px;
-    border: none;
-    border-radius: 12px;
-    background: rgba(255,255,255,0.7);
-    cursor: pointer;
-    transition: 0.3s ease;
-    flex-shrink: 0; /* prevents shrinking */
-}
-
-.category-icons button img {
-    width: 28px;
-    height: 28px;
-    margin-bottom: 5px;
-}
-
-.category-icons button:hover {
-    transform: translateY(-4px);
-}
-
-.category-icons button.active {
-    background: rgb(2, 2, 82);
-    color: white;
-}
-
 .category-wrapper {
     position: relative;
 }
