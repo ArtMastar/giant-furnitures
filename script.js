@@ -101,7 +101,7 @@ const products = [
         images: [
             "/products/4212-4214.jpg"
         ],
-        category: "desks",
+        category: "tables",
         keywords: ["workstation","desk","office","corporate","computer","workspace","storage","drawers","professional","modern","furniture","surface","manager","executive","durable","functional","design","interior","organization","table"]
     },
     {
@@ -109,7 +109,7 @@ const products = [
         name: "Summit L-Shape Executive Desk",
         price: 37500,
         image: "/products/9316_18.jpg",
-        category: "desks",
+        category: "tables",
         keywords: ["lshape","desk","executive","corner","office","workstation","manager","corporate","professional","workspace","modern","furniture","surface","premium","design","functional","interior","wooden","sleek","efficient"]
     },
     {
@@ -144,7 +144,7 @@ const products = [
         name: "AeroFlex Executive Chair",
         price: 21000,
         image: "/products/J098A.jpg",
-        category: "tables",
+        category: "chairs",
         keywords: ["executive","chair","office","ergonomic","adjustable","mesh","support","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","posture","armrest","premium","design","productivity"]
     },
     {
@@ -152,7 +152,7 @@ const products = [
         name: "VisitorPro Arm Chair",
         price: 6800,
         image: "/products/j166-1c.jpg",
-        category: "tables",
+        category: "chairs",
         keywords: ["visitor","chair","office","guest","reception","meeting","armrest","corporate","professional","seating","modern","conference","durable","workspace","furniture","support","design","interior","waiting","comfortable"]
     },
     {
@@ -194,7 +194,7 @@ const products = [
         name: "AeroMesh Cantilever Chair",
         price: 6200,
         image: "/products/1902.jpg",
-        category: "tables",
+        category: "chairs",
         keywords: ["mesh","chair","visitor","cantilever","office","conference","guest","breathable","seating","modern","corporate","professional","support","durable","meeting","workspace","design","armrest","reception","furniture"]
     },
     {
@@ -202,7 +202,7 @@ const products = [
         name: "ErgoMax Pro Chair",
         price: 16600,
         image: "/products/FS840A.jpg",
-        category: "tables",
+        category: "chairs",
         keywords: ["ergonomic","chair","office","adjustable","mesh","support","comfortable","corporate","professional","swivel","highback","workspace","furniture","modern","durable","posture","design","executive","armrest","productivity"]
     },
     {
@@ -210,7 +210,7 @@ const products = [
         name: "Zenith Ergonomic Chair",
         price: 11300,
         image: "/products/ys-277.jpg",
-        category: "tables",
+        category: "chairs",
         keywords: ["ergonomic","chair","office","adjustable","support","posture","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","mesh","armrest","executive","design","productivity","highback"]
     },
     {
