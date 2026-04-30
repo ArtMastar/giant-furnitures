@@ -67,7 +67,7 @@ const products = [
             "/products/103.jpg",
             "/products/103-BROWN.jpg"
         ],
-        category: "tables",
+        category: "desks",
         keywords: ["executive","desk","brown","wooden","office","luxury","manager","corporate","professional","workspace","table","premium","leadership","furniture","durable","surface","drawers","classic","design","interior"]
     },
     {
@@ -83,7 +83,7 @@ const products = [
         name: "UrbanEdge Office Desk",
         price: 22800,
         image: "/products/1205.jpg",
-        category: "tables",
+        category: "desks",
         keywords: ["desk","office","modern","workspace","executive","table","corporate","professional","surface","durable","furniture","minimal","design","wooden","manager","workstation","interior","functional","premium","sleek"]
     },
     {
@@ -91,7 +91,7 @@ const products = [
         name: "Axis Executive Desk",
         price: 49500/53000,
         image: "/products/3016-3018.jpg",
-        category: "tables",
+        category: "desks",
         keywords: ["executive","desk","office","workstation","manager","corporate","professional","table","luxury","workspace","furniture","modern","surface","durable","premium","design","leadership","interior","wooden","sleek"]
     },
     {
@@ -101,7 +101,7 @@ const products = [
         images: [
             "/products/4212-4214.jpg"
         ],
-        category: "tables",
+        category: "desks",
         keywords: ["workstation","desk","office","corporate","computer","workspace","storage","drawers","professional","modern","furniture","surface","manager","executive","durable","functional","design","interior","organization","table"]
     },
     {
@@ -109,7 +109,7 @@ const products = [
         name: "Summit L-Shape Executive Desk",
         price: 37500,
         image: "/products/9316_18.jpg",
-        category: "tables",
+        category: "desks",
         keywords: ["lshape","desk","executive","corner","office","workstation","manager","corporate","professional","workspace","modern","furniture","surface","premium","design","functional","interior","wooden","sleek","efficient"]
     },
     {
@@ -136,7 +136,7 @@ const products = [
         name: "ClassicPro Office Desk",
         price: 18000/19000,
         image: "products/j012_14.jpg",
-        category: "tables",
+        category: "desks",
         keywords: ["desk","office","wooden","drawers","workspace","executive","manager","corporate","professional","table","surface","furniture","classic","design","durable","modern","interior","functional","organization","sleek"]
     },
     {
@@ -226,7 +226,7 @@ const products = [
         name: "WorkLite Study Desk",
         price: 13500,
         image: "/products/12.jpg",
-        category: "tables",
+        category: "desks",
         keywords: ["desk","office","study","table","workspace","modern","compact","minimal","workstation","homeoffice","furniture","professional","surface","durable","corporate","interior","design","functional","wooden","sleek"]
     },
     {
@@ -237,7 +237,7 @@ const products = [
             "/products/101.jpg",
             "/products/101.jpeg"
         ],
-        category: "tables",
+        category: "desks",
         keywords: ["desk","office","workstation","table","drawers","storage","workspace","modern","corporate","professional","furniture","wooden","surface","organization","durable","executive","minimal","design","functional","interior"]
     },
     {
@@ -245,7 +245,7 @@ const products = [
         name: "RegalFront Executive Desk",
         price: 22000/24500,
         image: "/products/5514-12.jpg",
-        category: "tables",
+        category: "desks",
         keywords: ["executive","desk","luxury","office","premium","manager","corporate","professional","workspace","table","wooden","leadership","modern","surface","furniture","design","interior","durable","sleek","authority"]
     }
 ];
