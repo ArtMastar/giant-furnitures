@@ -99,7 +99,6 @@ const products = [
         name: "PowerPro Office Workstation",
         price: 27300,
         images: [
-            "/products/4212-4214-FRONT.jpg",
             "/products/4212-4214.jpg"
         ],
         category: "desks",
@@ -109,7 +108,7 @@ const products = [
         id: 13,
         name: "Summit L-Shape Executive Desk",
         price: 37500,
-        image: "/products/9318-9316.jpg",
+        image: "/products/9318_9316.jpg",
         category: "desks",
         keywords: ["lshape","desk","executive","corner","office","workstation","manager","corporate","professional","workspace","modern","furniture","surface","premium","design","functional","interior","wooden","sleek","efficient"]
     },
@@ -136,7 +135,7 @@ const products = [
         id: 16,
         name: "ClassicPro Office Desk",
         price: 18000/19000,
-        image: "/products/J012-14B.jpeg",
+        image: "/products/J012_14B.jpeg",
         category: "tables",
         keywords: ["desk","office","wooden","drawers","workspace","executive","manager","corporate","professional","table","surface","furniture","classic","design","durable","modern","interior","functional","organization","sleek"]
     },
@@ -152,7 +151,7 @@ const products = [
         id: 18,
         name: "VisitorPro Arm Chair",
         price: 6800,
-        image: "/products/J166-1C.jpg",
+        image: "/products/j166-1c.jpg",
         category: "tables",
         keywords: ["visitor","chair","office","guest","reception","meeting","armrest","corporate","professional","seating","modern","conference","durable","workspace","furniture","support","design","interior","waiting","comfortable"]
     },
@@ -186,7 +185,7 @@ const products = [
         id: 23,
         name: "FlexGuest Mesh Chair",
         price: 5900,
-        image: "/products/FS4019.jpg",
+        image: "/products/fs4019.jpg",
         category: "chairs",
         keywords: ["mesh","chair","visitor","guest","office","conference","reception","seating","breathable","modern","corporate","professional","support","durable","workspace","design","armrest","meeting","furniture","comfortable"]
     },
@@ -210,7 +209,7 @@ const products = [
         id: 26,
         name: "Zenith Ergonomic Chair",
         price: 11300,
-        image: "/products/YS-277.jpg",
+        image: "/products/ys-277.jpg",
         category: "tables",
         keywords: ["ergonomic","chair","office","adjustable","support","posture","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","mesh","armrest","executive","design","productivity","highback"]
     },
