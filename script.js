@@ -135,7 +135,7 @@ const products = [
         id: 16,
         name: "ClassicPro Office Desk",
         price: 18000/19000,
-        image: "/products/j012_14.jpg",
+        image: "products/j012_14.jpg",
         category: "tables",
         keywords: ["desk","office","wooden","drawers","workspace","executive","manager","corporate","professional","table","surface","furniture","classic","design","durable","modern","interior","functional","organization","sleek"]
     },
