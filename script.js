@@ -108,7 +108,7 @@ const products = [
         id: 13,
         name: "Summit L-Shape Executive Desk",
         price: 37500,
-        image: "/products/9318_9316.jpg",
+        image: "/products/9316_9318.jpg",
         category: "desks",
         keywords: ["lshape","desk","executive","corner","office","workstation","manager","corporate","professional","workspace","modern","furniture","surface","premium","design","functional","interior","wooden","sleek","efficient"]
     },
@@ -135,7 +135,7 @@ const products = [
         id: 16,
         name: "ClassicPro Office Desk",
         price: 18000/19000,
-        image: "/products/J012_14B.jpeg",
+        image: "/products/j012_14.jpeg",
         category: "tables",
         keywords: ["desk","office","wooden","drawers","workspace","executive","manager","corporate","professional","table","surface","furniture","classic","design","durable","modern","interior","functional","organization","sleek"]
     },
