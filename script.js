@@ -89,7 +89,7 @@ const products = [
     {
         id: 11,
         name: "Axis Executive Desk",
-        price: 49500/53000,
+        price: 49500  53000,
         image: "/products/3016-3018.jpg",
         category: "desks",
         keywords: ["executive","desk","office","workstation","manager","corporate","professional","table","luxury","workspace","furniture","modern","surface","durable","premium","design","leadership","interior","wooden","sleek"]
@@ -134,7 +134,7 @@ const products = [
     {
         id: 16,
         name: "ClassicPro Office Desk",
-        price: 18000/19000,
+        price: 18000  19000,
         image: "products/j012_14.jpg",
         category: "desks",
         keywords: ["desk","office","wooden","drawers","workspace","executive","manager","corporate","professional","table","surface","furniture","classic","design","durable","modern","interior","functional","organization","sleek"]
