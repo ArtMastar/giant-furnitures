@@ -7,7 +7,7 @@ const products = [
         id: 1,
         name: "NovaView Glass Display Cabinet",
         price: 19500,
-        image: "/products/1-08.jpeg",
+        image: "/products/1-08.jpg",
         category: "storage",
         keywords: ["glass","cabinet","display","storage","office","shelves","files","books","lockable","modern","furniture","archive","documents","cupboard","organizer","corporate","interior","workspace","professional","secure"]
     },
@@ -31,7 +31,7 @@ const products = [
         id: 4,
         name: "ClearLine Office Display Cabinet",
         price: 19500,
-        image: "/products/1-11.jpeg",
+        image: "/products/1-11.jpg",
         category: "storage",
         keywords: ["cabinet","office","storage","books","files","display","glass","modern","shelves","workspace","organization","professional","cupboard","corporate","archive","interior","minimal","secure","furniture","clean"]
     },
@@ -144,7 +144,7 @@ const products = [
         id: 17,
         name: "AeroFlex Executive Chair",
         price: 21000,
-        image: "/products/J098A.jpeg",
+        image: "/products/J098A.jpg",
         category: "tables",
         keywords: ["executive","chair","office","ergonomic","adjustable","mesh","support","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","posture","armrest","premium","design","productivity"]
     },
@@ -152,7 +152,7 @@ const products = [
         id: 18,
         name: "VisitorPro Arm Chair",
         price: 6800,
-        image: "/products/J166-1C.jpeg",
+        image: "/products/J166-1C.jpg",
         category: "tables",
         keywords: ["visitor","chair","office","guest","reception","meeting","armrest","corporate","professional","seating","modern","conference","durable","workspace","furniture","support","design","interior","waiting","comfortable"]
     },
@@ -186,7 +186,7 @@ const products = [
         id: 23,
         name: "FlexGuest Mesh Chair",
         price: 5900,
-        image: "/products/FS4019.jpeg",
+        image: "/products/FS4019.jpg",
         category: "chairs",
         keywords: ["mesh","chair","visitor","guest","office","conference","reception","seating","breathable","modern","corporate","professional","support","durable","workspace","design","armrest","meeting","furniture","comfortable"]
     },
@@ -194,7 +194,7 @@ const products = [
         id: 24,
         name: "AeroMesh Cantilever Chair",
         price: 6200,
-        image: "/products/1902.jpeg",
+        image: "/products/1902.jpg",
         category: "tables",
         keywords: ["mesh","chair","visitor","cantilever","office","conference","guest","breathable","seating","modern","corporate","professional","support","durable","meeting","workspace","design","armrest","reception","furniture"]
     },
@@ -210,7 +210,7 @@ const products = [
         id: 26,
         name: "Zenith Ergonomic Chair",
         price: 11300,
-        image: "/products/YS-277.jpeg",
+        image: "/products/YS-277.jpg",
         category: "tables",
         keywords: ["ergonomic","chair","office","adjustable","support","posture","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","mesh","armrest","executive","design","productivity","highback"]
     },
@@ -218,7 +218,7 @@ const products = [
         id: 27,
         name: "TitanSteel Double Door Cabinet",
         price: 22000,
-        image: "/products/1-27.jpeg",
+        image: "/products/1-27.jpg",
         category: "storage",
         keywords: ["steel","cabinet","metal","storage","office","industrial","secure","locker","documents","files","heavy","durable","archive","lockable","corporate","organization","cupboard","commercial","safety","professional"]
     },
@@ -245,7 +245,7 @@ const products = [
         id: 30,
         name: "RegalFront Executive Desk",
         price: 22000/24500,
-        image: "/products/5514-12.jpeg",
+        image: "/products/5514-12.jpg",
         category: "tables",
         keywords: ["executive","desk","luxury","office","premium","manager","corporate","professional","workspace","table","wooden","leadership","modern","surface","furniture","design","interior","durable","sleek","authority"]
     }
