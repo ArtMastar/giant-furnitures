@@ -400,12 +400,12 @@ nav ul li a {
 }
 
 .product p {
-    font-size: 16px;
+    font-size: 10px;
     margin: 2px 0;
 }
 
 .product h2 {
-    font-size: 11px;
+    font-size: 16px;
     margin: 2px 0;
 }
 
@@ -419,7 +419,7 @@ nav ul li a {
 }
 
 .quantity, .increase, .decrease {
-    height: 30px;
+    height: 15px;
     border-radius: var(--border-radius);
     padding: 5px;
     border:none;
