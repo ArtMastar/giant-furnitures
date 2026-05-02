@@ -13,6 +13,10 @@
     --font-family: 'Arial', sans-serif;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: var(--font-family);
     background-color: var(--text-color);
@@ -142,7 +146,7 @@ nav ul li a {
     border-radius: 20px;
     border: 1px solid rgba(0,0,0,0.1);
     outline: none;
-    width: 20vw;
+    width: 30vw;
     transition: 0.7s ease;
 }
 
@@ -929,10 +933,9 @@ input {
         width: 70%;
     }
 
-    #hero-intro{
-        width: 90%;
+    #hero-intro {
+        width: 100%;
     }
-
     .cta {
         padding: 5px 10px;
         justify-content: center;
