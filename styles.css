@@ -21,8 +21,7 @@ body {
     font-family: var(--font-family);
     background-color: var(--text-color);
     margin: 0;
-    padding: 0;
-    padding-top: 80px; 
+    padding: 0; 
 }
 
 a{
@@ -36,7 +35,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 40px; /* Fixed height */
+    height: 50px; /* Fixed height */
     z-index: 1000;
 
     display: flex;
@@ -87,6 +86,60 @@ nav ul li a {
 .nav-toggle {
     display: none;
 
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    height: 80vh;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(0,0,255,0.8),
+            rgba(0,0,255,0.3) 70%,
+            white 97%
+        ),
+        url('hero-bg.jpg') no-repeat center center/cover;
+
+    color: var(--text-color);
+}
+
+
+.hero button {
+    color: var(--text-color);
+    padding: 10px 20px;
+    border: solid 1px var(--text-color);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+#hero-intro{
+    height: 60vh;
+    width: 35%;
+    margin: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+#hero-ads{
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    background-color: var(--bg-color);
+    border-radius: var(--border-radius);
+    color: var(--text-color);
 }
 
 .filter {
@@ -154,60 +207,6 @@ nav ul li a {
 .search-container input:focus {
     width: 45vw;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
-/* Hero Section */
-.hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: left;
-    height: 80vh;
-
-    background:
-        linear-gradient(
-            to bottom,
-            rgba(0,0,255,0.8),
-            rgba(0,0,255,0.3) 70%,
-            white 97%
-        ),
-        url('hero-bg.jpg') no-repeat center center/cover;
-
-    color: var(--text-color);
-}
-
-
-.hero button {
-    color: var(--text-color);
-    padding: 10px 20px;
-    border: solid 1px var(--text-color);
-    border-radius: var(--border-radius);
-    cursor: pointer;
-}
-
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
-}
-#hero-intro{
-    height: 60vh;
-    width: 35%;
-    margin: 20px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-}
-
-#hero-ads{
-    width: 90%;
-    height: 40vh;
-    display: flex;
-    background-color: var(--bg-color);
-    border-radius: var(--border-radius);
-    color: var(--text-color);
 }
 
 .category-wrapper {
