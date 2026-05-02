@@ -639,7 +639,7 @@ nav ul li a {
 
 /* Footer */
 footer {
-    background: var(--primary-color);
+    background: #030197;
     color: var(--text-color);
     padding: 20px;
     display: flex;
@@ -653,11 +653,9 @@ footer {
     padding-left: 20px;
 }
 
-.footer-right {
-    flex: 1;
-    text-align: right;
+.footer-copyright {
     font-size: 10px;
-    padding-right: 20px;
+    padding: 20px;
 }
 
 .whatsapp-btn {
