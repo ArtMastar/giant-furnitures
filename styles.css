@@ -36,7 +36,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 50px; /* Fixed height */
+    height: 40px; /* Fixed height */
     z-index: 1000;
 
     display: flex;
