@@ -55,7 +55,7 @@ header {
     width: 95%;
     display: flex;
     align-items: center;   /* vertical center */
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .logo {
@@ -63,6 +63,7 @@ header {
     align-items: center;
     font-size: 16px;
     font-weight: bold;
+    padding: 5px;
 }
 
 .logo img{
