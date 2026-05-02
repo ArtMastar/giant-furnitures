@@ -35,7 +35,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 50px; /* Fixed height */
+    height: 55px; /* Fixed height */
     z-index: 1000;
 
     display: flex;
@@ -60,7 +60,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     padding: 15px;
 }
