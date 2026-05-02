@@ -775,6 +775,10 @@ footer {
     opacity: 0.7;
 }
 
+.footer-logo{
+    height: 11px;
+}
+
 .whatsapp {
     background: #25D366;
     color: var(--text-color);
