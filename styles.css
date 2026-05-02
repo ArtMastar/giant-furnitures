@@ -776,13 +776,13 @@ footer {
 }
 
 .footer-logo{
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background: rgba(255,255,255,0.1);
+    background: rgb(255, 255, 255);
     border-radius: 50%;
     font-size: 14px;
 }
