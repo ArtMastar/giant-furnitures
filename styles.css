@@ -787,6 +787,10 @@ footer {
     font-size: 14px;
 }
 
+.footer p{
+    font-size: 9px;
+}
+
 .whatsapp {
     background: #25D366;
     color: var(--text-color);
