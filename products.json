@@ -1,15 +1,39 @@
 [
   {
-    "name": "",
+    "name": "1-12",
     "price": 26500,
     "description": "",
     "image": "products/1-12.jpg"
   },
   {
-    "name": "",
+    "name": "1-13",
     "price": 28000,
     "description": "",
     "image": "/products/1-13.jpg"
+  },
+  {
+    "name": "1-08",
+    "price": 28000,
+    "description": "",
+    "image": "/products/1-08.jpeg"
+  },
+  {
+    "name": "1-09",
+    "price": 28000,
+    "description": "",
+    "image": "/products/1-09.jpg"
+  },
+  {
+    "name": "1-10",
+    "price": 28000,
+    "description": "",
+    "image": "/products/1-10.jpg"
+  },
+  {
+    "name": "1-11",
+    "price": 28000,
+    "description": "",
+    "image": "/products/1-11.jpg"
   },
   {
     "name": "Four Drawer Cabinet",
@@ -18,12 +42,31 @@
     "image": "/products/6-4d.jpg"
   },
   {
-    "name": "",
+    "name": "6-4D-1",
+    "price": 28000,
+    "description": "",
+    "image": "/products/6-4D-1.jpg"
+  },
+  {
+    "name": "09-12",
+    "price": 28000,
+    "description": "",
+    "image": "/products/09-12.jpg"
+  },
+  {
+    "name": "103",
     "price": 27500,
     "description": "",
     "image": "/products/103.jpg"
-  },{
-    "name": "",
+  },
+  {
+    "name": "101(1.2M)",
+    "price": 28000,
+    "description": "",
+    "image": "/products/101(1.2M).jpg"
+  },
+  {
+    "name": "618",
     "price": 28000,
     "description": "",
     "image": "/products/618.jpg"
@@ -41,61 +84,67 @@
     "image": "/products/851.jpg"
   },
   {
-    "name": "",
+    "name": "57A",
+    "price": 28000,
+    "description": "",
+    "image": "/products/57A.jpg"
+  },
+  {
+    "name": "909C",
     "price": 28000,
     "description": "",
     "image": "/products/909C.jpg"
   },
   {
-    "name": "",
+    "name": "911A",
     "price": 28000,
     "description": "",
     "image": "/products/911A.jpg"
   },
   {
-    "name": "",
+    "name": "1205",
     "price": 28000,
     "description": "",
     "image": "/products/1205.jpg"
   },
   {
-    "name": "",
+    "name": "3016-3018",
     "price": 28000,
     "description": "",
     "image": "/products/3016-3018.jpg"
   },
   {
-    "name": "",
+    "name": "4212-4214",
     "price": 28000,
     "description": "",
     "image": "/products/4212-4214.jpg"
   },
   {
-    "name": "",
+    "name": "8068",
     "price": 28000,
     "description": "",
     "image": "/products/8068.jpg"
   },
   {
-    "name": "",
+    "name": "8086",
     "price": 28000,
     "description": "",
     "image": "/products/8086.jpg"
   },
   {
-    "name": "",
+    "name": "8320",
     "price": 28000,
     "description": "",
     "image": "/products/8320.jpg"
   },
   {
-    "name": "",
+    "name": "9318-9316",
     "price": 28000,
     "description": "",
     "image": "/products/9318-9316.jpg"
   },
   {
-    "name": "",
+    "name": "A88",
     "price": 28000,
     "description": "",
     "image": "/products/A88.jpg"
@@ -231,5 +280,5 @@
     "price": 28000,
     "description": "",
     "image": "/products/909C.jpg"
-  },
+  }
 ]

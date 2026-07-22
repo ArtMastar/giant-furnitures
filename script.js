@@ -52,10 +52,42 @@ const products = [
         keywords: ["corner","cabinet","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
     },
     {
-        id: 7,
+        id: 31,
+        name: "1-18 Storage Cabinet",
+        price: 20500,
+        image: "/products/1-18.jpg",
+        category: "storage",
+        keywords: ["metal","steel","cabinet","storage","locker","lockable","office","industrial","secure","documents","files","heavy","durable","organization","commercial","cupboard","archive","safety","furniture","institutional"]
+    },
+    {
+        id: 32,
         name: "SafeFile 4-Drawer Cabinet",
         price: 17400,
         image: "/products/6-4D.jpg",
+        category: "storage",
+        keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
+    },
+    {
+        id: 33,
+        name: "Locker 4-Drawer Cabinet",
+        price: 17400,
+        image: "/products/6-4D-1.jpg",
+        category: "storage",
+        keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
+    },
+    {
+        id: 34,
+        name: "09-12 Cabinet",
+        price: 17400,
+        image: "/products/09-12.jpg",
+        category: "storage",
+        keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
+    },
+    {
+        id: 35,
+        name: "12 Offoce Desk",
+        price: 17400,
+        image: "/products/12.jpg",
         category: "storage",
         keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
     },
@@ -247,6 +279,218 @@ const products = [
         image: "/products/5514-12.jpg",
         category: "desks",
         keywords: ["executive","desk","luxury","office","premium","manager","corporate","professional","workspace","table","wooden","leadership","modern","surface","furniture","design","interior","durable","sleek","authority"]
+    },
+    {
+        id: 36,
+        name: "57A Office Chair",
+        price: 22000,
+        image: "/products/57A.jpg",
+        category: "chairs",
+        keywords: ["executive","desk","luxury","office","premium","manager","corporate","professional","workspace","table","wooden","leadership","modern","surface","furniture","design","interior","durable","sleek","authority"]
+    },
+    {
+        id: 37,
+        name: "Salon Styling Chair",
+        price: '--',
+        images: [
+            "/products/57A.png",
+            "/products/57A.jpeg"
+        ],
+        category: "chairs",
+        "description": "A professional salon styling chair with a cushioned seat and durable construction, suitable for salons, barber shops, beauty studios, and commercial workstations.",
+        "keywords": ["salon chair", "styling chair", "barber chair", "beauty salon", "black", "commercial", "professional", "upholstered", "modern", "durable", "workspace", "hair salon", "chair", "furniture", "compact", "comfortable", "studio", "reception", "salon furniture", "stylist"]
+    },
+    {
+        id: 38,
+        name: "Conference Chairs",
+        price: '3500',
+        images: [
+            "/products/201B.png",
+            "/products/201B.jpeg"
+        ],
+        category: "chairs",
+        "description": "A durable molded plastic chair available in multiple vibrant colors, ideal for waiting areas, schools, cafeterias, event spaces, and public seating.",
+        "keywords": ["plastic chair", "waiting chair", "visitor chair", "school chair", "cafeteria", "event seating", "multicolor", "polypropylene", "durable", "lightweight", "modern", "commercial", "stackable", "office", "public seating", "chair", "furniture", "reception", "waiting room", "classroom"]
+    },
+    {
+        id: 39,
+        name: "Chrome Visitor Office Chair",
+        price: '--',
+        images: [
+            "/products/803.png",
+            "/products/803.jpeg"
+        ],
+        category: "chairs",
+        "description": "A stylish visitor chair featuring a chrome steel frame with a padded seat and backrest, perfect for conference rooms, offices, and reception areas.",
+        "keywords": ["visitor chair", "office chair", "chrome", "steel frame", "conference chair", "guest chair", "waiting room", "black", "professional", "commercial", "office furniture", "meeting room", "durable", "comfortable", "modern", "corporate", "workspace", "chair", "reception", "visitor seating"]
+    },
+    {
+        id: 40,
+        name: "Mesh Visitor Conference Chair",
+        price: '--',
+        images: [
+            "/products/805W.png",
+            "/products/805W.jpeg"
+        ],
+        category: "chairs",
+        "description": "A modern mesh visitor chair with breathable back support and a sturdy metal frame, designed for offices, conference rooms, and meeting spaces.",
+        "keywords": ["mesh chair", "visitor chair", "conference chair", "office chair", "breathable", "ergonomic", "black", "meeting room", "office", "commercial", "professional", "workspace", "durable", "steel frame", "comfortable", "modern", "chair", "guest chair", "reception", "corporate"]
+    },
+    {
+        id: 41,
+        name: "Executive Ergonomic Office Chair",
+        price: '--',
+        images: [
+            "/products/1024.png",
+            "/products/1024.jpeg"
+        ],
+        category: "chairs",
+        "description": "A premium executive office chair with ergonomic lumbar support, adjustable height, and thick cushioning for superior comfort throughout the workday.",
+        "keywords": ["executive chair", "office chair", "ergonomic", "high back", "blue", "adjustable", "swivel", "lumbar support", "manager", "professional", "corporate", "workspace", "premium", "comfortable", "office furniture", "modern", "chair", "computer chair", "home office", "luxury"]
+    },
+    {
+        id: 42,
+        name: "Executive Mesh Office Chair",
+        price: '--',
+        images: [
+            "/products/2903.png",
+            "/products/2903.jpeg"
+        ],
+        category: "chairs",
+        "description": "A breathable mesh executive office chair with ergonomic back support and adjustable features, ideal for long working hours in modern offices.",
+    "keywords": ["mesh office chair", "executive chair", "ergonomic", "office chair", "black", "adjustable", "swivel", "lumbar support", "breathable", "professional", "manager", "workspace", "computer chair", "modern", "office furniture", "comfortable", "corporate", "chair", "premium", "home office"]
+  },
+    {
+        id: 43,
+        name: "Mesh Visitor Office Chair",
+        price: '--',
+        images: [
+            "/products/4019.png",
+            "/products/4019(2).png"
+        ],
+        category: "chairs",
+        "description": "A comfortable mesh visitor chair with a durable steel frame, suitable for reception areas, conference rooms, and office guest seating.",
+        "keywords": ["visitor chair", "mesh chair", "office chair", "conference", "guest chair", "black", "steel frame", "meeting room", "professional", "office furniture", "commercial", "comfortable", "workspace", "modern", "durable", "reception", "chair", "corporate", "visitor seating", "ergonomic"]
+    },
+    {
+        id: 44,
+        name: "Brown Executive Office Chair",
+        price: '--',
+        images: [
+            "/products/A106.png",
+            "/products/A106.jpg"
+        ],
+        category: "chairs",
+        "description": "A luxurious executive office chair upholstered in premium brown material with ergonomic support, adjustable height, and superior cushioning.",
+        "keywords": ["executive chair", "brown office chair", "luxury", "office chair", "ergonomic", "high back", "adjustable", "swivel", "manager", "professional", "corporate", "workspace", "comfortable", "premium", "office furniture", "chair", "durable", "modern", "executive office", "brown"]
+    },
+    {
+        id: 45,
+        name: "High-Back Executive Chair",
+        price: '--',
+        images: [
+            "/products/A8003-1.png",
+            "/products/A8003-1.jpg"
+        ],
+        category: "chairs",
+        "description": "A premium high-back executive chair designed with thick cushioning, ergonomic lumbar support, and adjustable functionality for executive workspaces.",
+        "keywords": ["high back chair", "executive chair", "office chair", "ergonomic", "black", "adjustable", "swivel", "luxury", "manager", "professional", "workspace", "office furniture", "comfortable", "corporate", "premium", "chair", "modern", "durable", "computer chair", "executive office"]
+    },
+    {
+        id: 46,
+        name: "Luxury Executive Leather Chair",
+        price: '--',
+        images: [
+            "/products/B19.png",
+            "/products/B19.jpg"
+        ],
+        category: "chairs",
+        "description": "A luxury executive office chair featuring premium leather upholstery, thick padding, ergonomic support, and smooth mobility for professional offices.",
+        "keywords": ["leather office chair", "executive chair", "luxury", "office chair", "black", "high back", "ergonomic", "adjustable", "swivel", "manager", "corporate", "workspace", "premium", "comfortable", "office furniture", "chair", "professional", "modern", "durable", "executive office"]
+    },
+    {
+        id: 47,
+        name: "Executive Visitor Office Chair",
+        price: '--',
+        images: [
+            "/products/820.png",
+            "/products/820.jpg"
+        ],
+        category: "chairs",
+        "description": "A premium executive visitor chair featuring a padded seat and backrest with a durable cantilever frame. Designed for reception areas, meeting rooms, executive offices, and boardrooms.",
+        "keywords": ["visitor chair", "executive chair", "cantilever chair", "office chair", "meeting room", "conference chair", "black", "upholstered", "steel frame", "professional", "corporate", "comfortable", "office furniture", "reception", "guest chair", "modern", "durable", "workspace", "premium", "commercial"]
+    },
+    {
+        id: 48,
+        name: "Luxury Reclining Executive Chair",
+        price: '--',
+        images: [
+            "/products/886.png",
+            "/products/886.jpg"
+        ],
+        category: "chairs",
+        "description": "A luxurious reclining executive office chair with thick cushioning, ergonomic support, padded armrests, and adjustable height for maximum workplace comfort.",
+        "keywords": ["executive chair", "reclining chair", "office chair", "ergonomic", "high back", "black", "luxury", "manager", "adjustable", "swivel", "premium", "comfortable", "corporate", "workspace", "office furniture", "professional", "durable", "modern", "chair", "executive office"]
+    },
+    {
+        id: 49,
+        name: "Executive Leather Office Chair",
+        price: '--',
+        images: [
+            "/products/985.png",
+            "/products/985.jpg"
+        ],
+        category: "chairs",
+        "description": "A premium leather executive office chair with ergonomic back support, padded armrests, and adjustable height, suitable for executive offices and professional workspaces.",
+        "keywords": ["executive chair", "leather office chair", "office chair", "ergonomic", "high back", "black", "adjustable", "swivel", "luxury", "manager", "professional", "corporate", "workspace", "comfortable", "office furniture", "premium", "modern", "chair", "durable", "executive office"]
+    },
+    {
+        id: 50,
+        name: "Executive Cantilever Meeting Chair",
+        price: '--',
+        images: [
+            "/products/8086.png",
+            "/products/8086.jpg"
+        ],
+        category: "chairs",
+        "description": "A modern executive cantilever chair with a high-back design and padded upholstery, offering exceptional comfort for boardrooms, offices, and conference rooms.",
+        "keywords": ["cantilever chair", "visitor chair", "executive chair", "meeting chair", "conference chair", "office chair", "black", "high back", "steel frame", "comfortable", "professional", "workspace", "office furniture", "modern", "durable", "guest chair", "corporate", "premium", "chair", "boardroom"]
+    },
+    {
+        id: 51,
+        name: "Mesh Training Conference Chair",
+        price: '--',
+        images: [
+            "/products/9011.png",
+            "/products/9011.jpg"
+        ],
+        category: "chairs",
+        "description": "A lightweight conference and training chair with a breathable mesh back, comfortable padded seat, and durable construction for offices, classrooms, and seminar rooms.",
+        "keywords": ["training chair", "conference chair", "mesh chair", "office chair", "visitor chair", "black", "breathable", "meeting room", "seminar", "classroom", "commercial", "comfortable", "professional", "office furniture", "durable", "modern", "workspace", "chair", "education", "institution"]
+    },
+    {
+        id: 52,
+        name: "Three-Seater Upholstered Waiting Bench",
+        price: '--',
+        images: [
+            "/products/A88.png",
+            "/products/A88.jpg"
+        ],
+        category: "chairs",
+        "description": "A contemporary three-seater upholstered waiting bench designed for reception areas, hospitals, schools, and commercial waiting spaces. Offers durability with modern styling.",
+        "keywords": ["waiting bench", "three seater", "visitor seating", "green", "upholstered", "office", "reception", "hospital", "school", "commercial", "waiting room", "steel frame", "modern", "durable", "public seating", "office furniture", "bench", "chair", "professional", "guest seating"]
+    },
+    {
+        id: 53,
+        name: "Three-Seater Airport Waiting Bench",
+        price: '--',
+        images: [
+            "/products/A89.png",
+            "/products/A89.jpg"
+        ],
+        category: "chairs",
+        "description": "A heavy-duty three-seater airport-style waiting bench with durable steel construction, designed for hospitals, airports, offices, and institutional waiting areas.",
+        "keywords": ["airport bench", "waiting bench", "three seater", "visitor seating", "steel bench", "grey", "hospital", "office", "commercial", "public seating", "durable", "waiting room", "modern", "office furniture", "reception", "bench", "chair", "institution", "professional", "guest seating"]
     }
 ];
 
