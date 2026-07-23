@@ -50,46 +50,13 @@ const products = [
         image: "/products/1-12.jpg",
         category: "storage",
         keywords: ["corner","cabinet","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
-    },
-    {
-        id: 31,
-        name: "1-18 Storage Cabinet",
-        price: 20500,
-        image: "/products/1-18.jpg",
+    },{
+        id: 7,
+        name: "CornerPro Utility Cabinet",
+        price: 21000,
+        image: "/products/1-12.jpg",
         category: "storage",
-        keywords: ["metal","steel","cabinet","storage","locker","lockable","office","industrial","secure","documents","files","heavy","durable","organization","commercial","cupboard","archive","safety","furniture","institutional"]
-    },
-    {
-        id: 32,
-        name: "SafeFile 4-Drawer Cabinet",
-        price: 17400,
-        image: "/products/6-4D.jpg",
-        category: "storage",
-        keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
-    },
-    {
-        id: 33,
-        name: "Locker 4-Drawer Cabinet",
-        price: 17400,
-        image: "/products/6-4D-1.jpg",
-        category: "storage",
-        keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
-    },
-    {
-        id: 34,
-        name: "09-12 Cabinet",
-        price: 17400,
-        image: "/products/09-12.jpg",
-        category: "storage",
-        keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
-    },
-    {
-        id: 35,
-        name: "12 Offoce Desk",
-        price: 17400,
-        image: "/products/12.jpg",
-        category: "storage",
-        keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
+        keywords: ["corner","cabinet","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
     },
     {
         id: 8,
@@ -206,6 +173,14 @@ const products = [
         keywords: ["tall","cabinet","storage","office","locker","lockable","files","documents","archive","secure","corporate","furniture","cupboard","professional","organization","modern","workspace","durable","industrial","safety"]
     },
     {
+        id: 21,
+        name: "CornerPro Utility Cabinet",
+        price: 21000,
+        image: "/products/1-12.jpg",
+        category: "storage",
+        keywords: ["corner","cabinet","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
+    },
+    {
         id: 22,
         name: "UltraComfort Executive Chair",
         price: 12300,
@@ -279,6 +254,45 @@ const products = [
         image: "/products/5514-12.jpg",
         category: "desks",
         keywords: ["executive","desk","luxury","office","premium","manager","corporate","professional","workspace","table","wooden","leadership","modern","surface","furniture","design","interior","durable","sleek","authority"]
+    },{
+        id: 31,
+        name: "1-18 Storage Cabinet",
+        price: 20500,
+        image: "/products/1-18.jpg",
+        category: "storage",
+        keywords: ["metal","steel","cabinet","storage","locker","lockable","office","industrial","secure","documents","files","heavy","durable","organization","commercial","cupboard","archive","safety","furniture","institutional"]
+    },
+    {
+        id: 32,
+        name: "SafeFile 4-Drawer Cabinet",
+        price: 17400,
+        image: "/products/6-4D.jpg",
+        category: "storage",
+        keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
+    },
+    {
+        id: 33,
+        name: "Locker 4-Drawer Cabinet",
+        price: 17400,
+        image: "/products/6-4D-1.jpg",
+        category: "storage",
+        keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
+    },
+    {
+        id: 34,
+        name: "09-12 Cabinet",
+        price: 17400,
+        image: "/products/09-12.jpg",
+        category: "storage",
+        keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
+    },
+    {
+        id: 35,
+        name: "12 Offoce Desk",
+        price: 17400,
+        image: "/products/12.jpg",
+        category: "storage",
+        keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
     },
     {
         id: 36,
@@ -358,7 +372,7 @@ const products = [
         ],
         category: "chairs",
         "description": "A breathable mesh executive office chair with ergonomic back support and adjustable features, ideal for long working hours in modern offices.",
-    "keywords": ["mesh office chair", "executive chair", "ergonomic", "office chair", "black", "adjustable", "swivel", "lumbar support", "breathable", "professional", "manager", "workspace", "computer chair", "modern", "office furniture", "comfortable", "corporate", "chair", "premium", "home office"]
+        "keywords": ["mesh office chair", "executive chair", "ergonomic", "office chair", "black", "adjustable", "swivel", "lumbar support", "breathable", "professional", "manager", "workspace", "computer chair", "modern", "office furniture", "comfortable", "corporate", "chair", "premium", "home office"]
   },
     {
         id: 43,

@@ -144,7 +144,7 @@ nav ul li a {
 
 .filter {
     position: sticky;
-    top: 50px; /* same as header height */
+    top: 60px; /* same as header height */
     z-index: 999;
 
     height: 50px;
@@ -157,6 +157,9 @@ nav ul li a {
 }
 
 .category-filter {
+    position: sticky;
+    top: 50px; /* same as header height */
+    z-index: 999;
     width: 95%;
     height: 50px;
     display: flex;
