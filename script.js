@@ -254,7 +254,8 @@ const products = [
         image: "/products/5514-12.jpg",
         category: "desks",
         keywords: ["executive","desk","luxury","office","premium","manager","corporate","professional","workspace","table","wooden","leadership","modern","surface","furniture","design","interior","durable","sleek","authority"]
-    },{
+    },
+    {
         id: 31,
         name: "1-18 Storage Cabinet",
         price: 20500,
