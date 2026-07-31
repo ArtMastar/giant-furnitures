@@ -299,7 +299,7 @@ const products = [
         id: 36,
         name: "57A Office Chair",
         price: 22000,
-        image: "/products/57A.jpg",
+        image: "/products/57A.png",
         category: "chairs",
         keywords: ["executive","desk","luxury","office","premium","manager","corporate","professional","workspace","table","wooden","leadership","modern","surface","furniture","design","interior","durable","sleek","authority"]
     },
