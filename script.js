@@ -296,14 +296,6 @@ const products = [
         keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
     },
     {
-        id: 36,
-        name: "57A Office Chair",
-        price: 22000,
-        image: "/products/57A.png",
-        category: "chairs",
-        keywords: ["executive","desk","luxury","office","premium","manager","corporate","professional","workspace","table","wooden","leadership","modern","surface","furniture","design","interior","durable","sleek","authority"]
-    },
-    {
         id: 37,
         name: "Salon Styling Chair",
         price: '--',
