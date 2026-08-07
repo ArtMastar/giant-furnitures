@@ -375,6 +375,8 @@ nav ul li a {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 5px;
     padding: 0px;
+    border: 1px;
+    border-color: rgb(255, 255, 255);
 }
 
 .product {
@@ -383,7 +385,7 @@ nav ul li a {
     color: rgb(1, 1, 112);
     border-radius:0;
     border-color: #3d3e4e;
-    border: 1px
+    border: 1px;
     padding: var(--border-padding);
 }
 
@@ -404,7 +406,7 @@ nav ul li a {
 }
 
 .product button {
-    background: rgb(0, 0, 112);
+    background: rgb(196, 176, 3);
     color: var(--text-color);
     padding: 8px 15px;
     border: none;
