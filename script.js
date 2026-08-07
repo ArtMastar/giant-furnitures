@@ -283,7 +283,7 @@ const products = [
         id: 34,
         name: "09-12 Cabinet",
         price: 17400,
-        image: "/products/09-12.jpg",
+        image: "/products/cabinets/09-12.webp",
         category: "storage",
         keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
     },
@@ -291,16 +291,16 @@ const products = [
         id: 35,
         name: "12 Offoce Desk",
         price: 17400,
-        image: "/products/12.jpg",
+        image: "/products/desks/12.webp",
         category: "storage",
         keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
     },
     {
         id: 37,
         name: "Salon Styling Chair",
-        price: '--',
+        price: '18500',
         images: [
-            "/products/57A.png",
+            "products/chairs/57A.webp",
             "/products/57A.jpeg"
         ],
         category: "chairs",
@@ -312,7 +312,7 @@ const products = [
         name: "Conference Chairs",
         price: '3500',
         images: [
-            "/products/201B.png",
+            "products/chairs/201B.webp",
             "/products/201B.jpeg"
         ],
         category: "chairs",
@@ -322,9 +322,9 @@ const products = [
     {
         id: 39,
         name: "Chrome Visitor Office Chair",
-        price: '--',
+        price: '4400',
         images: [
-            "/products/803.png",
+            "/products/chairs/803.webp",
             "/products/803.jpeg"
         ],
         category: "chairs",
@@ -334,9 +334,9 @@ const products = [
     {
         id: 40,
         name: "Mesh Visitor Conference Chair",
-        price: '--',
+        price: '7200',
         images: [
-            "/products/805W.png",
+            "/products/chairs/805W.webp",
             "/products/805W.jpeg"
         ],
         category: "chairs",
@@ -346,9 +346,9 @@ const products = [
     {
         id: 41,
         name: "Executive Ergonomic Office Chair",
-        price: '--',
+        price: '28500',
         images: [
-            "/products/1024.png",
+            "/products/chairs/1024.webp",
             "/products/1024.jpeg"
         ],
         category: "chairs",
@@ -358,9 +358,9 @@ const products = [
     {
         id: 42,
         name: "Executive Mesh Office Chair",
-        price: '--',
+        price: '14600',
         images: [
-            "/products/2903.png",
+            "/products/chairs/2903.webp",
             "/products/2903.jpeg"
         ],
         category: "chairs",
@@ -370,10 +370,10 @@ const products = [
     {
         id: 43,
         name: "Mesh Visitor Office Chair",
-        price: '--',
+        price: '7300',
         images: [
-            "/products/4019.png",
-            "/products/4019(2).png"
+            "/products/chairs/4019.webp",
+            "/products/chairs/4019(2).webp"
         ],
         category: "chairs",
         "description": "A comfortable mesh visitor chair with a durable steel frame, suitable for reception areas, conference rooms, and office guest seating.",
@@ -382,9 +382,9 @@ const products = [
     {
         id: 44,
         name: "Brown Executive Office Chair",
-        price: '--',
+        price: '27000',
         images: [
-            "/products/A106.png",
+            "/products/chairs/A106.webp",
             "/products/A106.jpg"
         ],
         category: "chairs",
@@ -394,9 +394,9 @@ const products = [
     {
         id: 45,
         name: "High-Back Executive Chair",
-        price: '--',
+        price: '45600',
         images: [
-            "/products/A8003-1.png",
+            "/products/chairs/A8003-1.webp",
             "/products/A8003-1.jpg"
         ],
         category: "chairs",
@@ -406,9 +406,9 @@ const products = [
     {
         id: 46,
         name: "Luxury Executive Leather Chair",
-        price: '--',
+        price: '18200',
         images: [
-            "/products/B19.png",
+            "/products/chairs/B19.webp",
             "/products/B19.jpg"
         ],
         category: "chairs",
@@ -418,9 +418,9 @@ const products = [
     {
         id: 47,
         name: "Executive Visitor Office Chair",
-        price: '--',
+        price: '8400',
         images: [
-            "/products/820.png",
+            "/products/chairs/820.webp",
             "/products/820.jpg"
         ],
         category: "chairs",
