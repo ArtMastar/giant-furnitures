@@ -104,7 +104,7 @@ nav ul li a {
             rgba(0,0,255,0.3) 70%,
             white 97%
         ),
-        url('hero-bg.jpg') no-repeat center center/cover;
+        url('hero-bg.webp') no-repeat center center/cover;
 
     color: var(--text-color);
 }

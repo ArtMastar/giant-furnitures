@@ -50,13 +50,6 @@ const products = [
         image: "/products/cabinets/1-12.webp",
         category: "storage",
         keywords: ["corner","cabinet","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
-    },{
-        id: 7,
-        name: "CornerPro Utility Cabinet",
-        price: 21000,
-        image: "/products/1-12.jpg",
-        category: "storage",
-        keywords: ["corner","cabinet","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
     },
     {
         id: 8,
