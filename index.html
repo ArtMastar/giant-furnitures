@@ -34,72 +34,62 @@
             <button class="cta"><a href="#products-section">SHOP NOW</a></button>
         </div>        
     </section>
-    
+
     <section class="filter">
-    <!-- Category Filter -->
         <div class="category-filter">
-            <select id="category-select">
-                <option value="all">Filter</option>
-                <option value="chairs">Chairs</option>
-                <option value="desks">Desks</option>
-                <option value="storage">Storage</option>
-            </select>
-    
-            <div class="category-wrapper">
-
-        <div class="category-icons" id="categoryIcons"> 
-
-        <button data-category="chairs">
-            <span>Chairs</span>
-        </button>
-
-        <button data-category="storage">
-            <span>Storage</span>
-        </button>
-
-        <button data-category="desks">
-            <span>Desks</span>
-        </button>
-
-        </div>
+            <div class="toolbar-filter">
+                <select id="category-select">
+                    <option value="all">Filter</option>
+                    <option value="chairs">Chairs</option>
+                    <option value="desks">Desks</option>
+                    <option value="storage">Storage</option>
+                </select>
             </div>
-
-    <!-- Search Bar -->
+            <div class="category-wrapper">
+                <div class="category-icons" id="categoryIcons">
+                    <button data-category="chairs">
+                        <span>Chairs</span>
+                    </button>
+                    <button data-category="storage">
+                        <span>Storage</span>
+                    </button>
+                    <button data-category="desks">
+                        <span>Desks</span>
+                    </button>
+                </div>
+            </div>
             <div class="search-container">
-            <input 
-                type="text" 
-                id="search-input"
-                placeholder="🔍 search..."
-            >  
+                <input 
+                    type="text" 
+                    id="search-input"
+                    placeholder="🔍 search..."
+                >  
             </div>
         </div>
     </section>
+
     <section class="product-grid" id="productGrid">
     <!-- Products will be injected here -->
     </section>
-
-    <!-- Product Grid Section -->
-
-    <!--Quickview modal-->
       
     <!-- Product Quick View Modal -->
-<div id="productModal" class="modal">
-  <div class="modal-content">
+    <div id="productModal" class="modal">
+        <div class="modal-content">
 
-    <span class="close">&times;</span>
+            <span class="close">&times;</span>
 
-    <div class="modal-image-section">
-        <img id="modalMainImage" src="" alt="">
-        <div id="modalThumbnails"></div>
+            <div class="modal-image-section">
+                <img id="modalMainImage" src="" alt="">
+                <div id="modalThumbnails"></div>
+            </div>
+
+            <div class="modal-info">
+                <h2 id="modalName"></h2>
+                <p id="modalPrice"></p>
+            </div>
+
+        </div>
     </div>
-
-    <div class="modal-info">
-        <h2 id="modalName"></h2>
-        <p id="modalPrice"></p>
-    </div>
-
-  </div>
-</div>
 
     <!-- End of Quickview modal-->     
     <!-- Floating Cart Icon -->
