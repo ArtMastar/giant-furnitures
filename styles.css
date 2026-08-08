@@ -156,6 +156,7 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: rgba(255, 255, 255, 0.61);
 }
 
 .category-filter select {
