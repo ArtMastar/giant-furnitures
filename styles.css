@@ -148,7 +148,7 @@ nav ul li a {
     position: sticky;
     top: 115px; /* same as header height */
     z-index: 999;
-    max-width: 60vw;
+    width: 60vw;
     height: 50px;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 25px;
@@ -933,9 +933,9 @@ input {
     }
 
     .category-wrapper {
-    display: none;
-    
-}
+        display: none;
+    }
+
     .product-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
