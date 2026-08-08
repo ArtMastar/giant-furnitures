@@ -228,14 +228,10 @@ nav ul li a {
 
 .category-wrapper {
     display: flex;
-    align-items: center;
-
+    justify-content: center;
     gap: 5px;
-
     flex-shrink: 0;
-
     overflow-x: auto;
-
     scrollbar-width: none;
 }
 
@@ -245,20 +241,13 @@ nav ul li a {
 
 .category-icons {
     border: none;
-
     background: transparent;
-
     padding: 10px 15px;
-
     border-radius: 20px;
-
     font-size: 14px;
     font-weight: 600;
-
     white-space: nowrap;
-
     cursor: pointer;
-
     transition:
         background 0.25s ease,
         transform 0.2s ease;
