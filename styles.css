@@ -138,26 +138,13 @@ nav ul li a {
     color: var(--text-color);
 }
 
-.filter {
-    position: sticky;
-    top: 60px; /* same as header height */
-    z-index: 999;
-
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: white;
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
 .category-filter {
     position: sticky;
     top: 50px; /* same as header height */
     z-index: 999;
-    width: 95%;
+    width: 60%;
     height: 50px;
+    border-radius: 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -213,6 +200,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     padding: 10px 0;
+    height: 50px;
 
     position: relative;   /* no sticky */
     top: auto;
@@ -251,17 +239,11 @@ nav ul li a {
     min-width: 90px;
     padding: 10px;
     border: none;
-    border-radius: 12px;
+    border-radius: 25px;
     background: rgba(255,255,255,0.7);
     cursor: pointer;
     transition: 0.3s ease;
     flex-shrink: 0; /* prevents shrinking */
-}
-
-.category-icons button img {
-    width: 28px;
-    height: 28px;
-    margin-bottom: 5px;
 }
 
 .category-icons button:hover {
@@ -269,8 +251,8 @@ nav ul li a {
 }
 
 .category-icons button.active {
-    background: rgb(2, 2, 82);
-    color: white;
+    background: rgb(180, 169, 11);
+    color: rgb(2, 11, 92);
 }
 
 .category-wrapper {
