@@ -192,25 +192,20 @@ nav ul li a {
 
 .toolbar-filter {
     flex-shrink: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .toolbar-filter select {
     height: 44px;
-
     padding: 0 35px 0 16px;
-
     border: none;
     outline: none;
-
     border-radius: 22px;
-
     background: transparent;
-
     font-size: 14px;
     font-weight: 600;
-
     cursor: pointer;
-
     appearance: auto;
 }
 
