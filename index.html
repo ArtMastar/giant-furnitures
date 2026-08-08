@@ -34,48 +34,49 @@
             <button class="cta"><a href="#products-section">SHOP NOW</a></button>
         </div>        
     </section>
+    <div class="category-wrapper">
 
-    <!-- PRODUCT TOOLBAR -->
-
-<section class="product-toolbar" id="productToolbar">
-
-    <!-- Filter dropdown -->
-    <div class="toolbar-filter">
-        <select id="category-select">
-            <option value="all">Filter</option>
-            <option value="chairs">Chairs</option>
-            <option value="desks">Tables</option>
-            <option value="storage">Cabinets</option>
-        </select>
-    </div>
-
-    <!-- Quick Categories -->
-    <div class="quick-categories" id="categoryIcons">
+    <div class="category-icons" id="categoryIcons"> 
 
         <button data-category="chairs">
-            Chairs
-        </button>
-
-        <button data-category="desks">
-            Tables
+            <img src="/icons/chair.jpg">
+            <span>Chairs</span>
         </button>
 
         <button data-category="storage">
-            Cabinets
+            <img src="/icons/storage.jpg">
+            <span>Storage</span>
+        </button>
+
+        <button data-category="desks">
+            <img src="/icons/desk.jpeg">
+            <span>Desks</span>
         </button>
 
     </div>
-
-    <!-- Search -->
-    <div class="search-container">
-        <input type="text" id="search-input">
-        <span class="search-icon">
-            <i class="fas fa-search"></i>
-        </span>
-    </div>
-
-</section>
-
+</div>
+    <section class="filter">
+        <!-- Category Filter -->
+        <div class="category-filter">
+            <select id="category-select">
+                <option value="all">Filter</option>
+                <option value="chairs">Chairs</option>
+                <option value="desks">Desks</option>
+                <option value="storage">Storage</option>
+            </select>
+            <!-- Search Bar -->
+        <div class="search-container">
+            <input 
+                type="text" 
+                id="search-input" 
+                placeholder="Search products"
+            >
+        </div>
+        </div>
+    </section>
+    <section class="product-grid" id="productGrid">
+    <!-- Products will be injected here -->
+    </section>
 
     <!-- Product Grid Section -->
 
