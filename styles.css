@@ -138,6 +138,11 @@ nav ul li a {
     color: var(--text-color);
 }
 
+.filter{
+    justify-content: center;
+    
+}
+
 .category-filter {
     position: sticky;
     top: 50px; /* same as header height */
