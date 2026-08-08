@@ -148,7 +148,7 @@ nav ul li a {
     border-radius: 25px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .category-filter select {
@@ -187,7 +187,8 @@ nav ul li a {
     border-radius: 20px;
     border: 1px solid rgba(0,0,0,0.1);
     outline: none;
-    width: 6vw;
+    width: 6px;
+    
     transition: 0.7s ease;
 }
 
