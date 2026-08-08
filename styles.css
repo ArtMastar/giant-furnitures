@@ -144,6 +144,7 @@ nav ul li a {
     z-index: 999;
     width: 60%;
     height: 50px;
+    border: 1px solid rgba(0,0,0,0.1);
     border-radius: 25px;
     display: flex;
     align-items: center;
@@ -186,12 +187,12 @@ nav ul li a {
     border-radius: 20px;
     border: 1px solid rgba(0,0,0,0.1);
     outline: none;
-    width: 30vw;
+    width: 6vw;
     transition: 0.7s ease;
 }
 
 .search-container input:focus {
-    width: 45vw;
+    width: 58px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
