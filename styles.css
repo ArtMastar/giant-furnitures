@@ -199,7 +199,7 @@ nav ul li a {
 }
 
 .search-container input:focus {
-    width: 58px;
+    width: 58vw;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
@@ -932,6 +932,10 @@ input {
         display: none;
     }
 
+    .category-wrapper {
+    display: none;
+    
+}
     .product-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

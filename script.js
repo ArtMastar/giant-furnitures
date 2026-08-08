@@ -727,22 +727,6 @@ function searchProducts(keyword) {
     renderProducts(filtered);
 }
 
-/* =========================================
-   STICKY PRODUCT TOOLBAR
-========================================= */
-
-const productToolbar = document.getElementById("productToolbar");
-
-window.addEventListener("scroll", () => {
-
-    if (window.scrollY > productToolbar.offsetTop - 80) {
-        productToolbar.classList.add("is-sticky");
-    } else {
-        productToolbar.classList.remove("is-sticky");
-    }
-
-});
-
 /* ==============================
    5️⃣ WHATSAPP ORDER
 ============================== */
