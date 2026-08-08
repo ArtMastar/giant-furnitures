@@ -995,13 +995,55 @@ input {
         display: none;
     }
 
-    .category-filter { width: calc(100% - 20px);
-        min-height: 52px;
-        margin: 15px auto;
-        padding: 5px;
-        border-radius: 27px;
-        top: 65px; 
+    .category-filter {
+        gap: 8px;
+        padding: 10px 12px;
+        top: 60px;
+        /*
+           Keep everything inside the viewport.
+        */
+        max-width: 100%;
+        box-sizing: border-box;
     }
+
+
+    .toolbar-filter select {
+        height: 40px;
+        padding-left: 11px;
+        padding-right: 28px;
+        font-size: 13px;
+    }
+
+
+    .category-wrapper {
+        flex: 0 0 auto;
+        max-width: 38%;
+    }
+
+    .category-icons {
+        justify-content: flex-start;
+        gap: 4px;
+    }
+
+
+    .category-icons button {
+        padding: 8px 11px;
+        font-size: 13px;
+    }
+
+
+    .search-container {
+        flex: 1;
+        min-width: 0;
+    }
+
+
+    .search-container input {
+        height: 40px;
+        font-size: 13px;
+        padding: 0 10px;
+    }
+}
 
     .product-grid {
         display: grid;

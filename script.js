@@ -969,3 +969,21 @@ function flyToCart(imgElement) {
         setTimeout(() => cart.classList.remove("bump"), 300);
     }, 700);
 }
+
+const categoryToolbar = document.querySelector(".category-filter");
+
+if (categoryToolbar) {
+
+    const toolbarTop = categoryToolbar.offsetTop;
+
+    window.addEventListener("scroll", () => {
+
+        if (window.scrollY >= toolbarTop - 70) {
+            categoryToolbar.classList.add("is-sticky");
+        } else {
+            categoryToolbar.classList.remove("is-sticky");
+        }
+
+    });
+
+}
