@@ -139,15 +139,16 @@ nav ul li a {
 }
 
 .filter{
+    display: flex;
     justify-content: center;
     
 }
 
 .category-filter {
     position: sticky;
-    top: 50px; /* same as header height */
+    top: 115px; /* same as header height */
     z-index: 999;
-    width: 60%;
+    max-width: 60vw;
     height: 50px;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 25px;
