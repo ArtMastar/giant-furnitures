@@ -146,19 +146,34 @@ nav ul li a {
 }
 
 .category-filter {
-    position: sticky;
-    top: 115px; /* same as header height */
-    z-index: 999;
-    width: 60vw;
-    height: 50px;
-    border: 1px solid rgba(0,0,0,0.1);
-    border-radius: 25px;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background: rgba(255, 255, 255, 0.61);
+    gap: 18px;
+    padding: 12px 20px;
+    /* Normal state */
+    background: transparent;
+    position: sticky;
+
+    /*
+       Adjust this value to the actual height
+       of your header.
+    */
+    top: 70px;
+    z-index: 900;
+    transition:
+        background 0.3s ease,
+        backdrop-filter 0.3s ease,
+        box-shadow 0.3s ease;
 }
 
+.category-filter.is-sticky {
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
 .category-filter select {
     padding: 10px 15px;
     border-radius: 8px;
@@ -190,60 +205,72 @@ nav ul li a {
     background-size: 14px;
 }
 
-.category-filter.is-sticky {
-    background: rgba(255, 255, 255, 0.55);
-
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-
-    border: 1px solid rgba(255, 255, 255, 0.45);
-
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
-}
-
 .toolbar-filter {
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
+    flex: 0 0 auto;
 }
 
 .toolbar-filter select {
-    height: 44px;
-    padding: 0 35px 0 16px;
-    border: none;
-    outline: none;
-    border-radius: 22px;
-    background: transparent;
+    height: 42px;
+    padding: 0 35px 0 15px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
-    appearance: auto;
+    outline: none;
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.toolbar-filter select:hover,
+.toolbar-filter select:focus {
+    border-color: #693d04;
+
+    box-shadow: 0 0 0 2px rgba(105, 61, 4, 0.08);
+}
+
+.search-container {
+    flex: 1;
+    min-width: 0;
+    position: relative;
 }
 
 .search-container input {
-    padding: 1px 2px;
-    border-radius: 20px;
-    border: 1px solid rgba(0,0,0,0.1);
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    font-size: 14px;
     outline: none;
-    width: 6px;
-    
-    transition: 0.7s ease;
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease;
+}
+
+.search-container input::placeholder {
+    color: #777;
 }
 
 .search-container input:focus {
-    width: 58vw;
-    height: 48px;
-    background: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    background: white;
+    border-color: #693d04;
+    box-shadow: 0 0 0 2px rgba(105, 61, 4, 0.08);
 }
 
 .category-wrapper {
+    flex: 0 0 auto;
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 5px;
-    flex-shrink: 0;
-    overflow-x: auto;
-    scrollbar-width: none;
+    min-width: 0;
 }
 
 .category-wrapper::-webkit-scrollbar {
@@ -251,17 +278,20 @@ nav ul li a {
 }
 
 .category-icons {
-    border: none;
-    background: transparent;
-    padding: 10px 15px;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    /*
+       Allows categories to scroll horizontally
+       without creating page-wide horizontal scrolling.
+    */
+    overflow-x: auto;
+    overflow-y: hidden;
     white-space: nowrap;
-    cursor: pointer;
-    transition:
-        background 0.25s ease,
-        transform 0.2s ease;
+    max-width: 100%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 .category-icons::-webkit-scrollbar {
@@ -269,26 +299,31 @@ nav ul li a {
 }
 
 .category-icons button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 90px;
-    padding: 10px;
+    flex: 0 0 auto;
     border: none;
-    border-radius: 25px;
-    background: rgba(255,255,255,0.7);
+    background: transparent;
+    padding: 9px 16px;
+    border-radius: 20px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
     cursor: pointer;
-    transition: 0.3s ease;
-    flex-shrink: 0; /* prevents shrinking */
+    white-space: nowrap;
+    transition:
+        background 0.25s ease,
+        color 0.25s ease,
+        transform 0.2s ease;
 }
 
 .category-icons button:hover {
-    transform: translateY(-4px);
+    background: rgba(105, 61, 4, 0.08);
+    color: #693d04;
 }
 
 .category-icons button.active {
-    background: rgb(180, 169, 11);
-    color: rgb(2, 11, 92);
+    background: #693d04;
+    color: white;
+    box-shadow: 0 3px 10px rgba(105, 61, 4, 0.2);
 }
 
 .category-wrapper {
