@@ -937,7 +937,7 @@ footer {
         height: 40px;
         padding-left: 6px;
         padding-right: 11px;
-
+        font-size: 12px;
     }
 
 
@@ -966,7 +966,7 @@ footer {
 
     .search-container input {
         height: 40px;
-        
+        font-size: 12px;
         padding: 0 10px;
     }
 
