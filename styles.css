@@ -139,12 +139,15 @@ nav ul li a {
 }
 
 .category-filter {
-    width: 70%;
+    width: 85%;
     display: flex;
     align-items: center;
     gap: 18px;
     padding: 12px 20px;
     border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: var(--border-radius);
+    position: sticky;
+    top: 60px; /* Adjust based on header height */
     background: transparent;
     justify-self: center;
     z-index: 900;
@@ -230,8 +233,7 @@ nav ul li a {
     height: 42px;
     box-sizing: border-box;
     padding: 0 15px;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
+    border-radius: 15px;
     background: rgba(255, 255, 255, 0.9);
     color: #333;
     font-size: 14px;
