@@ -794,13 +794,6 @@ footer {
 }
 
 .contact-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 14px;
-}
-
-.contact-item .icon {
     width: 28px;
     height: 28px;
     display: flex;
@@ -810,6 +803,10 @@ footer {
     background: rgba(255,255,255,0.1);
     border-radius: 50%;
     font-size: 14px;
+}
+
+.contact-item {
+    
 }
 
 .contact-item a {
