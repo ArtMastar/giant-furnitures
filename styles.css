@@ -934,15 +934,15 @@ footer {
 
     .toolbar-filter select {
         height: 40px;
-        padding-left: 11px;
-        padding-right: 28px;
+        padding-left: 6px;
+        padding-right: 11px;
         font-size: 8px;
     }
 
 
     .category-wrapper {
         flex: 0 0 auto;
-        max-width: 38%;
+        max-width: 50%;
     }
 
     .category-icons {
