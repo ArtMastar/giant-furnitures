@@ -145,7 +145,7 @@ nav ul li a {
     gap: 18px;
     padding: 12px 20px;
     border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 50%;
+    border-radius: 15px;
     position: sticky;
     top: 60px; /* Adjust based on header height */
     background: transparent;
