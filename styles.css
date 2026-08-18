@@ -764,10 +764,9 @@ footer {
 .footer-left {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex: 1;
+    justify-content:space-between;
     height:fit-content;
-    width:auto;
+    width:60vw;
 }
 
 .footer-left .contact-item {
