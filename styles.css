@@ -924,7 +924,7 @@ footer {
         gap: 8px;
         padding: 5px 6px;
         top: 60px;
-        font-size: 12px;
+        font-size: 10px;
         /*
            Keep everything inside the viewport.
         */
@@ -937,7 +937,7 @@ footer {
         height: 40px;
         padding-left: 6px;
         padding-right: 11px;
-        font-size: 12px;
+        font-size: 10px;
     }
 
 
@@ -948,12 +948,12 @@ footer {
 
     .category-icons {
         justify-content: flex-start;
-        gap: 4px;
+        gap: 2px;
     }
 
 
     .category-icons button {
-        padding: 8px 11px;
+        padding: 5px 9px;
         
     }
 
@@ -967,7 +967,7 @@ footer {
     .search-container input {
         height: 40px;
         font-size: 12px;
-        padding: 0 10px;
+        padding: 0 4px;
     }
 
 
