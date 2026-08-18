@@ -810,13 +810,11 @@ footer {
 }
 
 .contact-item a {
+    width: 28px;
+    height: 28px;
     color: white;
     text-decoration: none;
     transition: 0.2s;
-}
-
-.contact-item a:hover {
-    opacity: 0.7;
 }
 
 .footer-logo{
