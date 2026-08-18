@@ -934,9 +934,9 @@ footer {
 
 
     .toolbar-filter select {
-        height: 40px;
+        height: 30px;
         padding-left: 6px;
-        padding-right: 11px;
+        padding-right: 6px;
         font-size: 10px;
     }
 
