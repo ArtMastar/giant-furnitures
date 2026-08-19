@@ -135,7 +135,13 @@ nav ul li a {
     color: var(--text-color);
 }
 
+.categoru-filter-container{
+    position: relative;
+
+}
+
 .category-filter {
+    position: -webkit-sticky;
     position: sticky;
     top: 60px;
     width: 85%;
