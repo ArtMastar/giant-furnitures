@@ -417,7 +417,8 @@ const products = [
         price: '27000',
         images: [
             "/products/chairs/A106.webp",
-            "/products/chairs/A106.webp"
+            "/products/chairs/A106(1).webp",
+            "/products/chairs/A106(2).webp"
         ],
         category: "chairs",
         "description": "A luxurious executive office chair upholstered in premium brown material with ergonomic support, adjustable height, and superior cushioning.",
@@ -429,7 +430,7 @@ const products = [
         price: '45600',
         images: [
             "/products/chairs/A8003-1.webp",
-            "/products/chairs/A8003-1.webp"
+            "/products/chairs/A8003-1(1).webp"
         ],
         category: "chairs",
         "description": "A premium high-back executive chair designed with thick cushioning, ergonomic lumbar support, and adjustable functionality for executive workspaces.",
@@ -441,7 +442,7 @@ const products = [
         price: '18200',
         images: [
             "/products/chairs/B19.webp",
-            "/products/chairs/B19.webp"
+            "/products/chairs/B19(1).webp"
         ],
         category: "chairs",
         "description": "A luxury executive office chair featuring premium leather upholstery, thick padding, ergonomic support, and smooth mobility for professional offices.",
@@ -453,7 +454,7 @@ const products = [
         price: '8400',
         images: [
             "/products/chairs/820.webp",
-            "/products/chairs/820.webp"
+            "/products/chairs/820(1).webp"
         ],
         category: "chairs",
         "description": "A premium executive visitor chair featuring a padded seat and backrest with a durable cantilever frame. Designed for reception areas, meeting rooms, executive offices, and boardrooms.",
@@ -465,7 +466,7 @@ const products = [
         price: '8800',
         images: [
             "/products/chairs/886.webp",
-            "/products/chairs/886.webp"
+            "/products/chairs/886(1).webp"
         ],
         category: "chairs",
         "description": "A luxurious reclining executive office chair with thick cushioning, ergonomic support, padded armrests, and adjustable height for maximum workplace comfort.",
@@ -477,7 +478,7 @@ const products = [
         price: '12800',
         images: [
             "/products/chairs/985.webp",
-            "/products/chairs/985.webp"
+            "/products/chairs/985(1).webp"
         ],
         category: "chairs",
         "description": "A premium leather executive office chair with ergonomic back support, padded armrests, and adjustable height, suitable for executive offices and professional workspaces.",
@@ -489,7 +490,7 @@ const products = [
         price: '12000',
         images: [
             "/products/chairs/8086.webp",
-            "/products/chairs/8086.webp"
+            "/products/chairs/8086(1).webp"
         ],
         category: "chairs",
         "description": "A modern executive cantilever chair with a high-back design and padded upholstery, offering exceptional comfort for boardrooms, offices, and conference rooms.",
@@ -501,7 +502,7 @@ const products = [
         price: '13500',
         images: [
             "/products/chairs/9011.webp",
-            "/products/chairs/9011.webp"
+            "/products/chairs/9011(1).webp"
         ],
         category: "chairs",
         "description": "A lightweight conference and training chair with a breathable mesh back, comfortable padded seat, and durable construction for offices, classrooms, and seminar rooms.",
@@ -513,7 +514,7 @@ const products = [
         price: '27000',
         images: [
             "/products/chairs/A88.webp",
-            "/products/chairs/A88.webp"
+            "/products/chairs/A88(1).webp"
         ],
         category: "chairs",
         "description": "A contemporary three-seater upholstered waiting bench designed for reception areas, hospitals, schools, and commercial waiting spaces. Offers durability with modern styling.",
@@ -525,7 +526,7 @@ const products = [
         price: '--',
         images: [
             "/products/chairs/A89.webp",
-            "/products/chairs/A88.webp"
+            "/products/chairs/A89(1).webp"
         ],
         category: "chairs",
         "description": "A heavy-duty three-seater airport-style waiting bench with durable steel construction, designed for hospitals, airports, offices, and institutional waiting areas.",
