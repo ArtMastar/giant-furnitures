@@ -124,7 +124,7 @@ const products = [
         name: "SpineSupport Ergonomic Chair",
         price: 8500,
         images: [
-            "/products/chairs/fs5003.webp",
+            "/products/chairs/FS5003.webp",
             "/products/chairs/fs5003(1).webp"
         ],
         category: "chairs",
@@ -154,8 +154,8 @@ const products = [
         name: "VisitorPro Arm Chair",
         price: 6800,
         images: [
-            "/products/chairs/j166.webp",
-            "/products/chairs/j166(1).webp"
+            "/products/chairs/j166-1c.webp",
+            "/products/chairs/j166-1c(1).webp"
         ],
         category: "chairs",
         keywords: ["visitor","chair","office","guest","reception","meeting","armrest","corporate","professional","seating","modern","conference","durable","workspace","furniture","support","design","interior","waiting","comfortable"]
@@ -194,8 +194,8 @@ const products = [
         name: "UltraComfort Executive Chair",
         price: 12300,
         images: [
-            "/products/chairs/c35.webp",
-            "/products/chairs/c35-8800.webp"
+            "/products/chairs/C35.webp",
+            "/products/chairs/C35-8800.webp"
         ],
         category: "chairs",
         keywords: ["executive","chair","office","highback","ergonomic","comfortable","manager","corporate","seating","professional","support","adjustable","luxury","furniture","workspace","durable","armrest","swivel","premium","design"]
@@ -227,9 +227,9 @@ const products = [
         name: "ErgoMax Pro Chair",
         price: 16600,
         images: [
-            "/products/chairs/fs840a.webp",
-            "/products/chairs/fs840a(1).webp",
-            "/products/chairs/fs840a(2).webp"
+            "/products/chairs/FS840A.webp",
+            "/products/chairs/FS840A(1).webp",
+            "/products/chairs/FS840A(2).webp"
         ],
         category: "chairs",
         keywords: ["ergonomic","chair","office","adjustable","mesh","support","comfortable","corporate","professional","swivel","highback","workspace","furniture","modern","durable","posture","design","executive","armrest","productivity"]
