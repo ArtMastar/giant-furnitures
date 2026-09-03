@@ -67,8 +67,8 @@ const products = [
         name: "ComfortLine Visitor Chair",
         price: 8500,
         images: [
-            "/products/chairs/851.webp",
-            "/products/chairs/851(1).jpg"
+            "/products/chairs/851(1).webp",
+            "/products/chairs/851.jpg"
         ],
         category: "chairs",
         keywords: ["visitor","chair","851","office","guest","reception","meeting","comfortable","corporate","seating","professional","modern","conference","durable","workspace","furniture","support","design","interior","waiting","armrest"]
@@ -112,9 +112,9 @@ const products = [
         name: "FlexMesh Executive Chair",
         price: 5000,
         images: [
-            "/products/chairs/FS4005.webp",
+            "/products/chairs/FS4005(1).webp",
             "/products/chairs/fs4005oa.webp",
-            "/products/chairs/fs4005(1).webp"
+            "/products/chairs/fs4005.webp"
         ],
         category: "chairs",
         keywords: ["mesh","executive","FS4005","chair","office","ergonomic","adjustable","support","comfortable","corporate","swivel","highback","professional","workspace","furniture","modern","durable","posture","armrest","premium","design"]
@@ -124,8 +124,8 @@ const products = [
         name: "SpineSupport Ergonomic Chair",
         price: 8500,
         images: [
-            "/products/chairs/FS5003.webp",
-            "/products/chairs/fs5003(1).webp"
+            "/products/chairs/FS5003(1).webp",
+            "/products/chairs/fs5003.webp"
         ],
         category: "chairs",
         keywords: ["ergonomic","chair","FS5003","office","highback","headrest","adjustable","support","posture","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","executive","armrest","premium","design"]
@@ -143,8 +143,8 @@ const products = [
         name: "AeroFlex Executive Chair",
         price: 21000,
         images: [
-            "/products/chairs/J098A.webp",
-            "/products/chairs/J098A(1).webp"
+            "/products/chairs/J098A(1).webp",
+            "/products/chairs/J098A.webp"
         ],
         category: "chairs",
         keywords: ["executive","chair","J098A","office","ergonomic","adjustable","mesh","support","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","posture","armrest","premium","design","productivity"]
@@ -154,8 +154,8 @@ const products = [
         name: "VisitorPro Arm Chair",
         price: 6800,
         images: [
-            "/products/chairs/j166-1c.webp",
-            "/products/chairs/j166-1c(1).webp"
+            "/products/chairs/j166-1c(1).webp",
+            "/products/chairs/j166-1c.webp"
         ],
         category: "chairs",
         keywords: ["visitor","chair","J166-1C","office","guest","reception","meeting","armrest","corporate","professional","seating","modern","conference","durable","workspace","furniture","support","design","interior","waiting","comfortable"]
@@ -165,8 +165,8 @@ const products = [
         name: "SafeFile 3-Drawer Cabinet",
         price: 15500,
         images: [
-            "/products/cabinets/6-3D.webp",
-            "/products/cabinets/6-3D(1).webp"
+            "/products/cabinets/6-3D(1).webp",
+            "/products/cabinets/6-3D.webp"
         ],
         category: "storage",
         keywords: ["corner","cabinet","6-3D","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
@@ -176,8 +176,8 @@ const products = [
         name: "SecureMax Tall Storage Cabinet",
         price: 18500,
         images: [
-            "/products/cabinets/1-15.webp",
-            "/products/cabinets/1-15 (2).webp"
+            "/products/cabinets/1-15(2).webp",
+            "/products/cabinets/1-15.webp"
         ],
         category: "storage",
         keywords: ["tall","cabinet","1-15","storage","office","locker","lockable","files","documents","archive","secure","corporate","furniture","cupboard","professional","organization","modern","workspace","durable","industrial","safety"]
@@ -186,7 +186,10 @@ const products = [
         id: 21,
         name: "CornerPro Utility Cabinet",
         price: 21000,
-        image: "/products/cabinets/1-12.webp",
+        images: [
+            "/products/cabinets/1-12(1).webp",
+            "/products/cabinets/1-12.webp"
+        ],
         category: "storage",
         keywords: ["corner","cabinet","1-12","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
     },
@@ -206,8 +209,8 @@ const products = [
         name: "FlexGuest Mesh Chair",
         price: 5900,
         images: [
-            "/products/chairs/fs4019.webp",
-            "/products/chairs/fs4019(1).webp"
+            "/products/chairs/fs4019(1).webp",
+            "/products/chairs/fs4019.webp"
         ],
         category: "chairs",
         keywords: ["mesh","chair","FS4019","visitor","guest","office","conference","reception","seating","breathable","modern","corporate","professional","support","durable","workspace","design","armrest","meeting","furniture","comfortable"]
@@ -217,8 +220,8 @@ const products = [
         name: "AeroMesh Cantilever Chair",
         price: 6200,
         images: [
-            "/products/chairs/1902.webp",
-            "/products/chairs/1902(1).webp"
+            "/products/chairs/1902(1).webp",
+            "/products/chairs/1902.webp"
         ],
         category: "chairs",
         keywords: ["mesh","chair","1902","visitor","cantilever","office","conference","guest","breathable","seating","modern","corporate","professional","support","durable","meeting","workspace","design","armrest","reception","furniture"]
@@ -228,8 +231,8 @@ const products = [
         name: "ErgoMax Pro Chair",
         price: 16600,
         images: [
-            "/products/chairs/FS840A.webp",
             "/products/chairs/FS840A(1).webp",
+            "/products/chairs/FS840A.webp",
             "/products/chairs/FS840A(2).webp"
         ],
         category: "chairs",
@@ -240,8 +243,8 @@ const products = [
         name: "Zenith Ergonomic Chair",
         price: 11300,
         images: [
-            "/products/chairs/ys-277.webp",
             "/products/chairs/ys-277(1).webp",
+            "/products/chairs/ys-277.webp",
             "/products/chairs/ys-277oa.webp"
         ],
         category: "chairs",
@@ -252,8 +255,8 @@ const products = [
         name: "TitanSteel Double Door Cabinet",
         price: 22000,
         images: [
-            "/products/cabinets/1-27.webp",
-            "/products/cabinets/1-27(1).webp"
+            "/products/cabinets/1-27(1).webp",
+            "/products/cabinets/1-27.webp"
         ],
         category: "storage",
         keywords: ["steel","cabinet","1-27","metal","storage","office","industrial","secure","locker","documents","files","heavy","durable","archive","lockable","corporate","organization","cupboard","commercial","safety","professional"]
@@ -263,8 +266,8 @@ const products = [
         name: "WorkLite Study Desk",
         price: 13500,
         images: [
-            "/products/desks/12.webp",
-            "/products/desks/12(1).webp"
+            "/products/desks/12(1).webp",
+            "/products/desks/12.webp"
         ],
         category: "desks",
         keywords: ["desk","office","12","study","table","workspace","modern","compact","minimal","workstation","homeoffice","furniture","professional","surface","durable","corporate","interior","design","functional","wooden","sleek"]
@@ -275,7 +278,7 @@ const products = [
         price: 15200,
         images: [
             "/products/desks/101.webp",
-            "/products/desks/101 (1.2M).webp"
+            "/products/desks/101(1.2M).webp"
         ],
         category: "desks",
         keywords: ["desk","office","101","workstation","table","drawers","storage","workspace","modern","corporate","professional","furniture","wooden","surface","organization","durable","executive","minimal","design","functional","interior"]
@@ -333,8 +336,8 @@ const products = [
         name: "Salon Styling Chair",
         price: '18500',
         images: [
-            "products/chairs/57A.webp",
-            "/products/chairs/57a(1).webp"
+            "products/chairs/57A(1).webp",
+            "/products/chairs/57A.webp"
         ],
         category: "chairs",
         "description": "A professional salon styling chair with a cushioned seat and durable construction, suitable for salons, barber shops, beauty studios, and commercial workstations.",
@@ -345,8 +348,8 @@ const products = [
         name: "Conference Chairs",
         price: '3500',
         images: [
-            "products/chairs/201B.webp",
-            "/products/chairs/201B(1).webp"
+            "products/chairs/201B(1).webp",
+            "/products/chairs/201B.webp"
         ],
         category: "chairs",
         "description": "A durable molded plastic chair available in multiple vibrant colors, ideal for waiting areas, schools, cafeterias, event spaces, and public seating.",
@@ -357,8 +360,8 @@ const products = [
         name: "Chrome Visitor Office Chair",
         price: '4400',
         images: [
-            "/products/chairs/803.webp",
-            "/products/chairs/803(1).webp"
+            "/products/chairs/803(1).webp",
+            "/products/chairs/803.webp"
         ],
         category: "chairs",
         "description": "A stylish visitor chair featuring a chrome steel frame with a padded seat and backrest, perfect for conference rooms, offices, and reception areas.",
@@ -369,8 +372,8 @@ const products = [
         name: "Mesh Visitor Conference Chair",
         price: '7200',
         images: [
-            "/products/chairs/805W.webp",
-            "/products/chairs/805W(1).webp"
+            "/products/chairs/805W(1).webp",
+            "/products/chairs/805W.webp"
         ],
         category: "chairs",
         "description": "A modern mesh visitor chair with breathable back support and a sturdy metal frame, designed for offices, conference rooms, and meeting spaces.",
@@ -381,8 +384,8 @@ const products = [
         name: "Executive Ergonomic Office Chair",
         price: '28500',
         images: [
-            "/products/chairs/1024.webp",
-            "/products/chairs/1024(1).webp"
+            "/products/chairs/1024(1).webp",
+            "/products/chairs/1024.webp"
         ],
         category: "chairs",
         "description": "A premium executive office chair with ergonomic lumbar support, adjustable height, and thick cushioning for superior comfort throughout the workday.",
@@ -393,8 +396,8 @@ const products = [
         name: "Executive Mesh Office Chair",
         price: '14600',
         images: [
-            "/products/chairs/2903.webp",
-            "/products/chairs/2903(1).webp"
+            "/products/chairs/2903(1).webp",
+            "/products/chairs/2903.webp"
         ],
         category: "chairs",
         "description": "A breathable mesh executive office chair with ergonomic back support and adjustable features, ideal for long working hours in modern offices.",
@@ -405,8 +408,8 @@ const products = [
         name: "Mesh Visitor Office Chair",
         price: '7300',
         images: [
-            "/products/chairs/4019.webp",
-            "/products/chairs/4019(1).webp"
+            "/products/chairs/4019(1).webp",
+            "/products/chairs/4019.webp"
         ],
         category: "chairs",
         "description": "A comfortable mesh visitor chair with a durable steel frame, suitable for reception areas, conference rooms, and office guest seating.",
@@ -417,8 +420,8 @@ const products = [
         name: "Brown Executive Office Chair",
         price: '27000',
         images: [
-            "/products/chairs/A106.webp",
-            "/products/chairs/A106(1).webp"
+            "/products/chairs/A106(1).webp",
+            "/products/chairs/A106.webp"
         ],
         category: "chairs",
         "description": "A luxurious executive office chair upholstered in premium brown material with ergonomic support, adjustable height, and superior cushioning.",
@@ -429,8 +432,8 @@ const products = [
         name: "High-Back Executive Chair",
         price: '45600',
         images: [
-            "/products/chairs/A8003-1.webp",
-            "/products/chairs/A8003-1(1).webp"
+            "/products/chairs/A8003-1(1).webp",
+            "/products/chairs/A8003-1.webp"
         ],
         category: "chairs",
         "description": "A premium high-back executive chair designed with thick cushioning, ergonomic lumbar support, and adjustable functionality for executive workspaces.",
@@ -441,8 +444,8 @@ const products = [
         name: "Luxury Executive Leather Chair",
         price: '18200',
         images: [
-            "/products/chairs/B19.webp",
-            "/products/chairs/B19(1).webp"
+            "/products/chairs/B19(1).webp",
+            "/products/chairs/B19.webp"
         ],
         category: "chairs",
         "description": "A luxury executive office chair featuring premium leather upholstery, thick padding, ergonomic support, and smooth mobility for professional offices.",
@@ -453,8 +456,8 @@ const products = [
         name: "Executive Visitor Office Chair",
         price: '8400',
         images: [
-            "/products/chairs/820.webp",
-            "/products/chairs/820(1).webp"
+            "/products/chairs/820(1).webp",
+            "/products/chairs/820.webp"
         ],
         category: "chairs",
         "description": "A premium executive visitor chair featuring a padded seat and backrest with a durable cantilever frame. Designed for reception areas, meeting rooms, executive offices, and boardrooms.",
@@ -465,8 +468,8 @@ const products = [
         name: "Luxury Reclining Executive Chair",
         price: '8800',
         images: [
-            "/products/chairs/886.webp",
-            "/products/chairs/886(1).webp"
+            "/products/chairs/886(1).webp",
+            "/products/chairs/886.webp"
         ],
         category: "chairs",
         "description": "A luxurious reclining executive office chair with thick cushioning, ergonomic support, padded armrests, and adjustable height for maximum workplace comfort.",
@@ -477,8 +480,8 @@ const products = [
         name: "Executive Leather Office Chair",
         price: '12800',
         images: [
-            "/products/chairs/985.webp",
-            "/products/chairs/985(1).webp"
+            "/products/chairs/985(1).webp",
+            "/products/chairs/985.webp"
         ],
         category: "chairs",
         "description": "A premium leather executive office chair with ergonomic back support, padded armrests, and adjustable height, suitable for executive offices and professional workspaces.",
@@ -489,8 +492,8 @@ const products = [
         name: "Executive Cantilever Meeting Chair",
         price: '12000',
         images: [
-            "/products/chairs/8086.webp",
-            "/products/chairs/8086(1).webp"
+            "/products/chairs/8086(1).webp",
+            "/products/chairs/8086.webp"
         ],
         category: "chairs",
         "description": "A modern executive cantilever chair with a high-back design and padded upholstery, offering exceptional comfort for boardrooms, offices, and conference rooms.",
@@ -501,8 +504,8 @@ const products = [
         name: "Mesh Training Conference Chair",
         price: '13500',
         images: [
-            "/products/chairs/9011.webp",
-            "/products/chairs/9011(1).webp"
+            "/products/chairs/9011(1).webp",
+            "/products/chairs/9011.webp"
         ],
         category: "chairs",
         "description": "A lightweight conference and training chair with a breathable mesh back, comfortable padded seat, and durable construction for offices, classrooms, and seminar rooms.",
@@ -513,8 +516,8 @@ const products = [
         name: "Three-Seater Upholstered Waiting Bench",
         price: '27000',
         images: [
-            "/products/chairs/A88.webp",
-            "/products/chairs/A88(1).webp"
+            "/products/chairs/A88(1).webp",
+            "/products/chairs/A88.webp"
         ],
         category: "chairs",
         "description": "A contemporary three-seater upholstered waiting bench designed for reception areas, hospitals, schools, and commercial waiting spaces. Offers durability with modern styling.",
@@ -525,8 +528,8 @@ const products = [
         name: "Three-Seater Airport Waiting Bench",
         price: '--',
         images: [
-            "/products/chairs/A89.webp",
-            "/products/chairs/A89(2).webp"
+            "/products/chairs/A89(2).webp",
+            "/products/chairs/A89.webp"
         ],
         category: "chairs",
         "description": "A heavy-duty three-seater airport-style waiting bench with durable steel construction, designed for hospitals, airports, offices, and institutional waiting areas.",
