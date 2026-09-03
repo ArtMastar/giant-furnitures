@@ -165,7 +165,7 @@ const products = [
         name: "SafeFile 3-Drawer Cabinet",
         price: 15500,
         images: [
-            "/products/cabinets/6-3D(1).webp",
+            "/products/cabinets/6-3D.webp",
             "/products/cabinets/6-3D.webp"
         ],
         category: "storage",
@@ -176,7 +176,7 @@ const products = [
         name: "SecureMax Tall Storage Cabinet",
         price: 18500,
         images: [
-            "/products/cabinets/1-15(2).webp",
+            "/products/cabinets/1-15.webp",
             "/products/cabinets/1-15.webp"
         ],
         category: "storage",
@@ -187,7 +187,7 @@ const products = [
         name: "CornerPro Utility Cabinet",
         price: 21000,
         images: [
-            "/products/cabinets/1-12(1).webp",
+            "/products/cabinets/1-12(2).webp",
             "/products/cabinets/1-12.webp"
         ],
         category: "storage",
@@ -255,7 +255,7 @@ const products = [
         name: "TitanSteel Double Door Cabinet",
         price: 22000,
         images: [
-            "/products/cabinets/1-27(1).webp",
+            "/products/cabinets/1-27-1.webp",
             "/products/cabinets/1-27.webp"
         ],
         category: "storage",
@@ -266,7 +266,7 @@ const products = [
         name: "WorkLite Study Desk",
         price: 13500,
         images: [
-            "/products/desks/12(1).webp",
+            "/products/desks/12.webp",
             "/products/desks/12.webp"
         ],
         category: "desks",
