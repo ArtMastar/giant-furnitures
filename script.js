@@ -9,7 +9,7 @@ const products = [
         price: 19500,
         image: "/products/cabinets/1-08.webp",
         category: "storage",
-        keywords: ["glass","cabinet","display","storage","office","shelves","files","books","lockable","modern","furniture","archive","documents","cupboard","organizer","corporate","interior","workspace","professional","secure"]
+        keywords: ["glass","cabinet","1-08","display","storage","office","shelves","files","books","lockable","modern","furniture","archive","documents","cupboard","organizer","corporate","interior","workspace","professional","secure"]
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ const products = [
         price: 20500,
         image: "/products/cabinets/1-09.webp",
         category: "storage",
-        keywords: ["metal","steel","cabinet","storage","locker","lockable","office","industrial","secure","documents","files","heavy","durable","organization","commercial","cupboard","archive","safety","furniture","institutional"]
+        keywords: ["metal","steel","cabinet","1-09","storage","locker","lockable","office","industrial","secure","documents","files","heavy","durable","organization","commercial","cupboard","archive","safety","furniture","institutional"]
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ const products = [
         price: 20400,
         image: "/products/cabinets/1-10.webp",
         category: "storage",
-        keywords: ["glass","cabinet","office","archive","display","storage","files","documents","modern","lockable","corporate","shelves","books","cupboard","interior","workspace","professional","secure","furniture","minimalist"]
+        keywords: ["glass","cabinet","1-10","archive","display","storage","files","documents","modern","lockable","corporate","shelves","books","cupboard","interior","workspace","professional","secure","furniture","minimalist"]
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ const products = [
         price: 19500,
         image: "/products/cabinets/1-11.webp",
         category: "storage",
-        keywords: ["cabinet","office","storage","books","files","display","glass","modern","shelves","workspace","organization","professional","cupboard","corporate","archive","interior","minimal","secure","furniture","clean"]
+        keywords: ["cabinet","office","1-11","storage","books","files","display","glass","modern","shelves","workspace","organization","professional","cupboard","corporate","archive","interior","minimal","secure","furniture","clean"]
     },
     {
         id: 5,
@@ -41,7 +41,7 @@ const products = [
         price: 22000,
         image: "/products/cabinets/1-13.webp",
         category: "storage",
-        keywords: ["executive","cabinet","storage","office","files","books","lockable","corporate","modern","organization","cupboard","archive","professional","furniture","interior","workspace","secure","efficient","design","functional"]
+        keywords: ["executive","cabinet","1-13","storage","office","files","books","lockable","corporate","modern","organization","cupboard","archive","professional","furniture","interior","workspace","secure","efficient","design","functional"]
     },
     {
         id: 6,
@@ -49,7 +49,7 @@ const products = [
         price: 21000,
         image: "/products/cabinets/1-12.webp",
         category: "storage",
-        keywords: ["corner","cabinet","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
+        keywords: ["corner","cabinet","1-12","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
     },
     {
         id: 8,
@@ -60,7 +60,7 @@ const products = [
             "/products/103-BROWN.jpg"
         ],
         category: "desks",
-        keywords: ["executive","desk","brown","wooden","office","luxury","manager","corporate","professional","workspace","table","premium","leadership","furniture","durable","surface","drawers","classic","design","interior"]
+        keywords: ["executive","desk","103","brown","wooden","office","luxury","manager","corporate","professional","workspace","table","premium","leadership","furniture","durable","surface","drawers","classic","design","interior"]
     },
     {
         id: 9,
@@ -71,7 +71,7 @@ const products = [
             "/products/chairs/851(1).jpg"
         ],
         category: "chairs",
-        keywords: ["visitor","chair","office","guest","reception","meeting","comfortable","corporate","seating","professional","modern","conference","durable","workspace","furniture","support","design","interior","waiting","armrest"]
+        keywords: ["visitor","chair","851","office","guest","reception","meeting","comfortable","corporate","seating","professional","modern","conference","durable","workspace","furniture","support","design","interior","waiting","armrest"]
     },
     {
         id: 10,
@@ -79,7 +79,7 @@ const products = [
         price: 22800,
         image: "/products/desks/1205.webp",
         category: "desks",
-        keywords: ["desk","office","modern","workspace","executive","table","corporate","professional","surface","durable","furniture","minimal","design","wooden","manager","workstation","interior","functional","premium","sleek"]
+        keywords: ["desk","1205","office","modern","workspace","executive","table","corporate","professional","surface","durable","furniture","minimal","design","wooden","manager","workstation","interior","functional","premium","sleek"]
     },
     {
         id: 11,
@@ -87,7 +87,7 @@ const products = [
         price: 49500,
         image: "/products/desks/3016-3018.webp",
         category: "desks",
-        keywords: ["executive","desk","office","workstation","manager","corporate","professional","table","luxury","workspace","furniture","modern","surface","durable","premium","design","leadership","interior","wooden","sleek"]
+        keywords: ["executive","desk","3018","office","workstation","manager","corporate","professional","table","luxury","workspace","furniture","modern","surface","durable","premium","design","leadership","interior","wooden","sleek"]
     },
     {
         id: 12,
@@ -97,7 +97,7 @@ const products = [
             "/products/desks/4212-4214.webp"
         ],
         category: "desks",
-        keywords: ["workstation","desk","office","corporate","computer","workspace","storage","drawers","professional","modern","furniture","surface","manager","executive","durable","functional","design","interior","organization","table"]
+        keywords: ["workstation","desk","4212","office","corporate","computer","workspace","storage","drawers","professional","modern","furniture","surface","manager","executive","durable","functional","design","interior","organization","table"]
     },
     {
         id: 13,
@@ -105,7 +105,7 @@ const products = [
         price: 37500,
         image: "/products/desks/9316_18.webp",
         category: "desks",
-        keywords: ["lshape","desk","executive","corner","office","workstation","manager","corporate","professional","workspace","modern","furniture","surface","premium","design","functional","interior","wooden","sleek","efficient"]
+        keywords: ["lshape","desk","9316","executive","corner","office","workstation","manager","corporate","professional","workspace","modern","furniture","surface","premium","design","functional","interior","wooden","sleek","efficient"]
     },
     {
         id: 14,
@@ -117,7 +117,7 @@ const products = [
             "/products/chairs/fs4005(1).webp"
         ],
         category: "chairs",
-        keywords: ["mesh","executive","chair","office","ergonomic","adjustable","support","comfortable","corporate","swivel","highback","professional","workspace","furniture","modern","durable","posture","armrest","premium","design"]
+        keywords: ["mesh","executive","FS4005","chair","office","ergonomic","adjustable","support","comfortable","corporate","swivel","highback","professional","workspace","furniture","modern","durable","posture","armrest","premium","design"]
     },
     {
         id: 15,
@@ -128,7 +128,7 @@ const products = [
             "/products/chairs/fs5003(1).webp"
         ],
         category: "chairs",
-        keywords: ["ergonomic","chair","office","highback","headrest","adjustable","support","posture","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","executive","armrest","premium","design"]
+        keywords: ["ergonomic","chair","FS5003","office","highback","headrest","adjustable","support","posture","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","executive","armrest","premium","design"]
     },
     {
         id: 16,
@@ -136,7 +136,7 @@ const products = [
         price: 18000,
         image: "/products/desks/j012_14.webp",
         category: "desks",
-        keywords: ["desk","office","wooden","drawers","workspace","executive","manager","corporate","professional","table","surface","furniture","classic","design","durable","modern","interior","functional","organization","sleek"]
+        keywords: ["desk","office","J012","wooden","drawers","workspace","executive","manager","corporate","professional","table","surface","furniture","classic","design","durable","modern","interior","functional","organization","sleek"]
     },
     {
         id: 17,
@@ -147,7 +147,7 @@ const products = [
             "/products/chairs/J098A(1).webp"
         ],
         category: "chairs",
-        keywords: ["executive","chair","office","ergonomic","adjustable","mesh","support","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","posture","armrest","premium","design","productivity"]
+        keywords: ["executive","chair","J098A","office","ergonomic","adjustable","mesh","support","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","posture","armrest","premium","design","productivity"]
     },
     {
         id: 18,
@@ -158,7 +158,7 @@ const products = [
             "/products/chairs/j166-1c(1).webp"
         ],
         category: "chairs",
-        keywords: ["visitor","chair","office","guest","reception","meeting","armrest","corporate","professional","seating","modern","conference","durable","workspace","furniture","support","design","interior","waiting","comfortable"]
+        keywords: ["visitor","chair","J166-1C","office","guest","reception","meeting","armrest","corporate","professional","seating","modern","conference","durable","workspace","furniture","support","design","interior","waiting","comfortable"]
     },
     {
         id: 19,
@@ -168,7 +168,8 @@ const products = [
             "/products/cabinets/6-3D.webp",
             "/products/cabinets/6-3D(1).webp"
         ],
-        category: "storage"
+        category: "storage",
+        keywords: ["corner","cabinet","6-3D","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
     },
     {
         id: 20,
@@ -179,7 +180,7 @@ const products = [
             "/products/cabinets/1-15 (2).webp"
         ],
         category: "storage",
-        keywords: ["tall","cabinet","storage","office","locker","lockable","files","documents","archive","secure","corporate","furniture","cupboard","professional","organization","modern","workspace","durable","industrial","safety"]
+        keywords: ["tall","cabinet","1-15","storage","office","locker","lockable","files","documents","archive","secure","corporate","furniture","cupboard","professional","organization","modern","workspace","durable","industrial","safety"]
     },
     {
         id: 21,
@@ -187,7 +188,7 @@ const products = [
         price: 21000,
         image: "/products/cabinets/1-12.webp",
         category: "storage",
-        keywords: ["corner","cabinet","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
+        keywords: ["corner","cabinet","1-12","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
     },
     {
         id: 22,
@@ -198,7 +199,7 @@ const products = [
             "/products/chairs/C35-8800.webp"
         ],
         category: "chairs",
-        keywords: ["executive","chair","office","highback","ergonomic","comfortable","manager","corporate","seating","professional","support","adjustable","luxury","furniture","workspace","durable","armrest","swivel","premium","design"]
+        keywords: ["executive","chair","C35","office","highback","ergonomic","comfortable","manager","corporate","seating","professional","support","adjustable","luxury","furniture","workspace","durable","armrest","swivel","premium","design"]
     },
     {
         id: 23,
@@ -209,7 +210,7 @@ const products = [
             "/products/chairs/fs4019(1).webp"
         ],
         category: "chairs",
-        keywords: ["mesh","chair","visitor","guest","office","conference","reception","seating","breathable","modern","corporate","professional","support","durable","workspace","design","armrest","meeting","furniture","comfortable"]
+        keywords: ["mesh","chair","FS4019","visitor","guest","office","conference","reception","seating","breathable","modern","corporate","professional","support","durable","workspace","design","armrest","meeting","furniture","comfortable"]
     },
     {
         id: 24,
@@ -220,7 +221,7 @@ const products = [
             "/products/chairs/1902(1).webp"
         ],
         category: "chairs",
-        keywords: ["mesh","chair","visitor","cantilever","office","conference","guest","breathable","seating","modern","corporate","professional","support","durable","meeting","workspace","design","armrest","reception","furniture"]
+        keywords: ["mesh","chair","1902","visitor","cantilever","office","conference","guest","breathable","seating","modern","corporate","professional","support","durable","meeting","workspace","design","armrest","reception","furniture"]
     },
     {
         id: 25,
@@ -232,7 +233,7 @@ const products = [
             "/products/chairs/FS840A(2).webp"
         ],
         category: "chairs",
-        keywords: ["ergonomic","chair","office","adjustable","mesh","support","comfortable","corporate","professional","swivel","highback","workspace","furniture","modern","durable","posture","design","executive","armrest","productivity"]
+        keywords: ["ergonomic","chair","FS840A","office","adjustable","mesh","support","comfortable","corporate","professional","swivel","highback","workspace","furniture","modern","durable","posture","design","executive","armrest","productivity"]
     },
     {
         id: 26,
@@ -244,7 +245,7 @@ const products = [
             "/products/chairs/ys-277oa.webp"
         ],
         category: "chairs",
-        keywords: ["ergonomic","chair","office","adjustable","support","posture","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","mesh","armrest","executive","design","productivity","highback"]
+        keywords: ["ergonomic","chair","YS-277","office","adjustable","support","posture","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","mesh","armrest","executive","design","productivity","highback"]
     },
     {
         id: 27,
@@ -255,7 +256,7 @@ const products = [
             "/products/cabinets/1-27(1).webp"
         ],
         category: "storage",
-        keywords: ["steel","cabinet","metal","storage","office","industrial","secure","locker","documents","files","heavy","durable","archive","lockable","corporate","organization","cupboard","commercial","safety","professional"]
+        keywords: ["steel","cabinet","1-27","metal","storage","office","industrial","secure","locker","documents","files","heavy","durable","archive","lockable","corporate","organization","cupboard","commercial","safety","professional"]
     },
     {
         id: 28,
@@ -266,7 +267,7 @@ const products = [
             "/products/desks/12(1).webp"
         ],
         category: "desks",
-        keywords: ["desk","office","study","table","workspace","modern","compact","minimal","workstation","homeoffice","furniture","professional","surface","durable","corporate","interior","design","functional","wooden","sleek"]
+        keywords: ["desk","office","12","study","table","workspace","modern","compact","minimal","workstation","homeoffice","furniture","professional","surface","durable","corporate","interior","design","functional","wooden","sleek"]
     },
     {
         id: 29,
@@ -277,7 +278,7 @@ const products = [
             "/products/desks/101 (1.2M).webp"
         ],
         category: "desks",
-        keywords: ["desk","office","workstation","table","drawers","storage","workspace","modern","corporate","professional","furniture","wooden","surface","organization","durable","executive","minimal","design","functional","interior"]
+        keywords: ["desk","office","101","workstation","table","drawers","storage","workspace","modern","corporate","professional","furniture","wooden","surface","organization","durable","executive","minimal","design","functional","interior"]
     },
     {
         id: 30,
@@ -285,7 +286,7 @@ const products = [
         price: 22000,
         image: "/products/desks/5514-12.webp",
         category: "desks",
-        keywords: ["executive","desk","luxury","office","premium","manager","corporate","professional","workspace","table","wooden","leadership","modern","surface","furniture","design","interior","durable","sleek","authority"]
+        keywords: ["executive","desk","5512","luxury","office","premium","manager","corporate","professional","workspace","table","wooden","leadership","modern","surface","furniture","design","interior","durable","sleek","authority"]
     },
     {
         id: 31,
@@ -293,7 +294,7 @@ const products = [
         price: 20500,
         image: "/products/cabinets/1-18.webp",
         category: "storage",
-        keywords: ["metal","steel","cabinet","storage","locker","lockable","office","industrial","secure","documents","files","heavy","durable","organization","commercial","cupboard","archive","safety","furniture","institutional"]
+        keywords: ["metal","steel","cabinet","1-18","storage","locker","lockable","office","industrial","secure","documents","files","heavy","durable","organization","commercial","cupboard","archive","safety","furniture","institutional"]
     },
     {
         id: 32,
@@ -301,7 +302,7 @@ const products = [
         price: 17400,
         image: "/products/cabinets/6-4D.webp",
         category: "storage",
-        keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
+        keywords: ["drawer","filing","cabinet","6-4D","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
     },
     {
         id: 33,
@@ -309,7 +310,7 @@ const products = [
         price: 17400,
         image: "/products/cabinets/6-4D-1.webp",
         category: "storage",
-        keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
+        keywords: ["drawer","filing","cabinet","6-4D-1","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
     },
     {
         id: 34,
@@ -317,15 +318,15 @@ const products = [
         price: 17400,
         image: "/products/cabinets/09-12.webp",
         category: "storage",
-        keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
+        keywords: ["drawer","filing","cabinet","09-12","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
     },
     {
         id: 35,
-        name: "12 Offoce Desk",
+        name: "12 Office Desk",
         price: 17400,
         image: "/products/desks/12.webp",
         category: "storage",
-        keywords: ["drawer","filing","cabinet","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
+        keywords: ["drawer","filing","cabinet","12","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
     },
     {
         id: 37,
@@ -337,7 +338,7 @@ const products = [
         ],
         category: "chairs",
         "description": "A professional salon styling chair with a cushioned seat and durable construction, suitable for salons, barber shops, beauty studios, and commercial workstations.",
-        "keywords": ["salon chair", "styling chair", "barber chair", "beauty salon", "black", "commercial", "professional", "upholstered", "modern", "durable", "workspace", "hair salon", "chair", "furniture", "compact", "comfortable", "studio", "reception", "salon furniture", "stylist"]
+        "keywords": ["salon chair", "styling chair","57A", "barber chair", "beauty salon", "black", "commercial", "professional", "upholstered", "modern", "durable", "workspace", "hair salon", "chair", "furniture", "compact", "comfortable", "studio", "reception", "salon furniture", "stylist"]
     },
     {
         id: 38,
@@ -345,11 +346,11 @@ const products = [
         price: '3500',
         images: [
             "products/chairs/201B.webp",
-            "/products/201B(1).webp"
+            "/products/chairs/201B(1).webp"
         ],
         category: "chairs",
         "description": "A durable molded plastic chair available in multiple vibrant colors, ideal for waiting areas, schools, cafeterias, event spaces, and public seating.",
-        "keywords": ["plastic chair", "waiting chair", "visitor chair", "school chair", "cafeteria", "event seating", "multicolor", "polypropylene", "durable", "lightweight", "modern", "commercial", "stackable", "office", "public seating", "chair", "furniture", "reception", "waiting room", "classroom"]
+        "keywords": ["plastic chair","201B", "waiting chair", "visitor chair", "school chair", "cafeteria", "event seating", "multicolor", "polypropylene", "durable", "lightweight", "modern", "commercial", "stackable", "office", "public seating", "chair", "furniture", "reception", "waiting room", "classroom"]
     },
     {
         id: 39,
@@ -357,11 +358,11 @@ const products = [
         price: '4400',
         images: [
             "/products/chairs/803.webp",
-            "/products/803(1).webp"
+            "/products/chairs/803(1).webp"
         ],
         category: "chairs",
         "description": "A stylish visitor chair featuring a chrome steel frame with a padded seat and backrest, perfect for conference rooms, offices, and reception areas.",
-        "keywords": ["visitor chair", "office chair", "chrome", "steel frame", "conference chair", "guest chair", "waiting room", "black", "professional", "commercial", "office furniture", "meeting room", "durable", "comfortable", "modern", "corporate", "workspace", "chair", "reception", "visitor seating"]
+        "keywords": ["visitor chair", "office chair","803", "chrome", "steel frame", "conference chair", "guest chair", "waiting room", "black", "professional", "commercial", "office furniture", "meeting room", "durable", "comfortable", "modern", "corporate", "workspace", "chair", "reception", "visitor seating"]
     },
     {
         id: 40,
@@ -373,7 +374,7 @@ const products = [
         ],
         category: "chairs",
         "description": "A modern mesh visitor chair with breathable back support and a sturdy metal frame, designed for offices, conference rooms, and meeting spaces.",
-        "keywords": ["mesh chair", "visitor chair", "conference chair", "office chair", "breathable", "ergonomic", "black", "meeting room", "office", "commercial", "professional", "workspace", "durable", "steel frame", "comfortable", "modern", "chair", "guest chair", "reception", "corporate"]
+        "keywords": ["mesh chair", "visitor chair","805W", "conference chair", "office chair", "breathable", "ergonomic", "black", "meeting room", "office", "commercial", "professional", "workspace", "durable", "steel frame", "comfortable", "modern", "chair", "guest chair", "reception", "corporate"]
     },
     {
         id: 41,
@@ -385,7 +386,7 @@ const products = [
         ],
         category: "chairs",
         "description": "A premium executive office chair with ergonomic lumbar support, adjustable height, and thick cushioning for superior comfort throughout the workday.",
-        "keywords": ["executive chair", "office chair", "ergonomic", "high back", "blue", "adjustable", "swivel", "lumbar support", "manager", "professional", "corporate", "workspace", "premium", "comfortable", "office furniture", "modern", "chair", "computer chair", "home office", "luxury"]
+        "keywords": ["executive chair", "office chair","1024", "ergonomic", "high back", "blue", "adjustable", "swivel", "lumbar support", "manager", "professional", "corporate", "workspace", "premium", "comfortable", "office furniture", "modern", "chair", "computer chair", "home office", "luxury"]
     },
     {
         id: 42,
@@ -397,7 +398,7 @@ const products = [
         ],
         category: "chairs",
         "description": "A breathable mesh executive office chair with ergonomic back support and adjustable features, ideal for long working hours in modern offices.",
-        "keywords": ["mesh office chair", "executive chair", "ergonomic", "office chair", "black", "adjustable", "swivel", "lumbar support", "breathable", "professional", "manager", "workspace", "computer chair", "modern", "office furniture", "comfortable", "corporate", "chair", "premium", "home office"]
+        "keywords": ["mesh office chair", "executive chair","2903", "ergonomic", "office chair", "black", "adjustable", "swivel", "lumbar support", "breathable", "professional", "manager", "workspace", "computer chair", "modern", "office furniture", "comfortable", "corporate", "chair", "premium", "home office"]
   },
     {
         id: 43,
@@ -409,7 +410,7 @@ const products = [
         ],
         category: "chairs",
         "description": "A comfortable mesh visitor chair with a durable steel frame, suitable for reception areas, conference rooms, and office guest seating.",
-        "keywords": ["visitor chair", "mesh chair", "office chair", "conference", "guest chair", "black", "steel frame", "meeting room", "professional", "office furniture", "commercial", "comfortable", "workspace", "modern", "durable", "reception", "chair", "corporate", "visitor seating", "ergonomic"]
+        "keywords": ["visitor chair", "mesh chair","4019", "office chair", "conference", "guest chair", "black", "steel frame", "meeting room", "professional", "office furniture", "commercial", "comfortable", "workspace", "modern", "durable", "reception", "chair", "corporate", "visitor seating", "ergonomic"]
     },
     {
         id: 44,
@@ -417,11 +418,11 @@ const products = [
         price: '27000',
         images: [
             "/products/chairs/A106.webp",
-            "/products/chairs/A106.webp"
+            "/products/chairs/A106(1).webp"
         ],
         category: "chairs",
         "description": "A luxurious executive office chair upholstered in premium brown material with ergonomic support, adjustable height, and superior cushioning.",
-        "keywords": ["executive chair", "brown office chair", "luxury", "office chair", "ergonomic", "high back", "adjustable", "swivel", "manager", "professional", "corporate", "workspace", "comfortable", "premium", "office furniture", "chair", "durable", "modern", "executive office", "brown"]
+        "keywords": ["executive chair", "brown office chair","A106", "luxury", "office chair", "ergonomic", "high back", "adjustable", "swivel", "manager", "professional", "corporate", "workspace", "comfortable", "premium", "office furniture", "chair", "durable", "modern", "executive office", "brown"]
     },
     {
         id: 45,
@@ -429,11 +430,11 @@ const products = [
         price: '45600',
         images: [
             "/products/chairs/A8003-1.webp",
-            "/products/chairs/A8003-1.webp"
+            "/products/chairs/A8003-1(1).webp"
         ],
         category: "chairs",
         "description": "A premium high-back executive chair designed with thick cushioning, ergonomic lumbar support, and adjustable functionality for executive workspaces.",
-        "keywords": ["high back chair", "executive chair", "office chair", "ergonomic", "black", "adjustable", "swivel", "luxury", "manager", "professional", "workspace", "office furniture", "comfortable", "corporate", "premium", "chair", "modern", "durable", "computer chair", "executive office"]
+        "keywords": ["high back chair", "executive chair", "office chair","A8003", "ergonomic", "black", "adjustable", "swivel", "luxury", "manager", "professional", "workspace", "office furniture", "comfortable", "corporate", "premium", "chair", "modern", "durable", "computer chair", "executive office"]
     },
     {
         id: 46,
@@ -441,11 +442,11 @@ const products = [
         price: '18200',
         images: [
             "/products/chairs/B19.webp",
-            "/products/chairs/B19.webp"
+            "/products/chairs/B19(1).webp"
         ],
         category: "chairs",
         "description": "A luxury executive office chair featuring premium leather upholstery, thick padding, ergonomic support, and smooth mobility for professional offices.",
-        "keywords": ["leather office chair", "executive chair", "luxury", "office chair", "black", "high back", "ergonomic", "adjustable", "swivel", "manager", "corporate", "workspace", "premium", "comfortable", "office furniture", "chair", "professional", "modern", "durable", "executive office"]
+        "keywords": ["leather office chair","B19", "executive chair", "luxury", "office chair", "black", "high back", "ergonomic", "adjustable", "swivel", "manager", "corporate", "workspace", "premium", "comfortable", "office furniture", "chair", "professional", "modern", "durable", "executive office"]
     },
     {
         id: 47,
@@ -453,11 +454,11 @@ const products = [
         price: '8400',
         images: [
             "/products/chairs/820.webp",
-            "/products/chairs/820.webp"
+            "/products/chairs/820(1).webp"
         ],
         category: "chairs",
         "description": "A premium executive visitor chair featuring a padded seat and backrest with a durable cantilever frame. Designed for reception areas, meeting rooms, executive offices, and boardrooms.",
-        "keywords": ["visitor chair", "executive chair", "cantilever chair", "office chair", "meeting room", "conference chair", "black", "upholstered", "steel frame", "professional", "corporate", "comfortable", "office furniture", "reception", "guest chair", "modern", "durable", "workspace", "premium", "commercial"]
+        "keywords": ["visitor chair", "executive chair","820", "cantilever chair", "office chair", "meeting room", "conference chair", "black", "upholstered", "steel frame", "professional", "corporate", "comfortable", "office furniture", "reception", "guest chair", "modern", "durable", "workspace", "premium", "commercial"]
     },
     {
         id: 48,
@@ -465,11 +466,11 @@ const products = [
         price: '8800',
         images: [
             "/products/chairs/886.webp",
-            "/products/chairs/886.webp"
+            "/products/chairs/886(1).webp"
         ],
         category: "chairs",
         "description": "A luxurious reclining executive office chair with thick cushioning, ergonomic support, padded armrests, and adjustable height for maximum workplace comfort.",
-        "keywords": ["executive chair", "reclining chair", "office chair", "ergonomic", "high back", "black", "luxury", "manager", "adjustable", "swivel", "premium", "comfortable", "corporate", "workspace", "office furniture", "professional", "durable", "modern", "chair", "executive office"]
+        "keywords": ["executive chair","886", "reclining chair", "office chair", "ergonomic", "high back", "black", "luxury", "manager", "adjustable", "swivel", "premium", "comfortable", "corporate", "workspace", "office furniture", "professional", "durable", "modern", "chair", "executive office"]
     },
     {
         id: 49,
@@ -477,11 +478,11 @@ const products = [
         price: '12800',
         images: [
             "/products/chairs/985.webp",
-            "/products/chairs/985.webp"
+            "/products/chairs/985(1).webp"
         ],
         category: "chairs",
         "description": "A premium leather executive office chair with ergonomic back support, padded armrests, and adjustable height, suitable for executive offices and professional workspaces.",
-        "keywords": ["executive chair", "leather office chair", "office chair", "ergonomic", "high back", "black", "adjustable", "swivel", "luxury", "manager", "professional", "corporate", "workspace", "comfortable", "office furniture", "premium", "modern", "chair", "durable", "executive office"]
+        "keywords": ["executive chair","985", "leather office chair", "office chair", "ergonomic", "high back", "black", "adjustable", "swivel", "luxury", "manager", "professional", "corporate", "workspace", "comfortable", "office furniture", "premium", "modern", "chair", "durable", "executive office"]
     },
     {
         id: 50,
@@ -489,11 +490,11 @@ const products = [
         price: '12000',
         images: [
             "/products/chairs/8086.webp",
-            "/products/chairs/8086.webp"
+            "/products/chairs/8086(1).webp"
         ],
         category: "chairs",
         "description": "A modern executive cantilever chair with a high-back design and padded upholstery, offering exceptional comfort for boardrooms, offices, and conference rooms.",
-        "keywords": ["cantilever chair", "visitor chair", "executive chair", "meeting chair", "conference chair", "office chair", "black", "high back", "steel frame", "comfortable", "professional", "workspace", "office furniture", "modern", "durable", "guest chair", "corporate", "premium", "chair", "boardroom"]
+        "keywords": ["cantilever chair","8086", "visitor chair", "executive chair", "meeting chair", "conference chair", "office chair", "black", "high back", "steel frame", "comfortable", "professional", "workspace", "office furniture", "modern", "durable", "guest chair", "corporate", "premium", "chair", "boardroom"]
     },
     {
         id: 51,
@@ -501,11 +502,11 @@ const products = [
         price: '13500',
         images: [
             "/products/chairs/9011.webp",
-            "/products/chairs/9011.webp"
+            "/products/chairs/9011(1).webp"
         ],
         category: "chairs",
         "description": "A lightweight conference and training chair with a breathable mesh back, comfortable padded seat, and durable construction for offices, classrooms, and seminar rooms.",
-        "keywords": ["training chair", "conference chair", "mesh chair", "office chair", "visitor chair", "black", "breathable", "meeting room", "seminar", "classroom", "commercial", "comfortable", "professional", "office furniture", "durable", "modern", "workspace", "chair", "education", "institution"]
+        "keywords": ["training chair","9011", "conference chair", "mesh chair", "office chair", "visitor chair", "black", "breathable", "meeting room", "seminar", "classroom", "commercial", "comfortable", "professional", "office furniture", "durable", "modern", "workspace", "chair", "education", "institution"]
     },
     {
         id: 52,
@@ -513,11 +514,11 @@ const products = [
         price: '27000',
         images: [
             "/products/chairs/A88.webp",
-            "/products/chairs/A88.webp"
+            "/products/chairs/A88(1).webp"
         ],
         category: "chairs",
         "description": "A contemporary three-seater upholstered waiting bench designed for reception areas, hospitals, schools, and commercial waiting spaces. Offers durability with modern styling.",
-        "keywords": ["waiting bench", "three seater", "visitor seating", "green", "upholstered", "office", "reception", "hospital", "school", "commercial", "waiting room", "steel frame", "modern", "durable", "public seating", "office furniture", "bench", "chair", "professional", "guest seating"]
+        "keywords": ["waiting bench","A88", "three seater", "visitor seating", "green", "upholstered", "office", "reception", "hospital", "school", "commercial", "waiting room", "steel frame", "modern", "durable", "public seating", "office furniture", "bench", "chair", "professional", "guest seating"]
     },
     {
         id: 53,
@@ -525,11 +526,11 @@ const products = [
         price: '--',
         images: [
             "/products/chairs/A89.webp",
-            "/products/chairs/A88.webp"
+            "/products/chairs/A89(2).webp"
         ],
         category: "chairs",
         "description": "A heavy-duty three-seater airport-style waiting bench with durable steel construction, designed for hospitals, airports, offices, and institutional waiting areas.",
-        "keywords": ["airport bench", "waiting bench", "three seater", "visitor seating", "steel bench", "grey", "hospital", "office", "commercial", "public seating", "durable", "waiting room", "modern", "office furniture", "reception", "bench", "chair", "institution", "professional", "guest seating"]
+        "keywords": ["airport bench","A89", "waiting bench", "three seater", "visitor seating", "steel bench", "grey", "hospital", "office", "commercial", "public seating", "durable", "waiting room", "modern", "office furniture", "reception", "bench", "chair", "institution", "professional", "guest seating"]
     }
 ];
 
