@@ -112,9 +112,9 @@ const products = [
         name: "FlexMesh Executive Chair",
         price: 5000,
         images: [
-            "/products/chairs/FS4005(1).webp",
+            "/products/chairs/fs4005(1).webp",
             "/products/chairs/fs4005oa.webp",
-            "/products/chairs/fs4005.webp"
+            "/products/chairs/FS4005.webp"
         ],
         category: "chairs",
         keywords: ["mesh","executive","FS4005","chair","office","ergonomic","adjustable","support","comfortable","corporate","swivel","highback","professional","workspace","furniture","modern","durable","posture","armrest","premium","design"]
@@ -124,8 +124,8 @@ const products = [
         name: "SpineSupport Ergonomic Chair",
         price: 8500,
         images: [
-            "/products/chairs/FS5003(1).webp",
-            "/products/chairs/fs5003.webp"
+            "/products/chairs/fs5003(1).webp",
+            "/products/chairs/FS5003.webp"
         ],
         category: "chairs",
         keywords: ["ergonomic","chair","FS5003","office","highback","headrest","adjustable","support","posture","comfortable","corporate","swivel","professional","workspace","furniture","modern","durable","executive","armrest","premium","design"]
@@ -143,7 +143,7 @@ const products = [
         name: "AeroFlex Executive Chair",
         price: 21000,
         images: [
-            "/products/chairs/J098A(1).webp",
+            "/products/chairs/J098A.webp",
             "/products/chairs/J098A.webp"
         ],
         category: "chairs",
@@ -231,9 +231,9 @@ const products = [
         name: "ErgoMax Pro Chair",
         price: 16600,
         images: [
-            "/products/chairs/FS840A(1).webp",
+            "/products/chairs/FS840A(2).webp",
             "/products/chairs/FS840A.webp",
-            "/products/chairs/FS840A(2).webp"
+            "/products/chairs/FS840A(1).webp"
         ],
         category: "chairs",
         keywords: ["ergonomic","chair","FS840A","office","adjustable","mesh","support","comfortable","corporate","professional","swivel","highback","workspace","furniture","modern","durable","posture","design","executive","armrest","productivity"]
@@ -360,7 +360,7 @@ const products = [
         name: "Chrome Visitor Office Chair",
         price: '4400',
         images: [
-            "/products/chairs/803(1).webp",
+            "/products/chairs/803.webp",
             "/products/chairs/803.webp"
         ],
         category: "chairs",
@@ -420,8 +420,8 @@ const products = [
         name: "Brown Executive Office Chair",
         price: '27000',
         images: [
-            "/products/chairs/A106(1).webp",
-            "/products/chairs/A106.webp"
+            "/products/chairs/A106(2).webp",
+            "/products/chairs/A106(1).webp"
         ],
         category: "chairs",
         "description": "A luxurious executive office chair upholstered in premium brown material with ergonomic support, adjustable height, and superior cushioning.",
@@ -528,7 +528,7 @@ const products = [
         name: "Three-Seater Airport Waiting Bench",
         price: '--',
         images: [
-            "/products/chairs/A89(2).webp",
+            "/products/chairs/A89(1).webp",
             "/products/chairs/A89.webp"
         ],
         category: "chairs",
