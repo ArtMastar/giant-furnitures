@@ -187,7 +187,7 @@ const products = [
         name: "CornerPro Utility Cabinet",
         price: 21000,
         images: [
-            "/products/cabinets/1-12(2).webp",
+            "/products/cabinets/1-12 (2).webp",
             "/products/cabinets/1-12.webp"
         ],
         category: "storage",
