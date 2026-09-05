@@ -9,7 +9,6 @@ const products = [
         price: 19500,
         images: [
             "/products/cabinets/1-08.webp",
-            "/products/cabinets/1-08(2).webp",
             "/products/cabinets/1-08(1).webp"
         ],
         category: "storage",
@@ -341,7 +340,10 @@ const products = [
         id: 34,
         name: "09-12 Cabinet",
         price: 17400,
-        image: "/products/cabinets/09-12.webp",
+        images: [
+            "products/cabinets/09-12(1).webp",
+            "/products/cabinets/09-12(2).webp"
+        ],
         category: "storage",
         keywords: ["drawer","filing","cabinet","09-12","office","storage","documents","files","vertical","lockable","archive","secure","corporate","organization","professional","workspace","furniture","durable","efficient","commercial","modern"]
     },
