@@ -10,7 +10,7 @@ const products = [
         images: [
             "/products/cabinets/1-08.webp",
             "/products/cabinets/1-08(2).webp",
-            "/products/cabinets/1-08(1).jpg"
+            "/products/cabinets/1-08(1).webp"
         ],
         category: "storage",
         keywords: ["glass","cabinet","1-08","display","storage","office","shelves","files","books","lockable","modern","furniture","archive","documents","cupboard","organizer","corporate","interior","workspace","professional","secure"]
@@ -21,7 +21,7 @@ const products = [
         price: 20500,
         images: [
             "/products/cabinets/1-09.webp",
-            "/products/cabinets/1-09(1).jpg"
+            "/products/cabinets/1-09(1).webp"
         ],
         category: "storage",
         keywords: ["metal","steel","cabinet","1-09","storage","locker","lockable","office","industrial","secure","documents","files","heavy","durable","organization","commercial","cupboard","archive","safety","furniture","institutional"]
@@ -32,7 +32,7 @@ const products = [
         price: 20400,
         images: [
             "/products/cabinets/1-10.webp",
-            "/products/cabinets/1-10(1).jpg"
+            "/products/cabinets/1-10(1).webp"
         ],
         category: "storage",
         keywords: ["glass","cabinet","1-10","archive","display","storage","files","documents","modern","lockable","corporate","shelves","books","cupboard","interior","workspace","professional","secure","furniture","minimalist"]
@@ -43,7 +43,7 @@ const products = [
         price: 19500,
         images: [
             "/products/cabinets/1-11.webp",
-            "/products/cabinets/1-11(1).jpg"
+            "/products/cabinets/1-11(1).webp"
         ],
         category: "storage",
         keywords: ["cabinet","office","1-11","storage","books","files","display","glass","modern","shelves","workspace","organization","professional","cupboard","corporate","archive","interior","minimal","secure","furniture","clean"]
@@ -54,7 +54,7 @@ const products = [
         price: 22000,
         images: [
             "/products/cabinets/1-13.webp",
-            "/products/cabinets/1-13(1).jpg"
+            "/products/cabinets/1-13(1).webp"
         ],
         category: "storage",
         keywords: ["executive","cabinet","1-13","storage","office","files","books","lockable","corporate","modern","organization","cupboard","archive","professional","furniture","interior","workspace","secure","efficient","design","functional"]
@@ -66,7 +66,7 @@ const products = [
         images: [
             "/products/cabinets/1-12.webp",
             "/products/cabinets/1-12(2).webp",
-            "/products/cabinets/1-12(1).jpg"
+            "/products/cabinets/1-12(1).webp"
         ],
         category: "storage",
         keywords: ["corner","cabinet","1-12","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
@@ -77,7 +77,7 @@ const products = [
         price: 23500,
         images: [
             "/products/desks/103.webp",
-            "/products/103-BROWN.jpg"
+            "/products/103-BROWN.webp"
         ],
         category: "desks",
         keywords: ["executive","desk","103","brown","wooden","office","luxury","manager","corporate","professional","workspace","table","premium","leadership","furniture","durable","surface","drawers","classic","design","interior"]
@@ -88,7 +88,7 @@ const products = [
         price: 8500,
         images: [
             "/products/chairs/851(1).webp",
-            "/products/chairs/851.jpg"
+            "/products/chairs/851.webp"
         ],
         category: "chairs",
         keywords: ["visitor","chair","851","office","guest","reception","meeting","comfortable","corporate","seating","professional","modern","conference","durable","workspace","furniture","support","design","interior","waiting","armrest"]
