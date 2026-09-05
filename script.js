@@ -7,7 +7,11 @@ const products = [
         id: 1,
         name: "NovaView Glass Display Cabinet",
         price: 19500,
-        image: "/products/cabinets/1-08.webp",
+        images: [
+            "/products/cabinets/1-08.webp",
+            "/products/cabinets/1-08(2).webp",
+            "/products/cabinets/1-08(1).jpg"
+        ],
         category: "storage",
         keywords: ["glass","cabinet","1-08","display","storage","office","shelves","files","books","lockable","modern","furniture","archive","documents","cupboard","organizer","corporate","interior","workspace","professional","secure"]
     },
@@ -15,7 +19,10 @@ const products = [
         id: 2,
         name: "PrimeGuard Steel Storage Cabinet",
         price: 20500,
-        image: "/products/cabinets/1-09.webp",
+        images: [
+            "/products/cabinets/1-09.webp",
+            "/products/cabinets/1-09(1).jpg"
+        ],
         category: "storage",
         keywords: ["metal","steel","cabinet","1-09","storage","locker","lockable","office","industrial","secure","documents","files","heavy","durable","organization","commercial","cupboard","archive","safety","furniture","institutional"]
     },
@@ -23,7 +30,10 @@ const products = [
         id: 3,
         name: "EliteArchive Glass Door Cabinet",
         price: 20400,
-        image: "/products/cabinets/1-10.webp",
+        images: [
+            "/products/cabinets/1-10.webp",
+            "/products/cabinets/1-10(1).jpg"
+        ],
         category: "storage",
         keywords: ["glass","cabinet","1-10","archive","display","storage","files","documents","modern","lockable","corporate","shelves","books","cupboard","interior","workspace","professional","secure","furniture","minimalist"]
     },
@@ -31,7 +41,10 @@ const products = [
         id: 4,
         name: "ClearLine Office Display Cabinet",
         price: 19500,
-        image: "/products/cabinets/1-11.webp",
+        images: [
+            "/products/cabinets/1-11.webp",
+            "/products/cabinets/1-11(1).jpg"
+        ],
         category: "storage",
         keywords: ["cabinet","office","1-11","storage","books","files","display","glass","modern","shelves","workspace","organization","professional","cupboard","corporate","archive","interior","minimal","secure","furniture","clean"]
     },
@@ -39,7 +52,10 @@ const products = [
         id: 5,
         name: "ExecutiveHub Multi-Storage Cabinet",
         price: 22000,
-        image: "/products/cabinets/1-13.webp",
+        images: [
+            "/products/cabinets/1-13.webp",
+            "/products/cabinets/1-13(1).jpg"
+        ],
         category: "storage",
         keywords: ["executive","cabinet","1-13","storage","office","files","books","lockable","corporate","modern","organization","cupboard","archive","professional","furniture","interior","workspace","secure","efficient","design","functional"]
     },
@@ -47,7 +63,11 @@ const products = [
         id: 6,
         name: "CornerPro Utility Cabinet",
         price: 21000,
-        image: "/products/cabinets/1-12.webp",
+        images: [
+            "/products/cabinets/1-12.webp",
+            "/products/cabinets/1-12(2).webp",
+            "/products/cabinets/1-12(1).jpg"
+        ],
         category: "storage",
         keywords: ["corner","cabinet","1-12","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
     },
@@ -166,7 +186,7 @@ const products = [
         price: 15500,
         images: [
             "/products/cabinets/6-3D.webp",
-            "/products/cabinets/6-3D.webp"
+            "/products/cabinets/6-3D(1).webp"
         ],
         category: "storage",
         keywords: ["corner","cabinet","6-3D","storage","office","space","compact","organization","cupboard","files","documents","modern","secure","workspace","minimal","furniture","archive","professional","utility","efficient","design"]
@@ -177,7 +197,8 @@ const products = [
         price: 18500,
         images: [
             "/products/cabinets/1-15.webp",
-            "/products/cabinets/1-15.webp"
+            "/products/cabinets/1-15(2).webp",
+            "/products/cabinets/1-15(1).webp"
         ],
         category: "storage",
         keywords: ["tall","cabinet","1-15","storage","office","locker","lockable","files","documents","archive","secure","corporate","furniture","cupboard","professional","organization","modern","workspace","durable","industrial","safety"]
@@ -187,7 +208,7 @@ const products = [
         name: "CornerPro Utility Cabinet",
         price: 21000,
         images: [
-            "/products/cabinets/1-12 (2).webp",
+            "/products/cabinets/1-12(2).webp",
             "/products/cabinets/1-12.webp"
         ],
         category: "storage",
@@ -256,6 +277,7 @@ const products = [
         price: 22000,
         images: [
             "/products/cabinets/1-27-1.webp",
+            "/products/cabinets/1-27(1).webp",
             "/products/cabinets/1-27.webp"
         ],
         category: "storage",
